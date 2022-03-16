@@ -2276,8 +2276,8 @@
     "type": "shie",
     "tier": 2,
     "def": [
-      145,
-      161
+      215,
+      241
     ],
     "maxSockets": 4,
     "indestructible": false,
@@ -2292,8 +2292,8 @@
     "type": "shie",
     "tier": 2,
     "def": [
-      153,
-      170
+      183,
+      207
     ],
     "maxSockets": 4,
     "indestructible": false,
@@ -2839,7 +2839,7 @@
       38,
       48
     ],
-    "maxSockets": 2,
+    "maxSockets": 3,
     "indestructible": false,
     "width": 2,
     "height": 2,
@@ -2855,7 +2855,7 @@
       41,
       52
     ],
-    "maxSockets": 2,
+    "maxSockets": 3,
     "indestructible": false,
     "width": 2,
     "height": 2,
@@ -2871,7 +2871,7 @@
       44,
       55
     ],
-    "maxSockets": 2,
+    "maxSockets": 3,
     "indestructible": false,
     "width": 2,
     "height": 2,
@@ -2887,7 +2887,7 @@
       50,
       64
     ],
-    "maxSockets": 2,
+    "maxSockets": 3,
     "indestructible": false,
     "width": 2,
     "height": 2,
@@ -2903,7 +2903,7 @@
       58,
       70
     ],
-    "maxSockets": 2,
+    "maxSockets": 3,
     "indestructible": false,
     "width": 2,
     "height": 2,
@@ -3159,7 +3159,7 @@
       95,
       139
     ],
-    "maxSockets": 2,
+    "maxSockets": 3,
     "indestructible": false,
     "width": 2,
     "height": 2,
@@ -3175,7 +3175,7 @@
       96,
       141
     ],
-    "maxSockets": 2,
+    "maxSockets": 3,
     "indestructible": false,
     "width": 2,
     "height": 2,
@@ -3191,7 +3191,7 @@
       98,
       142
     ],
-    "maxSockets": 2,
+    "maxSockets": 3,
     "indestructible": false,
     "width": 2,
     "height": 2,
@@ -3207,7 +3207,7 @@
       100,
       146
     ],
-    "maxSockets": 2,
+    "maxSockets": 3,
     "indestructible": false,
     "width": 2,
     "height": 2,
@@ -3223,12 +3223,44 @@
       103,
       148
     ],
-    "maxSockets": 2,
+    "maxSockets": 3,
     "indestructible": false,
     "width": 2,
     "height": 2,
     "qlevel": 85,
     "levelReq": 65,
+    "stackable": false
+  },
+  "rar": {
+    "name": "Boneweave",
+    "type": "tors",
+    "tier": 2,
+    "def": [
+      399,
+      505
+    ],
+    "maxSockets": 6,
+    "indestructible": false,
+    "width": 2,
+    "height": 3,
+    "qlevel": 62,
+    "levelReq": 47,
+    "stackable": false
+  },
+  "rbe": {
+    "name": "Troll Belt",
+    "type": "bels",
+    "tier": 2,
+    "def": [
+      59,
+      66
+    ],
+    "maxSockets": 1,
+    "indestructible": false,
+    "width": 2,
+    "height": 1,
+    "qlevel": 82,
+    "levelReq": 62,
     "stackable": false
   }
 }

@@ -79,7 +79,7 @@
     "charClass": 0
   },
   {
-    "code": "Slow Missiles",
+    "code": "Slow Movement",
     "name": "Slow Missiles",
     "charClass": 0
   },
@@ -89,8 +89,8 @@
     "charClass": 0
   },
   {
-    "code": "Impale",
-    "name": "Impale",
+    "code": "Javelin and Spear Mastery",
+    "name": "Javelin and Spear Mastery",
     "charClass": 0
   },
   {
@@ -194,8 +194,8 @@
     "charClass": 1
   },
   {
-    "code": "Frozen Armor",
-    "name": "Frozen Armor",
+    "code": "Cold Enchant",
+    "name": "ColdEnchant",
     "charClass": 1
   },
   {
@@ -324,8 +324,8 @@
     "charClass": 1
   },
   {
-    "code": "Amplify Damage",
-    "name": "Amplify Damage",
+    "code": "AmpDmg",
+    "name": "AmpDmg",
     "charClass": 2
   },
   {
@@ -409,8 +409,8 @@
     "charClass": 2
   },
   {
-    "code": "Poison Explosion",
-    "name": "Poison Explosion",
+    "code": "Desecrate",
+    "name": "Desecrate",
     "charClass": 2
   },
   {
@@ -439,8 +439,8 @@
     "charClass": 2
   },
   {
-    "code": "Summon Resist",
-    "name": "Summon Resist",
+    "code": "Raise Skeleton Archer",
+    "name": "SummSkeleArcher",
     "charClass": 2
   },
   {
@@ -449,8 +449,8 @@
     "charClass": 2
   },
   {
-    "code": "Lower Resist",
-    "name": "Lower Resist",
+    "code": "LowRes",
+    "name": "LowRes",
     "charClass": 2
   },
   {
@@ -634,7 +634,7 @@
     "charClass": 4
   },
   {
-    "code": "Axe Mastery",
+    "code": "General Mastery",
     "name": "Axe Mastery",
     "charClass": 4
   },
@@ -664,7 +664,7 @@
     "charClass": 4
   },
   {
-    "code": "Pole Arm Mastery",
+    "code": "Pole Arm and Spear Mastery",
     "name": "Pole Arm Mastery",
     "charClass": 4
   },
@@ -699,7 +699,7 @@
     "charClass": 4
   },
   {
-    "code": "Increased Stamina",
+    "code": "Combat Reflexes",
     "name": "Increased Stamina",
     "charClass": 4
   },
@@ -1284,8 +1284,8 @@
     "charClass": 6
   },
   {
-    "code": "Lightning Sentry",
-    "name": "Lightning Sentry",
+    "code": "Chain Lightning Sentry",
+    "name": "ChainLtngSentry",
     "charClass": 6
   },
   {
@@ -1462,8 +1462,8 @@
     "name": "mon death sentry"
   },
   {
-    "code": "sentry lightning",
-    "name": "sentry lightning"
+    "code": "Sentry Chain Lightning",
+    "name": "Sentry Chain Lightning"
   },
   {
     "code": "fenris rage",
@@ -1636,5 +1636,634 @@
   {
     "code": "Imp Fire Missile Ex",
     "name": "Imp Fire Missile Ex"
+  },
+  {
+    "code": "Blink",
+    "name": "Blink"
+  },
+  {
+    "code": "proc_SplashDamage",
+    "name": "proc_SplashDamage"
+  },
+  {
+    "code": "RoguePierce",
+    "name": "RoguePierce"
+  },
+  {
+    "code": "BattleOrdersCTA",
+    "name": "Battle Orders"
+  },
+  {
+    "code": "ExtraDrop",
+    "name": "ExtraDrop"
+  },
+  {
+    "code": "BloodRavenImmo",
+    "name": "BloodRavenImmo"
+  },
+  {
+    "code": "DollMeteor",
+    "name": "DollMeteor"
+  },
+  {
+    "code": "Holy Nova",
+    "name": "HolyNova",
+    "charClass": 3
+  },
+  {
+    "code": "Shattering Arrow",
+    "name": "Freezing Arrow",
+    "charClass": 0
+  },
+  {
+    "code": "Lightning Sentry",
+    "name": "Lightning Sentry",
+    "charClass": 6
+  },
+  {
+    "code": "Blood Warp",
+    "name": "BloodWarp",
+    "charClass": 2
+  },
+  {
+    "code": "bartemp1",
+    "name": "bartemp1",
+    "charClass": 4
+  },
+  {
+    "code": "Ice Barrage",
+    "name": "IceBarrage",
+    "charClass": 1
+  },
+  {
+    "code": "Gust",
+    "name": "Gust",
+    "charClass": 5
+  },
+  {
+    "code": "Holy Light",
+    "name": "HolyLight",
+    "charClass": 3
+  },
+  {
+    "code": "amatemp2",
+    "name": "amatemp2",
+    "charClass": 0
+  },
+  {
+    "code": "asatemp2",
+    "name": "asatemp2",
+    "charClass": 6
+  },
+  {
+    "code": "CurMas",
+    "name": "CurMas",
+    "charClass": 2
+  },
+  {
+    "code": "bartemp2",
+    "name": "bartemp2",
+    "charClass": 4
+  },
+  {
+    "code": "Combustion",
+    "name": "Combustion",
+    "charClass": 1
+  },
+  {
+    "code": "drutemp2",
+    "name": "drutemp2",
+    "charClass": 5
+  },
+  {
+    "code": "Joust",
+    "name": "Joust",
+    "charClass": 3
+  },
+  {
+    "code": "amatemp3",
+    "name": "amatemp3",
+    "charClass": 0
+  },
+  {
+    "code": "asatemp3",
+    "name": "asatemp3",
+    "charClass": 6
+  },
+  {
+    "code": "Dark Pact",
+    "name": "DarkPact",
+    "charClass": 2
+  },
+  {
+    "code": "bartemp3",
+    "name": "bartemp3",
+    "charClass": 4
+  },
+  {
+    "code": "Lesser Hydra",
+    "name": "LesserHydra",
+    "charClass": 1
+  },
+  {
+    "code": "drutemp3",
+    "name": "drutemp3",
+    "charClass": 5
+  },
+  {
+    "code": "Merc Fire Arrow",
+    "name": "Merc Fire Arrow"
+  },
+  {
+    "code": "Merc Cold Arrow",
+    "name": "Merc Cold Arrow"
+  },
+  {
+    "code": "Raven Splash",
+    "name": "Raven Splash"
+  },
+  {
+    "code": "HydraFireball",
+    "name": "HydraFireball"
+  },
+  {
+    "code": "Golem Splash",
+    "name": "Golem Splash"
+  },
+  {
+    "code": "Map Aura",
+    "name": "Map Aura"
+  },
+  {
+    "code": "Lesser Fade",
+    "name": "LesserFade"
+  },
+  {
+    "code": "Sentry Lightning",
+    "name": "Sentry Lightning"
+  },
+  {
+    "code": "Skeleton Splash",
+    "name": "Skeleton Splash"
+  },
+  {
+    "code": "Force Move",
+    "name": "ForceMove"
+  },
+  {
+    "code": "Immune Aura",
+    "name": "Immune Aura"
+  },
+  {
+    "code": "Immune Passive",
+    "name": "Immune Passive"
+  },
+  {
+    "code": "MegademonInfernoBoss",
+    "name": "MegademonInfernoBoss"
+  },
+  {
+    "code": "MegademonBlazeBoss",
+    "name": "MegademonBlazeBoss"
+  },
+  {
+    "code": "MegademonArmaBoss",
+    "name": "MegademonArmaBoss"
+  },
+  {
+    "code": "FingermageBossNova",
+    "name": "FingermageBossNova"
+  },
+  {
+    "code": "FingermageBossDiabWall",
+    "name": "FingermageBossDiabWall"
+  },
+  {
+    "code": "FingermageBossShockWave",
+    "name": "FingermageBossShockWave"
+  },
+  {
+    "code": "CantorBossEruption",
+    "name": "CantorBossEruption"
+  },
+  {
+    "code": "CantorBossTornado",
+    "name": "CantorBossTornado"
+  },
+  {
+    "code": "UnravelerBossMultiShot",
+    "name": "UnravelerBossMultiShot"
+  },
+  {
+    "code": "UnravelerBossBuff",
+    "name": "UnravelerBossBuff"
+  },
+  {
+    "code": "UnravelerMinionBuff",
+    "name": "UnravelerMinionBuff"
+  },
+  {
+    "code": "BaalMinionBossBerserk",
+    "name": "BaalMinionBossBerserk"
+  },
+  {
+    "code": "BaalMinionBossRabies",
+    "name": "BaalMinionBossRabies"
+  },
+  {
+    "code": "BaalMinionBossCharge",
+    "name": "BaalMinionBossCharge"
+  },
+  {
+    "code": "BaalMinionBossNova",
+    "name": "BaalMinionBossNova"
+  },
+  {
+    "code": "MonLeap",
+    "name": "MonLeap"
+  },
+  {
+    "code": "MonJab",
+    "name": "MonJab"
+  },
+  {
+    "code": "MonSmite",
+    "name": "MonSmite"
+  },
+  {
+    "code": "MonCharge",
+    "name": "MonCharge"
+  },
+  {
+    "code": "MonHolyFreeze",
+    "name": "MonHolyFreeze"
+  },
+  {
+    "code": "MonGlacialSpike",
+    "name": "MonGlacialSpike"
+  },
+  {
+    "code": "MonFrostNova",
+    "name": "MonFrostNova"
+  },
+  {
+    "code": "MonFireBall",
+    "name": "MonFireBall"
+  },
+  {
+    "code": "MonWeaken",
+    "name": "MonWeaken"
+  },
+  {
+    "code": "MonHydra",
+    "name": "MonHydra"
+  },
+  {
+    "code": "MonLightning",
+    "name": "MonLightning"
+  },
+  {
+    "code": "Fixed Siege Beast Stomp",
+    "name": "Fixed Siege Beast Stomp"
+  },
+  {
+    "code": "MonAmplifyDamage",
+    "name": "MonAmplifyDamage"
+  },
+  {
+    "code": "MonWhirlwind",
+    "name": "MonWhirlwind"
+  },
+  {
+    "code": "MonShout",
+    "name": "MonShout"
+  },
+  {
+    "code": "MonDecrepify",
+    "name": "MonDecrepify"
+  },
+  {
+    "code": "MonChainLightning",
+    "name": "MonChainLightning"
+  },
+  {
+    "code": "MonChillingArmor",
+    "name": "MonChillingArmor"
+  },
+  {
+    "code": "UberDiabloMeteor",
+    "name": "UberDiabloMeteor"
+  },
+  {
+    "code": "UberDiabloBoulder",
+    "name": "UberDiabloBoulder"
+  },
+  {
+    "code": "UberDiabWall",
+    "name": "UberDiabWall"
+  },
+  {
+    "code": "UberDiabLight",
+    "name": "UberDiabLight"
+  },
+  {
+    "code": "UberDiabCold",
+    "name": "UberDiabCold"
+  },
+  {
+    "code": "UberDiabFire",
+    "name": "UberDiabFire"
+  },
+  {
+    "code": "UberDiabSuperFire",
+    "name": "UberDiabSuperFire"
+  },
+  {
+    "code": "WispBossChainLightning",
+    "name": "WispBossChainLightning"
+  },
+  {
+    "code": "WispMinionLightning",
+    "name": "WispMinionLightning"
+  },
+  {
+    "code": "WispTotemConviction",
+    "name": "WispTotemConviction"
+  },
+  {
+    "code": "MonLeapAttack",
+    "name": "MonLeapAttack"
+  },
+  {
+    "code": "FingerMageBossSpider",
+    "name": "FingerMageBossSpider"
+  },
+  {
+    "code": "AmpDmg Proc",
+    "name": "AmpDmg Proc"
+  },
+  {
+    "code": "Weaken Proc",
+    "name": "Weaken"
+  },
+  {
+    "code": "Iron Maiden Proc",
+    "name": "Iron Maiden"
+  },
+  {
+    "code": "Life Tap Proc",
+    "name": "Life Tap"
+  },
+  {
+    "code": "Decrepify Proc",
+    "name": "Decrepify"
+  },
+  {
+    "code": "LowRes Proc",
+    "name": "LowRes Proc"
+  },
+  {
+    "code": "Iceboss Freezing Arrow",
+    "name": "Iceboss Freezing Arrow"
+  },
+  {
+    "code": "Iceboss Blizzard",
+    "name": "Iceboss Blizzard"
+  },
+  {
+    "code": "Lightning Strike Cowboss",
+    "name": "Lightning Strike Cowboss"
+  },
+  {
+    "code": "Poison Nova Tomb Boss",
+    "name": "Poison Nova Tomb Boss"
+  },
+  {
+    "code": "Power Strike Tomb Boss",
+    "name": "Power Strike Tomb Boss"
+  },
+  {
+    "code": "PoisonEggSpawn",
+    "name": "PoisonEggSpawn"
+  },
+  {
+    "code": "Hydra Throne Boss",
+    "name": "Hydra Throne Boss"
+  },
+  {
+    "code": "UberDiabSummon",
+    "name": "UberDiabSummon"
+  },
+  {
+    "code": "A3 Mastery Fire",
+    "name": "A3 Mastery Fire"
+  },
+  {
+    "code": "A3 Mastery Cold",
+    "name": "A3 Mastery Cold"
+  },
+  {
+    "code": "A3 Mastery Ltng",
+    "name": "A3 Mastery Ltng"
+  },
+  {
+    "code": "Merc Static Field",
+    "name": "Merc Static Field"
+  },
+  {
+    "code": "A3 Merc Lightning",
+    "name": "A3 Merc Lightning"
+  },
+  {
+    "code": "A3 Merc Meteor",
+    "name": "A3 Merc Meteor"
+  },
+  {
+    "code": "A3 Merc Fire Ball",
+    "name": "A3 Merc Fire Ball"
+  },
+  {
+    "code": "A3 Merc Blizzard",
+    "name": "A3 Merc Blizzard"
+  },
+  {
+    "code": "A3 Merc Ice Blast",
+    "name": "A3 Merc Ice Blast"
+  },
+  {
+    "code": "TraitorBossBlessedAim",
+    "name": "TraitorBossBlessedAim"
+  },
+  {
+    "code": "TraitorBossVigor",
+    "name": "TraitorBossVigor"
+  },
+  {
+    "code": "TraitorBossConeJab",
+    "name": "TraitorBossConeJab"
+  },
+  {
+    "code": "TraitorBossStunSpear",
+    "name": "TraitorBossStunSpear"
+  },
+  {
+    "code": "ArcherBossArrowRain",
+    "name": "ArcherBossArrowRain"
+  },
+  {
+    "code": "ArcherBossBoomerShot",
+    "name": "ArcherBossBoomerShot"
+  },
+  {
+    "code": "ArcherBossCageShot",
+    "name": "ArcherBossCageShot"
+  },
+  {
+    "code": "Mon Conviction",
+    "name": "Mon Conviction"
+  },
+  {
+    "code": "Mon Fanaticism",
+    "name": "Mon Fanaticism"
+  },
+  {
+    "code": "Mon Holy Shock",
+    "name": "Mon Holy Shock"
+  },
+  {
+    "code": "Mon Holy Freeze",
+    "name": "Mon Holy Freeze"
+  },
+  {
+    "code": "Mon Holy Fire",
+    "name": "Mon Holy Fire"
+  },
+  {
+    "code": "Mon Might",
+    "name": "Mon Might"
+  },
+  {
+    "code": "Mon Concentration",
+    "name": "Mon Concentration"
+  },
+  {
+    "code": "Mon Vigor",
+    "name": "Mon Vigor"
+  },
+  {
+    "code": "Baal Lowres",
+    "name": "Baal Lowres"
+  },
+  {
+    "code": "Poison Dagger Spider Boss",
+    "name": "Poison Dagger Spider Boss"
+  },
+  {
+    "code": "AndyPoisonBolt Spider Boss",
+    "name": "AndyPoisonBolt Spider Boss"
+  },
+  {
+    "code": "Tornado Arcane Boss",
+    "name": "Tornado Arcane Boss"
+  },
+  {
+    "code": "Skeleton Archer Bow",
+    "name": "Skeleton Archer Bow"
+  },
+  {
+    "code": "RathmaDeath",
+    "name": "RathmaDeath"
+  },
+  {
+    "code": "NihlathakMapMobSpawn",
+    "name": "NihlathakMapMobSpawn"
+  },
+  {
+    "code": "NihlathakMapDeath",
+    "name": "NihlathakMapDeath"
+  },
+  {
+    "code": "DoppleZonStrafe",
+    "name": "DoppleZonStrafe"
+  },
+  {
+    "code": "Valk Power Strike",
+    "name": "Valk Power Strike"
+  },
+  {
+    "code": "RathmaSummon",
+    "name": "RathmaSummon"
+  },
+  {
+    "code": "RathmaBoneSpear",
+    "name": "RathmaBoneSpear"
+  },
+  {
+    "code": "RathmaTeethNova",
+    "name": "RathmaTeethNova"
+  },
+  {
+    "code": "VoidBolt",
+    "name": "VoidBolt"
+  },
+  {
+    "code": "SummonVoidling",
+    "name": "SummonVoidling"
+  },
+  {
+    "code": "ButcherAura",
+    "name": "ButcherAura"
+  },
+  {
+    "code": "RathmaPoisonOrb",
+    "name": "RathmaPoisonOrb"
+  },
+  {
+    "code": "RathmaFissure",
+    "name": "RathmaFissure"
+  },
+  {
+    "code": "RathmaOuterNova",
+    "name": "RathmaOuterNova"
+  },
+  {
+    "code": "Horror Arctic Blast Boss",
+    "name": "Horror Arctic Blast Boss"
+  },
+  {
+    "code": "Frost Nova Horror Boss",
+    "name": "Frost Nova Horror Boss"
+  },
+  {
+    "code": "Mon Holy Freeze Wide",
+    "name": "Mon Holy Freeze Wide"
+  },
+  {
+    "code": "RathmaPacman",
+    "name": "RathmaPacman"
+  },
+  {
+    "code": "Shock Wave Boss",
+    "name": "Shock Wave Boss"
+  },
+  {
+    "code": "RathmaPrison",
+    "name": "RathmaPrison"
+  },
+  {
+    "code": "RathmaColdMissiles",
+    "name": "RathmaColdMissiles"
+  },
+  {
+    "code": "Glacial Spike Spire",
+    "name": "Glacial Spike Spire"
+  },
+  {
+    "code": "Poison Nova Rathma",
+    "name": "Poison Nova Rathma"
+  },
+  {
+    "code": "Teeth Rathma",
+    "name": "Teeth Rathma"
   }
 ]

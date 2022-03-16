@@ -16,7 +16,8 @@ function checkRange(
   modifiers: Modifier[],
   callback: (value: number, min: number, max: number) => void
 ) {
-  const { stats } = PROPERTIES[prop];
+  // TODO: Fix perfection checks
+  const { stats } = !!PROPERTIES[prop] ? PROPERTIES[prop] : { stats: [] };
   for (const { stat, type } of stats) {
     // Some weird cases of "param" like the hp/lvl on Fortitude actually do have a range
     // Well, that one case. It's the only one in the entire game that I can find.

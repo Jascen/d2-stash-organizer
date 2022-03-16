@@ -1,7 +1,9 @@
 # d2-stash-organizer
 Diablo 2 Plugy stash organizer
 
-Web-based collection manager, muling utility, stash organizer and grail tracker hosted at: https://youdz.github.io/d2-stash-organizer/
+Web-based collection manager, muling utility, stash organizer and grail tracker for Project Diablo 2 hosted at: https://jascen.github.io/d2-stash-organizer/
+
+Original implementation: https://github.com/youdz/d2-stash-organizer
 
 ## Features
 - It reads your whole save folder in one click, and lets you search easily for items in your entire collection. 

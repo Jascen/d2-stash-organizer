@@ -1,4 +1,5 @@
-export const PAGE_HEIGHT = 10;
+// PD2 stash is 15 rows high instead of 10
+export const PAGE_HEIGHT = 15;
 export const PAGE_WIDTH = 10;
 
 export const ALL_ROWS = Array(PAGE_HEIGHT)

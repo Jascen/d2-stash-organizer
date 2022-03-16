@@ -2008,5 +2008,371 @@
   },
   {
     "name": "Cruel"
+  },
+  {
+    "name": ""
+  },
+  {
+    "name": "Champion's"
+  },
+  {
+    "name": "Flaming"
+  },
+  {
+    "name": "Fiery"
+  },
+  {
+    "name": "Smoldering"
+  },
+  {
+    "name": "Hibernal"
+  },
+  {
+    "name": "Snowy"
+  },
+  {
+    "name": "Shivering"
+  },
+  {
+    "name": "Static"
+  },
+  {
+    "name": "Glowing"
+  },
+  {
+    "name": "Arcing"
+  },
+  {
+    "name": "Toxic"
+  },
+  {
+    "name": "Pestilent"
+  },
+  {
+    "name": "Septic"
+  },
+  {
+    "name": "Magic"
+  },
+  {
+    "name": "Arcane"
+  },
+  {
+    "name": "Ancient"
+  },
+  {
+    "name": "Promoted"
+  },
+  {
+    "name": "Elevated"
+  },
+  {
+    "name": "Ascended"
+  },
+  {
+    "name": "Silver"
+  },
+  {
+    "name": "Shining"
+  },
+  {
+    "name": "Opulent"
+  },
+  {
+    "name": "Fast"
+  },
+  {
+    "name": "Speedy"
+  },
+  {
+    "name": "Ludicrous"
+  },
+  {
+    "name": "Large"
+  },
+  {
+    "name": "Huge"
+  },
+  {
+    "name": "Colossal"
+  },
+  {
+    "name": "Strong"
+  },
+  {
+    "name": "Mighty"
+  },
+  {
+    "name": "Formidable"
+  },
+  {
+    "name": "Splashing"
+  },
+  {
+    "name": "Splashing"
+  },
+  {
+    "name": "Splashing"
+  },
+  {
+    "name": "Bloody"
+  },
+  {
+    "name": "Gory"
+  },
+  {
+    "name": "Sanguinary"
+  },
+  {
+    "name": "Unhealthy"
+  },
+  {
+    "name": "Sickly"
+  },
+  {
+    "name": "Diseased"
+  },
+  {
+    "name": "Crushing"
+  },
+  {
+    "name": "Smashing"
+  },
+  {
+    "name": "Obliterating"
+  },
+  {
+    "name": "Sparking"
+  },
+  {
+    "name": "Shocking"
+  },
+  {
+    "name": "Thunderous"
+  },
+  {
+    "name": "Chilling"
+  },
+  {
+    "name": "Boreal"
+  },
+  {
+    "name": "Glacial"
+  },
+  {
+    "name": "Smoking"
+  },
+  {
+    "name": "Molten"
+  },
+  {
+    "name": "Volcanic"
+  },
+  {
+    "name": "Poisonous"
+  },
+  {
+    "name": "Foul"
+  },
+  {
+    "name": "Plagued"
+  },
+  {
+    "name": "Runic"
+  },
+  {
+    "name": "Taboo"
+  },
+  {
+    "name": "Occult"
+  },
+  {
+    "name": "Stygian"
+  },
+  {
+    "name": "Lustful"
+  },
+  {
+    "name": "Vampiric"
+  },
+  {
+    "name": "Bovine"
+  },
+  {
+    "name": "Reanimated"
+  },
+  {
+    "name": "Ghastly"
+  },
+  {
+    "name": "Blood Letting"
+  },
+  {
+    "name": "Murderous"
+  },
+  {
+    "name": "Blood Sucking"
+  },
+  {
+    "name": "Channeling"
+  },
+  {
+    "name": "Ice"
+  },
+  {
+    "name": "Cinder"
+  },
+  {
+    "name": "Morbid"
+  },
+  {
+    "name": "Sparkling"
+  },
+  {
+    "name": "Discharging"
+  },
+  {
+    "name": "Frigid"
+  },
+  {
+    "name": "Wildfire"
+  },
+  {
+    "name": "Malicious"
+  },
+  {
+    "name": "Effervescent"
+  },
+  {
+    "name": "Conduit"
+  },
+  {
+    "name": "Numbing"
+  },
+  {
+    "name": "Inferno"
+  },
+  {
+    "name": "Infectious"
+  },
+  {
+    "name": "Scintillating"
+  },
+  {
+    "name": "Visceral"
+  },
+  {
+    "name": "Divine"
+  },
+  {
+    "name": "Celestial"
+  },
+  {
+    "name": "Grandmaster's"
+  },
+  {
+    "name": "Supporting"
+  },
+  {
+    "name": "Reinforcing"
+  },
+  {
+    "name": "Empowering"
+  },
+  {
+    "name": "Bolstering"
+  },
+  {
+    "name": "Fortifying"
+  },
+  {
+    "name": "Embattled"
+  },
+  {
+    "name": "Rampaging"
+  },
+  {
+    "name": "Lancer's"
+  },
+  {
+    "name": "Archer's"
+  },
+  {
+    "name": "Artisan's"
+  },
+  {
+    "name": "Artisan's"
+  },
+  {
+    "name": "Lancer's"
+  },
+  {
+    "name": "Maiden's"
+  },
+  {
+    "name": "Monk's"
+  },
+  {
+    "name": "Summoner's"
+  },
+  {
+    "name": "Angel's"
+  },
+  {
+    "name": "Slayer's"
+  },
+  {
+    "name": "Shaman's"
+  },
+  {
+    "name": "Magekiller's"
+  },
+  {
+    "name": "Cerulean"
+  },
+  {
+    "name": "Lancer's"
+  },
+  {
+    "name": "Souless"
+  },
+  {
+    "name": "Shamanic"
+  },
+  {
+    "name": "Strange"
+  },
+  {
+    "name": "Unearthly"
+  },
+  {
+    "name": "Plague"
+  },
+  {
+    "name": "Savage"
+  },
+  {
+    "name": "Cardinal"
+  },
+  {
+    "name": "Penetrating"
+  },
+  {
+    "name": "Puncturing"
+  },
+  {
+    "name": "Piercing"
+  },
+  {
+    "name": "Impaling"
+  },
+  {
+    "name": "Devout"
+  },
+  {
+    "name": "Consecrated"
+  },
+  {
+    "name": "Pure"
   }
 ]

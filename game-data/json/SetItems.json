@@ -9,14 +9,14 @@
       {
         "prop": "ac",
         "param": 0,
-        "min": 15,
-        "max": 15
+        "min": 30,
+        "max": 60
       },
       {
         "prop": "block",
         "param": 0,
-        "min": 15,
-        "max": 15
+        "min": 30,
+        "max": 30
       }
     ],
     "setModifiers": [
@@ -57,8 +57,8 @@
       {
         "prop": "regen",
         "param": 0,
-        "min": 4,
-        "max": 4
+        "min": 10,
+        "max": 20
       }
     ],
     "setModifiers": [
@@ -72,10 +72,10 @@
       ],
       [
         {
-          "prop": "ac",
+          "prop": "red-dmg%",
           "param": 0,
-          "min": 25,
-          "max": 25
+          "min": 10,
+          "max": 10
         }
       ],
       [],
@@ -101,6 +101,12 @@
         "param": 0,
         "min": 17,
         "max": 23
+      },
+      {
+        "prop": "splash",
+        "param": 358,
+        "min": 100,
+        "max": 1
       }
     ],
     "setModifiers": [
@@ -169,8 +175,8 @@
       {
         "prop": "str",
         "param": 0,
-        "min": 10,
-        "max": 10
+        "min": 20,
+        "max": 20
       }
     ],
     "setModifiers": [
@@ -180,6 +186,12 @@
           "param": 20,
           "min": 0,
           "max": 0
+        },
+        {
+          "prop": "splash",
+          "param": 0,
+          "min": 1,
+          "max": 1
         }
       ],
       [],
@@ -241,6 +253,12 @@
         "param": 0,
         "min": 50,
         "max": 50
+      },
+      {
+        "prop": "splash",
+        "param": 358,
+        "min": 100,
+        "max": 1
       }
     ],
     "setModifiers": [
@@ -311,6 +329,24 @@
         "param": 0,
         "min": 25,
         "max": 25
+      },
+      {
+        "prop": "pois-min",
+        "param": 0,
+        "min": 52,
+        "max": 52
+      },
+      {
+        "prop": "pois-max",
+        "param": 0,
+        "min": 52,
+        "max": 52
+      },
+      {
+        "prop": "pois-len",
+        "param": 0,
+        "min": 75,
+        "max": 75
       }
     ],
     "setModifiers": [
@@ -357,7 +393,14 @@
           "max": 15
         }
       ],
-      [],
+      [
+        {
+          "prop": "ama",
+          "param": 0,
+          "min": 1,
+          "max": 1
+        }
+      ],
       [],
       [],
       []
@@ -381,6 +424,12 @@
         "param": 0,
         "min": 1,
         "max": 1
+      },
+      {
+        "prop": "pierce",
+        "param": 0,
+        "min": 15,
+        "max": 15
       }
     ],
     "setModifiers": [
@@ -427,7 +476,14 @@
           "max": 0
         }
       ],
-      [],
+      [
+        {
+          "prop": "ama",
+          "param": 0,
+          "min": 1,
+          "max": 1
+        }
+      ],
       [],
       [],
       []
@@ -462,7 +518,14 @@
           "max": 10
         }
       ],
-      [],
+      [
+        {
+          "prop": "dmg-max",
+          "param": 0,
+          "min": 10,
+          "max": 10
+        }
+      ],
       [],
       [],
       []
@@ -486,13 +549,25 @@
         "param": 0,
         "min": 20,
         "max": 20
+      },
+      {
+        "prop": "splash",
+        "param": 358,
+        "min": 100,
+        "max": 1
+      },
+      {
+        "prop": "att/lvl",
+        "param": 10,
+        "min": 0,
+        "max": 0
       }
     ],
     "setModifiers": [
       [
         {
-          "prop": "att/lvl",
-          "param": 10,
+          "prop": "dmg-ltng/lvl",
+          "param": 40,
           "min": 0,
           "max": 0
         }
@@ -517,22 +592,22 @@
         "max": 40
       },
       {
-        "prop": "light-thorns",
-        "param": 0,
-        "min": 4,
-        "max": 4
+        "prop": "thorns/lvl",
+        "param": 20,
+        "min": 0,
+        "max": 0
       }
     ],
     "setModifiers": [
+      [],
       [
         {
-          "prop": "res-all",
-          "param": 0,
-          "min": 8,
-          "max": 8
+          "prop": "res-fire/lvl",
+          "param": 8,
+          "min": 0,
+          "max": 0
         }
       ],
-      [],
       [],
       [],
       []
@@ -555,7 +630,7 @@
         "prop": "red-mag",
         "param": 0,
         "min": 2,
-        "max": 2
+        "max": 4
       }
     ],
     "setModifiers": [
@@ -567,7 +642,14 @@
           "max": 0
         }
       ],
-      [],
+      [
+        {
+          "prop": "res-cold/lvl",
+          "param": 8,
+          "min": 0,
+          "max": 0
+        }
+      ],
       [],
       [],
       []
@@ -590,19 +672,25 @@
         "prop": "red-dmg",
         "param": 0,
         "min": 2,
-        "max": 2
+        "max": 4
+      },
+      {
+        "prop": "dmg-max",
+        "param": 0,
+        "min": 4,
+        "max": 8
       }
     ],
     "setModifiers": [
+      [],
       [
         {
-          "prop": "res-all",
-          "param": 0,
-          "min": 8,
-          "max": 8
+          "prop": "res-ltng/lvl",
+          "param": 8,
+          "min": 0,
+          "max": 0
         }
       ],
-      [],
       [],
       [],
       []
@@ -624,8 +712,14 @@
       {
         "prop": "ltng-max",
         "param": 0,
-        "min": 20,
-        "max": 20
+        "min": 45,
+        "max": 45
+      },
+      {
+        "prop": "dmg%",
+        "param": 0,
+        "min": 30,
+        "max": 45
       }
     ],
     "setModifiers": [
@@ -637,8 +731,22 @@
           "max": 0
         }
       ],
-      [],
-      [],
+      [
+        {
+          "prop": "swing2",
+          "param": 0,
+          "min": 20,
+          "max": 20
+        }
+      ],
+      [
+        {
+          "prop": "dex/lvl",
+          "param": 16,
+          "min": 0,
+          "max": 0
+        }
+      ],
       [],
       []
     ]
@@ -694,8 +802,8 @@
       {
         "prop": "dex",
         "param": 0,
-        "min": 11,
-        "max": 11
+        "min": 15,
+        "max": 25
       }
     ],
     "setModifiers": [
@@ -730,8 +838,8 @@
       {
         "prop": "hp",
         "param": 0,
-        "min": 15,
-        "max": 15
+        "min": 35,
+        "max": 35
       },
       {
         "prop": "res-cold",
@@ -749,7 +857,14 @@
           "max": 50
         }
       ],
-      [],
+      [
+        {
+          "prop": "pierce",
+          "param": 0,
+          "min": 30,
+          "max": 30
+        }
+      ],
       [],
       [],
       []
@@ -766,22 +881,28 @@
         "prop": "mag%",
         "param": 0,
         "min": 20,
-        "max": 20
+        "max": 60
       },
       {
         "prop": "ac",
         "param": 0,
         "min": 25,
         "max": 25
+      },
+      {
+        "prop": "hp",
+        "param": 0,
+        "min": 50,
+        "max": 50
       }
     ],
     "setModifiers": [
       [
         {
-          "prop": "hp",
-          "param": 0,
-          "min": 50,
-          "max": 50
+          "prop": "gethit-skill",
+          "param": 44,
+          "min": 25,
+          "max": 6
         }
       ],
       [
@@ -821,11 +942,30 @@
         "param": 0,
         "min": 2,
         "max": 2
+      },
+      {
+        "prop": "splash",
+        "param": 358,
+        "min": 100,
+        "max": 1
+      },
+      {
+        "prop": "dmg-cold",
+        "param": 0,
+        "min": 25,
+        "max": 35
       }
     ],
     "setModifiers": [
       [],
-      [],
+      [
+        {
+          "prop": "hit-skill",
+          "param": 44,
+          "min": 12,
+          "max": 6
+        }
+      ],
       [],
       [],
       []
@@ -849,6 +989,12 @@
         "param": 0,
         "min": 15,
         "max": 15
+      },
+      {
+        "prop": "dmg-cold",
+        "param": 0,
+        "min": 25,
+        "max": 35
       }
     ],
     "setModifiers": [
@@ -876,14 +1022,20 @@
       {
         "prop": "thorns",
         "param": 0,
-        "min": 3,
-        "max": 3
+        "min": 13,
+        "max": 13
       },
       {
         "prop": "red-dmg",
         "param": 0,
         "min": 2,
         "max": 2
+      },
+      {
+        "prop": "dmg-cold",
+        "param": 0,
+        "min": 25,
+        "max": 35
       }
     ],
     "setModifiers": [
@@ -895,7 +1047,14 @@
           "max": 100
         }
       ],
-      [],
+      [
+        {
+          "prop": "hit-skill",
+          "param": 44,
+          "min": 14,
+          "max": 5
+        }
+      ],
       [],
       [],
       []
@@ -912,10 +1071,22 @@
         "prop": "fireskill",
         "param": 0,
         "min": 1,
-        "max": 1
+        "max": 2
       },
       {
         "prop": "fire-max",
+        "param": 0,
+        "min": 10,
+        "max": 10
+      },
+      {
+        "prop": "splash",
+        "param": 358,
+        "min": 100,
+        "max": 1
+      },
+      {
+        "prop": "cast2",
         "param": 0,
         "min": 10,
         "max": 10
@@ -938,8 +1109,22 @@
           "max": 10
         }
       ],
-      [],
-      [],
+      [
+        {
+          "prop": "reduce-ac",
+          "param": 0,
+          "min": 35,
+          "max": 35
+        }
+      ],
+      [
+        {
+          "prop": "swing2",
+          "param": 0,
+          "min": 40,
+          "max": 40
+        }
+      ],
       []
     ]
   },
@@ -961,15 +1146,21 @@
         "param": 0,
         "min": -50,
         "max": -50
+      },
+      {
+        "prop": "move3",
+        "param": 0,
+        "min": 20,
+        "max": 20
       }
     ],
     "setModifiers": [
       [
         {
-          "prop": "thorns",
-          "param": 0,
-          "min": 5,
-          "max": 5
+          "prop": "thorns/lvl",
+          "param": 8,
+          "min": 0,
+          "max": 0
         }
       ],
       [
@@ -1003,6 +1194,12 @@
         "param": 0,
         "min": 25,
         "max": 25
+      },
+      {
+        "prop": "manasteal",
+        "param": 0,
+        "min": 3,
+        "max": 5
       }
     ],
     "setModifiers": [
@@ -1034,10 +1231,16 @@
         "max": 10
       },
       {
-        "prop": "light-thorns",
+        "prop": "thorns/lvl",
+        "param": 8,
+        "min": 0,
+        "max": 0
+      },
+      {
+        "prop": "res-ltng",
         "param": 0,
-        "min": 5,
-        "max": 5
+        "min": 20,
+        "max": 30
       }
     ],
     "setModifiers": [
@@ -1092,7 +1295,14 @@
         }
       ],
       [],
-      [],
+      [
+        {
+          "prop": "dmg-max",
+          "param": 0,
+          "min": 10,
+          "max": 10
+        }
+      ],
       [],
       []
     ]
@@ -1107,20 +1317,38 @@
       {
         "prop": "att",
         "param": 0,
-        "min": 75,
-        "max": 75
+        "min": 100,
+        "max": 175
       },
       {
         "prop": "dmg%",
         "param": 0,
-        "min": 80,
+        "min": 60,
         "max": 80
+      },
+      {
+        "prop": "splash",
+        "param": 358,
+        "min": 100,
+        "max": 1
+      },
+      {
+        "prop": "mana",
+        "param": 0,
+        "min": 20,
+        "max": 20
+      },
+      {
+        "prop": "att-skill",
+        "param": 38,
+        "min": 20,
+        "max": 12
       }
     ],
     "setModifiers": [
       [
         {
-          "prop": "mana",
+          "prop": "swing2",
           "param": 0,
           "min": 20,
           "max": 20
@@ -1128,10 +1356,10 @@
       ],
       [
         {
-          "prop": "swing2",
-          "param": 0,
+          "prop": "att-skill",
+          "param": 38,
           "min": 20,
-          "max": 20
+          "max": 12
         }
       ],
       [],
@@ -1157,13 +1385,19 @@
         "param": 0,
         "min": 15,
         "max": 15
+      },
+      {
+        "prop": "dmg%",
+        "param": 0,
+        "min": 20,
+        "max": 30
       }
     ],
     "setModifiers": [
       [
         {
           "prop": "ac/lvl",
-          "param": 16,
+          "param": 48,
           "min": 0,
           "max": 0
         }
@@ -1191,6 +1425,12 @@
         "prop": "dex",
         "param": 0,
         "min": 10,
+        "max": 20
+      },
+      {
+        "prop": "red-dmg%",
+        "param": 0,
+        "min": 5,
         "max": 10
       }
     ],
@@ -1226,14 +1466,14 @@
       {
         "prop": "red-dmg",
         "param": 0,
-        "min": 2,
-        "max": 2
+        "min": 3,
+        "max": 6
       },
       {
         "prop": "red-mag",
         "param": 0,
-        "min": 1,
-        "max": 1
+        "min": 2,
+        "max": 4
       }
     ],
     "setModifiers": [
@@ -1249,8 +1489,8 @@
         {
           "prop": "att",
           "param": 0,
-          "min": 60,
-          "max": 60
+          "min": 160,
+          "max": 160
         }
       ],
       [],
@@ -1268,14 +1508,14 @@
       {
         "prop": "dmg%",
         "param": 0,
-        "min": 10,
-        "max": 10
+        "min": 20,
+        "max": 30
       },
       {
         "prop": "att",
         "param": 0,
-        "min": 40,
-        "max": 40
+        "min": 80,
+        "max": 80
       }
     ],
     "setModifiers": [
@@ -1493,6 +1733,12 @@
         "param": 0,
         "min": 20,
         "max": 20
+      },
+      {
+        "prop": "res-cold",
+        "param": 0,
+        "min": 30,
+        "max": 30
       }
     ],
     "setModifiers": [
@@ -1527,7 +1773,7 @@
       [
         {
           "prop": "ac/lvl",
-          "param": 16,
+          "param": 32,
           "min": 0,
           "max": 0
         }
@@ -1539,8 +1785,8 @@
     ]
   },
   {
-    "name": "Infernal Torch",
-    "code": "gwn",
+    "name": "Infernal Spire",
+    "code": "dgr",
     "set": "Infernal Tools",
     "qlevel": 7,
     "levelReq": 5,
@@ -1556,6 +1802,12 @@
         "param": 0,
         "min": 1,
         "max": 1
+      },
+      {
+        "prop": "splash",
+        "param": 358,
+        "min": 100,
+        "max": 1
       }
     ],
     "setModifiers": [
@@ -1567,7 +1819,14 @@
           "max": 0
         }
       ],
-      [],
+      [
+        {
+          "prop": "oskill",
+          "param": 73,
+          "min": 2,
+          "max": 2
+        }
+      ],
       [],
       [],
       []
@@ -1598,13 +1857,13 @@
         {
           "prop": "res-pois",
           "param": 0,
-          "min": 25,
-          "max": 25
+          "min": 45,
+          "max": 45
         }
       ],
       [
         {
-          "prop": "half-freeze",
+          "prop": "nofreeze",
           "param": 0,
           "min": 1,
           "max": 1
@@ -1644,7 +1903,14 @@
           "max": 0
         }
       ],
-      [],
+      [
+        {
+          "prop": "bar",
+          "param": 0,
+          "min": 1,
+          "max": 1
+        }
+      ],
       [],
       [],
       []
@@ -1674,12 +1940,19 @@
       [
         {
           "prop": "ac/lvl",
+          "param": 36,
+          "min": 0,
+          "max": 0
+        }
+      ],
+      [
+        {
+          "prop": "dmg%/lvl",
           "param": 24,
           "min": 0,
           "max": 0
         }
       ],
-      [],
       [],
       [],
       []
@@ -1703,6 +1976,12 @@
         "param": 0,
         "min": 5,
         "max": 5
+      },
+      {
+        "prop": "splash",
+        "param": 358,
+        "min": 100,
+        "max": 1
       }
     ],
     "setModifiers": [
@@ -1714,7 +1993,14 @@
           "max": 50
         }
       ],
-      [],
+      [
+        {
+          "prop": "bar",
+          "param": 0,
+          "min": 1,
+          "max": 1
+        }
+      ],
       [],
       [],
       []
@@ -1749,7 +2035,14 @@
           "max": 30
         }
       ],
-      [],
+      [
+        {
+          "prop": "dmg/lvl",
+          "param": 4,
+          "min": 0,
+          "max": 0
+        }
+      ],
       [],
       [],
       []
@@ -1808,6 +2101,12 @@
         "param": 0,
         "min": 4,
         "max": 4
+      },
+      {
+        "prop": "splash",
+        "param": 358,
+        "min": 100,
+        "max": 1
       }
     ],
     "setModifiers": [
@@ -1819,7 +2118,14 @@
           "max": 75
         }
       ],
-      [],
+      [
+        {
+          "prop": "reanimate",
+          "param": 1,
+          "min": 15,
+          "max": 15
+        }
+      ],
       [],
       [],
       []
@@ -1843,6 +2149,12 @@
         "param": 0,
         "min": 250,
         "max": 250
+      },
+      {
+        "prop": "splash",
+        "param": 358,
+        "min": 100,
+        "max": 1
       }
     ],
     "setModifiers": [
@@ -1862,7 +2174,14 @@
           "max": 30
         }
       ],
-      [],
+      [
+        {
+          "prop": "hit-skill",
+          "param": 121,
+          "min": 10,
+          "max": 1
+        }
+      ],
       [],
       []
     ]
@@ -1885,6 +2204,12 @@
         "param": 0,
         "min": 40,
         "max": 40
+      },
+      {
+        "prop": "dmg-undead",
+        "param": 0,
+        "min": 50,
+        "max": 80
       }
     ],
     "setModifiers": [
@@ -2011,6 +2336,12 @@
         "param": 0,
         "min": 50,
         "max": 50
+      },
+      {
+        "prop": "dmg-cold/lvl",
+        "param": 16,
+        "min": 0,
+        "max": 0
       }
     ],
     "setModifiers": [
@@ -2146,6 +2477,12 @@
           "param": 0,
           "min": 50,
           "max": 50
+        },
+        {
+          "prop": "pierce",
+          "param": 0,
+          "min": 25,
+          "max": 25
         }
       ],
       [
@@ -2171,8 +2508,8 @@
       {
         "prop": "mana",
         "param": 0,
-        "min": 15,
-        "max": 15
+        "min": 35,
+        "max": 35
       },
       {
         "prop": "regen-mana",
@@ -2194,8 +2531,8 @@
         {
           "prop": "res-fire",
           "param": 0,
-          "min": 20,
-          "max": 20
+          "min": 30,
+          "max": 30
         }
       ],
       [],
@@ -2220,7 +2557,25 @@
         "prop": "deadly",
         "param": 0,
         "min": 25,
-        "max": 25
+        "max": 50
+      },
+      {
+        "prop": "dmg%",
+        "param": 0,
+        "min": 50,
+        "max": 75
+      },
+      {
+        "prop": "splash",
+        "param": 358,
+        "min": 100,
+        "max": 1
+      },
+      {
+        "prop": "cast2",
+        "param": 0,
+        "min": 10,
+        "max": 10
       }
     ],
     "setModifiers": [
@@ -2228,19 +2583,26 @@
         {
           "prop": "mana",
           "param": 0,
-          "min": 50,
-          "max": 50
+          "min": 75,
+          "max": 75
         }
       ],
       [
         {
           "prop": "regen-mana",
           "param": 0,
-          "min": 5,
-          "max": 5
+          "min": 20,
+          "max": 20
         }
       ],
-      [],
+      [
+        {
+          "prop": "swing2",
+          "param": 0,
+          "min": 40,
+          "max": 40
+        }
+      ],
       [],
       []
     ]
@@ -2255,14 +2617,26 @@
       {
         "prop": "regen",
         "param": 0,
-        "min": 4,
-        "max": 4
+        "min": 10,
+        "max": 14
       },
       {
         "prop": "thorns",
         "param": 0,
-        "min": 2,
-        "max": 2
+        "min": 12,
+        "max": 12
+      },
+      {
+        "prop": "regen-mana",
+        "param": 0,
+        "min": 20,
+        "max": 20
+      },
+      {
+        "prop": "mana",
+        "param": 0,
+        "min": 30,
+        "max": 40
       }
     ],
     "setModifiers": [
@@ -2278,8 +2652,8 @@
         {
           "prop": "res-ltng",
           "param": 0,
-          "min": 15,
-          "max": 15
+          "min": 25,
+          "max": 25
         }
       ],
       [],
@@ -2304,7 +2678,13 @@
         "prop": "red-dmg",
         "param": 0,
         "min": 3,
-        "max": 3
+        "max": 6
+      },
+      {
+        "prop": "cast2",
+        "param": 0,
+        "min": 10,
+        "max": 10
       }
     ],
     "setModifiers": [
@@ -2320,11 +2700,18 @@
         {
           "prop": "enr",
           "param": 0,
-          "min": 10,
-          "max": 10
+          "min": 20,
+          "max": 20
         }
       ],
-      [],
+      [
+        {
+          "prop": "regen-mana",
+          "param": 0,
+          "min": 20,
+          "max": 20
+        }
+      ],
       [],
       []
     ]
@@ -2345,13 +2732,13 @@
       {
         "prop": "dex",
         "param": 0,
-        "min": 20,
+        "min": 25,
         "max": 30
       },
       {
         "prop": "str",
         "param": 0,
-        "min": 10,
+        "min": 15,
         "max": 20
       },
       {
@@ -2364,7 +2751,7 @@
         "prop": "red-mag",
         "param": 0,
         "min": 3,
-        "max": 3
+        "max": 6
       }
     ],
     "setModifiers": [
@@ -2391,43 +2778,50 @@
       {
         "prop": "dmg%",
         "param": 0,
-        "min": 200,
+        "min": 150,
         "max": 200
-      },
-      {
-        "prop": "ignore-ac",
-        "param": 0,
-        "min": 1,
-        "max": 1
       },
       {
         "prop": "dmg-cold",
         "param": 100,
-        "min": 50,
-        "max": 50
+        "min": 150,
+        "max": 150
       },
       {
         "prop": "dmg-fire",
         "param": 0,
-        "min": 12,
-        "max": 17
+        "min": 96,
+        "max": 136
       },
       {
         "prop": "dmg-undead",
         "param": 0,
-        "min": 200,
+        "min": 100,
         "max": 200
       },
       {
         "prop": "dmg-demon",
         "param": 0,
-        "min": 200,
+        "min": 100,
         "max": 200
+      },
+      {
+        "prop": "splash",
+        "param": 358,
+        "min": 100,
+        "max": 1
       }
     ],
     "setModifiers": [
       [],
-      [],
+      [
+        {
+          "prop": "ignore-ac",
+          "param": 0,
+          "min": 1,
+          "max": 1
+        }
+      ],
       [],
       [],
       []
@@ -2455,8 +2849,8 @@
       {
         "prop": "skilltab",
         "param": 19,
-        "min": 2,
-        "max": 2
+        "min": 1,
+        "max": 3
       },
       {
         "prop": "res-pois-len",
@@ -2557,12 +2951,6 @@
         "max": 17
       },
       {
-        "prop": "light",
-        "param": 0,
-        "min": 5,
-        "max": 5
-      },
-      {
         "prop": "balance3",
         "param": 0,
         "min": 25,
@@ -2575,9 +2963,15 @@
         "max": 50
       },
       {
-        "prop": "sock",
+        "prop": "skilltab",
+        "param": 15,
+        "min": 1,
+        "max": 2
+      },
+      {
+        "prop": "dru",
         "param": 0,
-        "min": 2,
+        "min": 1,
         "max": 2
       }
     ],
@@ -2627,7 +3021,7 @@
         "prop": "skilltab",
         "param": 16,
         "min": 1,
-        "max": 1
+        "max": 2
       },
       {
         "prop": "str",
@@ -2657,7 +3051,7 @@
         "prop": "skilltab",
         "param": 17,
         "min": 1,
-        "max": 1
+        "max": 2
       }
     ],
     "setModifiers": [
@@ -2717,14 +3111,14 @@
       {
         "prop": "swing3",
         "param": 0,
-        "min": 30,
-        "max": 30
+        "min": 45,
+        "max": 45
       },
       {
         "prop": "dmg-demon",
         "param": 0,
         "min": 200,
-        "max": 200
+        "max": 250
       },
       {
         "prop": "manasteal",
@@ -2736,7 +3130,19 @@
         "prop": "sock",
         "param": 0,
         "min": 2,
-        "max": 5
+        "max": 3
+      },
+      {
+        "prop": "dmg-undead",
+        "param": 0,
+        "min": 100,
+        "max": 200
+      },
+      {
+        "prop": "splash",
+        "param": 358,
+        "min": 100,
+        "max": 1
       }
     ],
     "setModifiers": [
@@ -2864,7 +3270,7 @@
         "prop": "gold%",
         "param": 0,
         "min": 37,
-        "max": 37
+        "max": 67
       },
       {
         "prop": "skilltab",
@@ -2893,7 +3299,14 @@
     ],
     "setModifiers": [
       [],
-      [],
+      [
+        {
+          "prop": "red-dmg%",
+          "param": 0,
+          "min": 8,
+          "max": 8
+        }
+      ],
       [],
       [],
       []
@@ -2909,26 +3322,26 @@
       {
         "prop": "ac",
         "param": 0,
-        "min": 400,
-        "max": 400
+        "min": 300,
+        "max": 550
       },
       {
         "prop": "gethit-skill",
         "param": 52,
         "min": 5,
-        "max": 5
+        "max": 28
       },
       {
         "prop": "skilltab",
         "param": 12,
-        "min": 2,
-        "max": 2
+        "min": 3,
+        "max": 4
       },
       {
         "prop": "res-pois",
         "param": 0,
-        "min": 50,
-        "max": 50
+        "min": 40,
+        "max": 60
       }
     ],
     "setModifiers": [
@@ -2984,25 +3397,25 @@
       {
         "prop": "ac",
         "param": 0,
-        "min": 36,
-        "max": 36
+        "min": 28,
+        "max": 56
       },
       {
         "prop": "res-fire",
         "param": 0,
-        "min": 28,
+        "min": 23,
         "max": 28
       },
       {
         "prop": "res-ltng",
         "param": 0,
-        "min": 31,
-        "max": 31
+        "min": 26,
+        "max": 33
       },
       {
         "prop": "str",
         "param": 0,
-        "min": 25,
+        "min": 20,
         "max": 25
       }
     ],
@@ -3059,8 +3472,8 @@
       {
         "prop": "ac",
         "param": 0,
-        "min": 65,
-        "max": 65
+        "min": 45,
+        "max": 90
       },
       {
         "prop": "str",
@@ -3078,7 +3491,7 @@
         "prop": "gethit-skill",
         "param": 38,
         "min": 12,
-        "max": 4
+        "max": 24
       }
     ],
     "setModifiers": [
@@ -3134,8 +3547,8 @@
       {
         "prop": "ac",
         "param": 0,
-        "min": 75,
-        "max": 75
+        "min": 50,
+        "max": 85
       },
       {
         "prop": "move3",
@@ -3146,14 +3559,14 @@
       {
         "prop": "att",
         "param": 0,
-        "min": 110,
-        "max": 110
+        "min": 90,
+        "max": 140
       },
       {
         "prop": "hp",
         "param": 0,
-        "min": 44,
-        "max": 44
+        "min": 38,
+        "max": 54
       }
     ],
     "setModifiers": [
@@ -3208,20 +3621,20 @@
       {
         "prop": "swing3",
         "param": 0,
-        "min": 40,
-        "max": 40
+        "min": 45,
+        "max": 45
       },
       {
         "prop": "dmg-demon",
         "param": 0,
-        "min": 200,
-        "max": 200
+        "min": 150,
+        "max": 250
       },
       {
         "prop": "dmg-undead",
         "param": 0,
-        "min": 200,
-        "max": 200
+        "min": 150,
+        "max": 250
       },
       {
         "prop": "crush",
@@ -3232,14 +3645,14 @@
       {
         "prop": "dmg%",
         "param": 0,
-        "min": 200,
-        "max": 200
+        "min": 150,
+        "max": 250
       },
       {
-        "prop": "sock",
-        "param": 0,
-        "min": 2,
-        "max": 2
+        "prop": "splash",
+        "param": 358,
+        "min": 100,
+        "max": 1
       }
     ],
     "setModifiers": [
@@ -3270,9 +3683,9 @@
       [
         {
           "prop": "dmg-pois",
-          "param": 150,
-          "min": 349,
-          "max": 349
+          "param": 50,
+          "min": 3490,
+          "max": 3490
         }
       ],
       [
@@ -3301,8 +3714,8 @@
       {
         "prop": "mana",
         "param": 0,
-        "min": 30,
-        "max": 30
+        "min": 20,
+        "max": 40
       },
       {
         "prop": "dex",
@@ -3320,7 +3733,7 @@
         "prop": "mag%",
         "param": 0,
         "min": 10,
-        "max": 15
+        "max": 20
       }
     ],
     "setModifiers": [
@@ -3367,8 +3780,8 @@
       {
         "prop": "hp",
         "param": 0,
-        "min": 50,
-        "max": 50
+        "min": 40,
+        "max": 60
       },
       {
         "prop": "dmg-ltng",
@@ -3379,8 +3792,8 @@
       {
         "prop": "mana",
         "param": 0,
-        "min": 42,
-        "max": 42
+        "min": 32,
+        "max": 52
       }
     ],
     "setModifiers": [
@@ -3426,8 +3839,8 @@
       {
         "prop": "cast3",
         "param": 0,
-        "min": 20,
-        "max": 20
+        "min": 30,
+        "max": 30
       },
       {
         "prop": "skill",
@@ -3500,14 +3913,14 @@
       {
         "prop": "red-mag",
         "param": 0,
-        "min": 15,
-        "max": 15
+        "min": 10,
+        "max": 17
       },
       {
         "prop": "mag%",
         "param": 0,
-        "min": 88,
-        "max": 88
+        "min": 50,
+        "max": 80
       },
       {
         "prop": "res-cold",
@@ -3559,14 +3972,14 @@
       {
         "prop": "mana",
         "param": 0,
-        "min": 30,
-        "max": 30
+        "min": 25,
+        "max": 35
       },
       {
         "prop": "hp",
         "param": 0,
-        "min": 60,
-        "max": 60
+        "min": 50,
+        "max": 65
       },
       {
         "prop": "ac",
@@ -3577,19 +3990,19 @@
       {
         "prop": "res-all",
         "param": 0,
-        "min": 15,
-        "max": 15
+        "min": 10,
+        "max": 20
       },
       {
         "prop": "lifesteal",
         "param": 0,
-        "min": 10,
+        "min": 6,
         "max": 10
       },
       {
         "prop": "manasteal",
         "param": 0,
-        "min": 10,
+        "min": 6,
         "max": 10
       }
     ],
@@ -3624,7 +4037,7 @@
         "prop": "sock",
         "param": 0,
         "min": 2,
-        "max": 2
+        "max": 3
       },
       {
         "prop": "ease",
@@ -3635,14 +4048,14 @@
       {
         "prop": "mag%",
         "param": 0,
-        "min": 20,
-        "max": 30
+        "min": 30,
+        "max": 50
       },
       {
         "prop": "res-all",
         "param": 0,
-        "min": 5,
-        "max": 5
+        "min": 15,
+        "max": 25
       }
     ],
     "setModifiers": [
@@ -3674,21 +4087,21 @@
         "max": 500
       },
       {
-        "prop": "skilltab",
-        "param": 11,
-        "min": 2,
+        "prop": "pal",
+        "param": 0,
+        "min": 1,
         "max": 2
       },
       {
         "prop": "sock",
         "param": 0,
-        "min": 3,
+        "min": 2,
         "max": 3
       },
       {
         "prop": "str",
         "param": 0,
-        "min": 20,
+        "min": 10,
         "max": 20
       },
       {
@@ -3699,7 +4112,14 @@
       }
     ],
     "setModifiers": [
-      [],
+      [
+        {
+          "prop": "cast2",
+          "param": 0,
+          "min": 30,
+          "max": 30
+        }
+      ],
       [],
       [],
       [],
@@ -3742,6 +4162,12 @@
         "param": 0,
         "min": 3,
         "max": 4
+      },
+      {
+        "prop": "splash",
+        "param": 358,
+        "min": 100,
+        "max": 1
       }
     ],
     "setModifiers": [
@@ -3788,9 +4214,9 @@
       },
       {
         "prop": "sock",
-        "param": 3,
-        "min": 0,
-        "max": 0
+        "param": 0,
+        "min": 2,
+        "max": 3
       },
       {
         "prop": "block2",
@@ -3807,8 +4233,14 @@
       {
         "prop": "res-all",
         "param": 0,
-        "min": 45,
+        "min": 35,
         "max": 45
+      },
+      {
+        "prop": "cast2",
+        "param": 0,
+        "min": 35,
+        "max": 35
       }
     ],
     "setModifiers": [
@@ -3841,8 +4273,8 @@
       {
         "prop": "thorns",
         "param": 0,
-        "min": 20,
-        "max": 20
+        "min": 420,
+        "max": 620
       },
       {
         "prop": "mana",
@@ -3853,8 +4285,8 @@
       {
         "prop": "regen",
         "param": 0,
-        "min": 5,
-        "max": 5
+        "min": 20,
+        "max": 30
       }
     ],
     "setModifiers": [
@@ -3894,6 +4326,12 @@
         "prop": "skilltab",
         "param": 8,
         "min": 2,
+        "max": 2
+      },
+      {
+        "prop": "skill",
+        "param": 367,
+        "min": 1,
         "max": 2
       },
       {
@@ -3947,14 +4385,14 @@
       {
         "prop": "str",
         "param": 0,
-        "min": 25,
-        "max": 25
+        "min": 20,
+        "max": 28
       },
       {
         "prop": "dex",
         "param": 0,
-        "min": 15,
-        "max": 15
+        "min": 10,
+        "max": 18
       },
       {
         "prop": "res-fire",
@@ -3993,10 +4431,10 @@
       ],
       [
         {
-          "prop": "regen",
+          "prop": "cast2",
           "param": 0,
-          "min": 15,
-          "max": 15
+          "min": 30,
+          "max": 30
         }
       ],
       [],
@@ -4033,6 +4471,12 @@
         "param": 6,
         "min": 2,
         "max": 2
+      },
+      {
+        "prop": "extra-pois",
+        "param": 0,
+        "min": 10,
+        "max": 15
       }
     ],
     "setModifiers": [
@@ -4040,10 +4484,10 @@
       [],
       [
         {
-          "prop": "extra-pois",
-          "param": 0,
-          "min": 25,
-          "max": 25
+          "prop": "oskill",
+          "param": 56,
+          "min": 20,
+          "max": 20
         }
       ],
       [],
@@ -4072,14 +4516,14 @@
       {
         "prop": "regen",
         "param": 0,
-        "min": 5,
-        "max": 5
+        "min": 10,
+        "max": 20
       },
       {
         "prop": "hp",
         "param": 0,
-        "min": 66,
-        "max": 66
+        "min": 56,
+        "max": 76
       },
       {
         "prop": "nofreeze",
@@ -4131,8 +4575,8 @@
       {
         "prop": "regen",
         "param": 0,
-        "min": 10,
-        "max": 10
+        "min": 5,
+        "max": 15
       },
       {
         "prop": "swing2",
@@ -4144,7 +4588,7 @@
         "prop": "mana",
         "param": 0,
         "min": 25,
-        "max": 25
+        "max": 45
       }
     ],
     "setModifiers": [
@@ -4172,7 +4616,14 @@
           "max": 25
         }
       ],
-      [],
+      [
+        {
+          "prop": "extra-fire",
+          "param": 0,
+          "min": 15,
+          "max": 15
+        }
+      ],
       []
     ]
   },
@@ -4187,7 +4638,7 @@
         "prop": "gethit-skill",
         "param": 55,
         "min": 10,
-        "max": 3
+        "max": 13
       },
       {
         "prop": "ease",
@@ -4202,9 +4653,9 @@
         "max": 12
       },
       {
-        "prop": "skilltab",
-        "param": 1,
-        "min": 2,
+        "prop": "ama",
+        "param": 0,
+        "min": 1,
         "max": 2
       },
       {
@@ -4221,7 +4672,14 @@
       }
     ],
     "setModifiers": [
-      [],
+      [
+        {
+          "prop": "move2",
+          "param": 0,
+          "min": 30,
+          "max": 30
+        }
+      ],
       [
         {
           "prop": "balance2",
@@ -4251,11 +4709,11 @@
       {
         "prop": "dmg-cold",
         "param": 150,
-        "min": 6,
-        "max": 18
+        "min": 12,
+        "max": 36
       },
       {
-        "prop": "half-freeze",
+        "prop": "nofreeze",
         "param": 0,
         "min": 1,
         "max": 1
@@ -4269,14 +4727,14 @@
       {
         "prop": "str",
         "param": 0,
-        "min": 10,
-        "max": 10
+        "min": 8,
+        "max": 12
       },
       {
         "prop": "dex",
         "param": 0,
-        "min": 15,
-        "max": 15
+        "min": 10,
+        "max": 20
       }
     ],
     "setModifiers": [
@@ -4294,8 +4752,8 @@
         {
           "prop": "extra-cold",
           "param": 0,
-          "min": 20,
-          "max": 20
+          "min": 15,
+          "max": 15
         }
       ],
       []
@@ -4323,8 +4781,8 @@
       {
         "prop": "manasteal",
         "param": 0,
-        "min": 5,
-        "max": 5
+        "min": 3,
+        "max": 6
       },
       {
         "prop": "light",
@@ -4358,8 +4816,8 @@
       {
         "prop": "dmg%",
         "param": 0,
-        "min": 188,
-        "max": 188
+        "min": 230,
+        "max": 288
       },
       {
         "prop": "swing3",
@@ -4368,16 +4826,10 @@
         "max": 40
       },
       {
-        "prop": "magicarrow",
-        "param": 0,
-        "min": 1,
-        "max": 1
-      },
-      {
         "prop": "att",
         "param": 0,
         "min": 50,
-        "max": 50
+        "max": 150
       }
     ],
     "setModifiers": [
@@ -4385,8 +4837,8 @@
         {
           "prop": "dmg-mag",
           "param": 0,
-          "min": 114,
-          "max": 377
+          "min": 228,
+          "max": 754
         }
       ],
       [
@@ -4394,7 +4846,7 @@
           "prop": "hit-skill",
           "param": 48,
           "min": 10,
-          "max": 15
+          "max": 25
         }
       ],
       [
@@ -4437,8 +4889,8 @@
       {
         "prop": "thorns",
         "param": 0,
-        "min": 8,
-        "max": 10
+        "min": 24,
+        "max": 30
       }
     ],
     "setModifiers": [
@@ -4460,7 +4912,7 @@
         "prop": "ac",
         "param": 0,
         "min": 25,
-        "max": 25
+        "max": 50
       },
       {
         "prop": "swing2",
@@ -4471,26 +4923,33 @@
       {
         "prop": "res-fire",
         "param": 0,
-        "min": 50,
+        "min": 30,
         "max": 50
       },
       {
         "prop": "dmg-demon",
         "param": 0,
-        "min": 350,
-        "max": 350
+        "min": 150,
+        "max": 200
       },
       {
         "prop": "hit-skill",
         "param": 101,
         "min": 10,
-        "max": 3
+        "max": 13
       }
     ],
     "setModifiers": [
       [],
       [],
-      [],
+      [
+        {
+          "prop": "dmg-pois",
+          "param": 50,
+          "min": 1127,
+          "max": 1127
+        }
+      ],
       [],
       []
     ]
@@ -4515,7 +4974,7 @@
         "max": 30
       },
       {
-        "prop": "half-freeze",
+        "prop": "nofreeze",
         "param": 0,
         "min": 1,
         "max": 1
@@ -4552,19 +5011,25 @@
         "prop": "res-fire",
         "param": 0,
         "min": 24,
-        "max": 24
+        "max": 34
       },
       {
         "prop": "gethit-skill",
         "param": 48,
         "min": 25,
-        "max": 3
+        "max": 23
       },
       {
         "prop": "dmg-pois",
         "param": 50,
-        "min": 125,
-        "max": 175
+        "min": 2458,
+        "max": 3482
+      },
+      {
+        "prop": "dmg-undead",
+        "param": 0,
+        "min": 100,
+        "max": 200
       }
     ],
     "setModifiers": [
@@ -4637,19 +5102,38 @@
       {
         "prop": "hit-skill",
         "param": 44,
-        "min": 10,
-        "max": 3
+        "min": 23,
+        "max": 31
       },
       {
-        "prop": "dmg-fire",
+        "prop": "fire-min",
         "param": 0,
-        "min": 20,
-        "max": 30
+        "min": 40,
+        "max": 60
+      },
+      {
+        "prop": "fire-max",
+        "param": 0,
+        "min": 70,
+        "max": 100
+      },
+      {
+        "prop": "splash",
+        "param": 358,
+        "min": 100,
+        "max": 1
       }
     ],
     "setModifiers": [
       [],
-      [],
+      [
+        {
+          "prop": "allskills",
+          "param": 0,
+          "min": 1,
+          "max": 1
+        }
+      ],
       [],
       [],
       []
@@ -4665,26 +5149,26 @@
       {
         "prop": "ac",
         "param": 0,
-        "min": 50,
-        "max": 50
+        "min": 300,
+        "max": 500
       },
       {
         "prop": "mana",
         "param": 0,
         "min": 100,
-        "max": 100
+        "max": 120
       },
       {
         "prop": "res-ltng",
         "param": 0,
-        "min": 30,
+        "min": 25,
         "max": 30
       },
       {
         "prop": "thorns",
         "param": 0,
-        "min": 30,
-        "max": 30
+        "min": 380,
+        "max": 560
       },
       {
         "prop": "indestruct",
@@ -4703,11 +5187,24 @@
         "param": 0,
         "min": 30,
         "max": 30
+      },
+      {
+        "prop": "cast2",
+        "param": 0,
+        "min": 40,
+        "max": 40
       }
     ],
     "setModifiers": [
       [],
-      [],
+      [
+        {
+          "prop": "allskills",
+          "param": 0,
+          "min": 1,
+          "max": 1
+        }
+      ],
       [],
       [],
       []
@@ -4729,30 +5226,43 @@
       {
         "prop": "ac-miss",
         "param": 0,
-        "min": 35,
-        "max": 35
+        "min": 100,
+        "max": 350
       },
       {
         "prop": "hp",
         "param": 0,
-        "min": 75,
-        "max": 75
+        "min": 50,
+        "max": 100
       },
       {
         "prop": "ac-hth",
         "param": 0,
-        "min": 40,
-        "max": 40
+        "min": 200,
+        "max": 400
       },
       {
         "prop": "ease",
         "param": 0,
         "min": -20,
         "max": -20
+      },
+      {
+        "prop": "allskills",
+        "param": 0,
+        "min": 1,
+        "max": 1
       }
     ],
     "setModifiers": [
-      [],
+      [
+        {
+          "prop": "cast2",
+          "param": 0,
+          "min": 20,
+          "max": 20
+        }
+      ],
       [],
       [],
       [],
@@ -4770,41 +5280,54 @@
         "prop": "ac",
         "param": 0,
         "min": 50,
-        "max": 50
+        "max": 150
       },
       {
         "prop": "ease",
         "param": 0,
-        "min": -40,
-        "max": -40
+        "min": -15,
+        "max": -15
       },
       {
         "prop": "hit-skill",
         "param": 72,
         "min": 10,
-        "max": 3
+        "max": 13
       },
       {
         "prop": "str",
         "param": 0,
         "min": 10,
-        "max": 10
+        "max": 15
       },
       {
         "prop": "dex",
         "param": 0,
-        "min": 15,
-        "max": 15
+        "min": 10,
+        "max": 20
       },
       {
         "prop": "balance3",
         "param": 0,
         "min": 24,
         "max": 24
+      },
+      {
+        "prop": "allskills",
+        "param": 0,
+        "min": 1,
+        "max": 2
       }
     ],
     "setModifiers": [
-      [],
+      [
+        {
+          "prop": "cast2",
+          "param": 0,
+          "min": 20,
+          "max": 20
+        }
+      ],
       [],
       [],
       [],
@@ -4873,25 +5396,32 @@
       {
         "prop": "manasteal",
         "param": 0,
-        "min": 5,
-        "max": 5
+        "min": 4,
+        "max": 6
       },
       {
         "prop": "res-cold",
         "param": 0,
         "min": 10,
-        "max": 10
+        "max": 20
       },
       {
         "prop": "lifesteal",
         "param": 0,
-        "min": 5,
-        "max": 5
+        "min": 4,
+        "max": 6
       }
     ],
     "setModifiers": [
       [],
-      [],
+      [
+        {
+          "prop": "dmg-demon",
+          "param": 0,
+          "min": 80,
+          "max": 80
+        }
+      ],
       [],
       [],
       []
@@ -4933,11 +5463,24 @@
         "param": 0,
         "min": 100,
         "max": 100
+      },
+      {
+        "prop": "pierce",
+        "param": 0,
+        "min": 20,
+        "max": 20
       }
     ],
     "setModifiers": [
       [],
-      [],
+      [
+        {
+          "prop": "dmg-undead",
+          "param": 0,
+          "min": 80,
+          "max": 80
+        }
+      ],
       [],
       [],
       []
@@ -4983,7 +5526,14 @@
     ],
     "setModifiers": [
       [],
-      [],
+      [
+        {
+          "prop": "dmg%",
+          "param": 0,
+          "min": 150,
+          "max": 150
+        }
+      ],
       [],
       [],
       []
@@ -5000,7 +5550,7 @@
         "prop": "regen",
         "param": 0,
         "min": 20,
-        "max": 20
+        "max": 40
       },
       {
         "prop": "red-mag",
@@ -5018,7 +5568,13 @@
         "prop": "ac%",
         "param": 0,
         "min": 100,
-        "max": 100
+        "max": 150
+      },
+      {
+        "prop": "att",
+        "param": 0,
+        "min": 200,
+        "max": 350
       }
     ],
     "setModifiers": [
@@ -5057,8 +5613,8 @@
       {
         "prop": "gethit-skill",
         "param": 42,
-        "min": 10,
-        "max": 3
+        "min": 20,
+        "max": 9
       }
     ],
     "setModifiers": [
@@ -5080,7 +5636,7 @@
         "prop": "dmg-ltng",
         "param": 0,
         "min": 3,
-        "max": 33
+        "max": 330
       },
       {
         "prop": "noheal",
@@ -5099,6 +5655,12 @@
         "param": 0,
         "min": 12,
         "max": 12
+      },
+      {
+        "prop": "abs-ltng%",
+        "param": 0,
+        "min": 3,
+        "max": 6
       }
     ],
     "setModifiers": [
@@ -5144,18 +5706,31 @@
         "prop": "dmg%",
         "param": 0,
         "min": 200,
-        "max": 200
+        "max": 250
       },
       {
         "prop": "dmg-ltng",
         "param": 0,
         "min": 5,
         "max": 25
+      },
+      {
+        "prop": "splash",
+        "param": 358,
+        "min": 100,
+        "max": 1
       }
     ],
     "setModifiers": [
       [],
-      [],
+      [
+        {
+          "prop": "hit-skill",
+          "param": 42,
+          "min": 20,
+          "max": 16
+        }
+      ],
       [],
       [],
       []
@@ -5172,13 +5747,13 @@
         "prop": "dmg%",
         "param": 0,
         "min": 150,
-        "max": 150
+        "max": 250
       },
       {
         "prop": "dmg-cold",
         "param": 50,
-        "min": 25,
-        "max": 35
+        "min": 125,
+        "max": 175
       },
       {
         "prop": "swing3",
@@ -5209,10 +5784,29 @@
         "param": 0,
         "min": 5,
         "max": 5
+      },
+      {
+        "prop": "splash",
+        "param": 358,
+        "min": 100,
+        "max": 1
+      },
+      {
+        "prop": "ethereal",
+        "param": 0,
+        "min": 1,
+        "max": 1
       }
     ],
     "setModifiers": [
-      [],
+      [
+        {
+          "prop": "heal-kill",
+          "param": 0,
+          "min": 7,
+          "max": 14
+        }
+      ],
       [],
       [],
       [],
@@ -5255,10 +5849,23 @@
         "param": 0,
         "min": 50,
         "max": 75
+      },
+      {
+        "prop": "dmg-demon",
+        "param": 0,
+        "min": 75,
+        "max": 150
       }
     ],
     "setModifiers": [
-      [],
+      [
+        {
+          "prop": "regen",
+          "param": 0,
+          "min": 30,
+          "max": 30
+        }
+      ],
       [],
       [],
       [],
@@ -5298,7 +5905,14 @@
       }
     ],
     "setModifiers": [
-      [],
+      [
+        {
+          "prop": "regen",
+          "param": 0,
+          "min": 15,
+          "max": 15
+        }
+      ],
       [],
       [],
       [],
@@ -5331,16 +5945,16 @@
         "max": 20
       },
       {
-        "prop": "knock",
-        "param": 0,
-        "min": 1,
-        "max": 1
-      },
-      {
         "prop": "dmg%",
         "param": 0,
-        "min": 200,
-        "max": 200
+        "min": 275,
+        "max": 375
+      },
+      {
+        "prop": "splash",
+        "param": 358,
+        "min": 100,
+        "max": 1
       }
     ],
     "setModifiers": [
@@ -5353,13 +5967,13 @@
   },
   {
     "name": "Bul-Kathos' Tribal Guardian",
-    "code": "7wd",
+    "code": "7fb",
     "set": "Bul-Kathos' Children",
     "qlevel": 50,
     "levelReq": 54,
     "baseModifiers": [
       {
-        "prop": "res-fire",
+        "prop": "res-cold",
         "param": 0,
         "min": 50,
         "max": 50
@@ -5367,8 +5981,8 @@
       {
         "prop": "dmg-pois",
         "param": 50,
-        "min": 255,
-        "max": 255
+        "min": 768,
+        "max": 768
       },
       {
         "prop": "swing2",
@@ -5385,12 +5999,71 @@
       {
         "prop": "dmg%",
         "param": 0,
-        "min": 200,
-        "max": 200
+        "min": 275,
+        "max": 375
+      },
+      {
+        "prop": "splash",
+        "param": 358,
+        "min": 100,
+        "max": 1
+      },
+      {
+        "prop": "deadly",
+        "param": 0,
+        "min": 20,
+        "max": 20
       }
     ],
     "setModifiers": [
       [],
+      [],
+      [],
+      [],
+      []
+    ]
+  },
+  {
+    "name": "Bul-Kathos' Death Band",
+    "code": "rin",
+    "set": "Bul-Kathos' Children",
+    "qlevel": 50,
+    "levelReq": 69,
+    "baseModifiers": [
+      {
+        "prop": "dmg%",
+        "param": 0,
+        "min": 15,
+        "max": 30
+      },
+      {
+        "prop": "att",
+        "param": 0,
+        "min": 100,
+        "max": 100
+      },
+      {
+        "prop": "res-ltng",
+        "param": 0,
+        "min": 10,
+        "max": 20
+      },
+      {
+        "prop": "red-dmg%",
+        "param": 0,
+        "min": 4,
+        "max": 6
+      }
+    ],
+    "setModifiers": [
+      [
+        {
+          "prop": "nofreeze",
+          "param": 0,
+          "min": 1,
+          "max": 1
+        }
+      ],
       [],
       [],
       [],
@@ -5411,7 +6084,7 @@
         "max": 75
       },
       {
-        "prop": "half-freeze",
+        "prop": "nofreeze",
         "param": 0,
         "min": 1,
         "max": 1
@@ -5427,6 +6100,12 @@
         "param": 0,
         "min": 10,
         "max": 10
+      },
+      {
+        "prop": "allskills",
+        "param": 0,
+        "min": 1,
+        "max": 1
       }
     ],
     "setModifiers": [
@@ -5544,15 +6223,15 @@
       },
       {
         "prop": "charged",
-        "param": 54,
-        "min": 69,
-        "max": 11
+        "param": 357,
+        "min": 3,
+        "max": 1
       },
       {
         "prop": "cast3",
         "param": 0,
-        "min": 30,
-        "max": 30
+        "min": 50,
+        "max": 50
       },
       {
         "prop": "dmg-ltng",
@@ -5570,6 +6249,18 @@
         "prop": "allskills",
         "param": 0,
         "min": 1,
+        "max": 1
+      },
+      {
+        "prop": "rep-charge",
+        "param": 33,
+        "min": 0,
+        "max": 0
+      },
+      {
+        "prop": "splash",
+        "param": 358,
+        "min": 100,
         "max": 1
       }
     ],
@@ -5669,10 +6360,23 @@
         "param": 53,
         "min": 12,
         "max": 5
+      },
+      {
+        "prop": "cast2",
+        "param": 0,
+        "min": 20,
+        "max": 20
       }
     ],
     "setModifiers": [
-      [],
+      [
+        {
+          "prop": "allskills",
+          "param": 0,
+          "min": 1,
+          "max": 1
+        }
+      ],
       [],
       [],
       [],
@@ -5690,7 +6394,7 @@
         "prop": "mag%",
         "param": 0,
         "min": 35,
-        "max": 35
+        "max": 70
       },
       {
         "prop": "thorns",
@@ -5781,8 +6485,8 @@
       {
         "prop": "dmg-pois",
         "param": 75,
-        "min": 30,
-        "max": 36
+        "min": 92,
+        "max": 113
       }
     ],
     "setModifiers": [
@@ -5832,7 +6536,20 @@
       }
     ],
     "setModifiers": [
-      [],
+      [
+        {
+          "prop": "allskills",
+          "param": 0,
+          "min": 2,
+          "max": 2
+        },
+        {
+          "prop": "splash",
+          "param": 358,
+          "min": 100,
+          "max": 1
+        }
+      ],
       [],
       [],
       [],
