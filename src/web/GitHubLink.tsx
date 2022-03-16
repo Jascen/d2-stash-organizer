@@ -2,7 +2,7 @@ export function GitHubLink() {
   return (
     <a
       style="float: right"
-      href="https://github.com/youdz/d2-stash-organizer"
+      href="https://github.com/Jascen/d2-stash-organizer"
       aria-label="Source code on GitHub"
       target="_blank"
     >
