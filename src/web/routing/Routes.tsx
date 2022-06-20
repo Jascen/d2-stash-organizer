@@ -16,17 +16,16 @@ function NavLink({
   isHome,
   children,
   disabled,
-}: RenderableProps<{ hash: string; isHome?: boolean, disabled?: boolean }>) {
+}: RenderableProps<{ hash: string; isHome?: boolean; disabled?: boolean }>) {
   const isActive = location.hash === hash || (isHome && location.hash === "");
-  return (
-    disabled ?
-      <a class={"nav-link danger"} title="Currently not supported">
-        {children}
-      </a>
-      :
-      <a class={isActive ? "nav-link active" : "nav-link"} href={hash}>
-        {children}
-      </a>
+  return disabled ? (
+    <a class={"nav-link danger"} title="Currently not supported">
+      {children}
+    </a>
+  ) : (
+    <a class={isActive ? "nav-link active" : "nav-link"} href={hash}>
+      {children}
+    </a>
   );
 }
 
@@ -67,10 +66,10 @@ export function Routes() {
         <NavLink hash="#saves">Save files</NavLink>
         <NavLink hash="#collection">Collection</NavLink>
         <NavLink hash="#characters">Characters</NavLink>
-        <NavLink disabled hash="#transfer">
+        <NavLink hash="#transfer">
           Transfer {selectedItems.size ? selectedItems.size : ""} items
         </NavLink>
-        <NavLink disabled hash="#organize">Organize PlugY stash</NavLink>
+        <NavLink hash="#organize">Organize PlugY stash</NavLink>
         <NavLink hash="#grail-tracker">Grail tracker</NavLink>
         <NavLink hash="#settings">Settings</NavLink>
       </nav>

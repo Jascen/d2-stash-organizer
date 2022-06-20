@@ -9,6 +9,8 @@ export function characterToSaveFile(character: Character) {
   // We don't know either the file size or the checksum yet, we will write them at the end.
   writer.skip(8);
   writer.write(character.characterData);
+
+  writer.skip(3); // DU: 3 bytes reserved for new PD2 skills
   writeItemList(
     writer,
     character.items.filter((item) => !item.mercenary && !item.corpse)

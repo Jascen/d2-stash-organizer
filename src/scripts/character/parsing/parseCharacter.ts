@@ -38,7 +38,7 @@ export function parseCharacter(
   character.characterData = reader.read(reader.nextIndex - 16, 16);
 
   // Items on the character or in stash
-  reader.readString(3); // 3 bytes reserved for new PD2 skills
+  reader.readString(3); // DU: 3 bytes reserved for new PD2 skills
   character.items.push(...parseItemList(reader, character));
 
   // Items on a corpse
