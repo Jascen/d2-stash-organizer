@@ -22,8 +22,10 @@ export function FilePicker({
       const usableFiles = [];
       for (const file of input.current.files) {
         // Only use the root files in case there is a backup folder
-        if (file.webkitRelativePath.split("/").length > 2
-          || file.name.endsWith(".d2i")) {
+        if (
+          file.webkitRelativePath.split("/").length > 2
+          || file.name.endsWith(".d2i")
+        ) {
           console.log("Skipping file: " + file.webkitRelativePath);
           continue;
         }
@@ -31,31 +33,35 @@ export function FilePicker({
         if (file.name.endsWith(".d2x") || file.name.endsWith(".sss")) {
           usableFiles.push({
             isStash: true,
-            file
+            file,
           });
-        } else if (file.name.endsWith('.d2s')) {
+        } else if (file.name.endsWith(".d2s")) {
           usableFiles.push({
             isStash: false,
-            file
+            file,
           });
         }
       }
 
       if (folder) {
-        await writeAllFiles(usableFiles.map(original => original.file));
+        await writeAllFiles(usableFiles.map((original) => original.file));
 
         setCollection(
-          await Promise.all(usableFiles.map(async (original) => {
-            const file = await parseSaveFile(original.file);
+          await Promise.all(
+            usableFiles.map(async (original) => {
+              const file = await parseSaveFile(original.file);
 
-            // PD2 + PlugY seems to be storing the 1st tab of the Personal Stash inside the d2s file AND the whole stash in the d2x file.
-            if (!original.isStash) {
-              const character = file as Character;
-              character.items = character.items.filter(item => item.stored !== ItemStorageType.STASH)
-            }
+              // PD2 + PlugY seems to be storing the 1st tab of the Personal Stash inside the d2s file AND the whole stash in the d2x file.
+              if (!original.isStash) {
+                const character = file as Character;
+                character.items = character.items.filter(
+                  (item) => item.stored !== ItemStorageType.STASH
+                );
+              }
 
-            return file;
-          }))
+              return file;
+            })
+          )
         );
       } else {
         const original = usableFiles[0];
@@ -66,7 +72,9 @@ export function FilePicker({
         // PD2 + PlugY seems to be storing the 1st tab of the Personal Stash inside the d2s file AND the whole stash in the d2x file.
         if (!original.isStash) {
           const character = file as Character;
-          character.items = character.items.filter(item => item.stored !== ItemStorageType.STASH)
+          character.items = character.items.filter(
+            item => item.stored !== ItemStorageType.STASH
+          );
         }
 
         setSingleFile(file);
