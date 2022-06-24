@@ -16,6 +16,18 @@ export function organizeUnknown(stash: PlugyStash, items: Item[]) {
       makeIndex(page, true);
     }
   }
+
+  if (items.length) {
+    console.warn("Unrecognized items: ", items.reduce<any>((acc, item) => {
+      acc[item.code] = {
+        code: item.code,
+        name: item.name
+      };
+
+      return acc;
+    }, {}));
+  }
+
   for (const [item, { page, rows, cols }] of positions.entries()) {
     moveItem(stash, item, offset + page, rows[0], cols[0]);
   }
