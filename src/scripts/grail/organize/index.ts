@@ -14,6 +14,7 @@ import { organizeUniques } from "./uniques";
 import { organizeRespecs } from "./respecs";
 import { organizeUbers } from "./ubers";
 import { addPage } from "../../plugy-stash/addPage";
+import { organizeConsumables } from "./consumables";
 
 /**
  * Counts every item, even socketed ones.
@@ -52,8 +53,8 @@ export function organize(
       case "rejuvs":
         organizeRejuvs(stash, items);
         break;
-      case "respecs":
-        organizeRespecs(stash, items);
+      case "consumables":
+        organizeConsumables(stash, items);
         break;
       case "ubers":
         organizeUbers(stash, items);
@@ -74,7 +75,7 @@ export function organize(
         organizeUniques(stash, items);
         break;
       default:
-        throw new Error(`Unknown section sectionId`);
+        throw new Error(`Unknown section sectionId: ${sectionId}`);
     }
   }
   if (countEveryItem(getAllItems(stash)) !== expectedTotal) {

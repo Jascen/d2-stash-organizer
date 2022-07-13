@@ -8,6 +8,8 @@ import { moveItem } from "../../items/moving/safeMove";
 export function organizeUnknown(stash: PlugyStash, items: Item[]) {
   if (items.length === 0) return;
 
+  items.sort((a, b) => a.code.localeCompare(b.code));
+
   const offset = stash.pages.length;
   const { nbPages, positions } = layout("lines", [items]);
   for (let i = 0; i < nbPages; i++) {
@@ -18,14 +20,17 @@ export function organizeUnknown(stash: PlugyStash, items: Item[]) {
   }
 
   if (items.length) {
-    console.warn("Unrecognized items: ", items.reduce<any>((acc, item) => {
-      acc[item.code] = {
-        code: item.code,
-        name: item.name
-      };
+    console.warn(
+      "Unrecognized items: ",
+      items.reduce<any>((acc, item) => {
+        acc[item.code] = {
+          code: item.code,
+          name: item.name,
+        };
 
-      return acc;
-    }, {}));
+        return acc;
+      }, {})
+    );
   }
 
   for (const [item, { page, rows, cols }] of positions.entries()) {

@@ -291,7 +291,7 @@
         "prop": "gethit-skill",
         "param": 442,
         "min": 65,
-        "max": 20
+        "max": 31
       },
       {
         "prop": "knock",
@@ -410,14 +410,14 @@
       {
         "prop": "oskill",
         "param": 149,
-        "min": 1,
+        "min": 2,
         "max": 6
       },
       {
         "prop": "oskill",
         "param": 146,
         "min": 1,
-        "max": 4
+        "max": 3
       },
       {
         "prop": "regen",
@@ -518,10 +518,10 @@
         "max": 471
       },
       {
-        "prop": "oskill",
-        "param": 151,
-        "min": 5,
-        "max": 5
+        "prop": "skill",
+        "param": 380,
+        "min": 2,
+        "max": 2
       },
       {
         "prop": "hit-skill",
@@ -835,9 +835,9 @@
         "max": 2
       },
       {
-        "prop": "hit-skill",
+        "prop": "cast-skill",
         "param": 229,
-        "min": 5,
+        "min": 10,
         "max": 28
       }
     ]
@@ -891,8 +891,8 @@
       {
         "prop": "extra-hydra",
         "param": 0,
-        "min": 3,
-        "max": 3
+        "min": 1,
+        "max": 1
       }
     ]
   },
@@ -1137,10 +1137,10 @@
     "levelReq": 45,
     "modifiers": [
       {
-        "prop": "hit-skill",
+        "prop": "cast-skill",
         "param": 47,
-        "min": 5,
-        "max": 15
+        "min": 10,
+        "max": 18
       },
       {
         "prop": "gethit-skill",
@@ -1274,7 +1274,7 @@
       },
       {
         "prop": "hit-skill",
-        "param": 442,
+        "param": 446,
         "min": 25,
         "max": 18
       },
@@ -1356,7 +1356,7 @@
         "prop": "pierce-cold",
         "param": 0,
         "min": 10,
-        "max": 20
+        "max": 15
       },
       {
         "prop": "swing2",
@@ -1368,34 +1368,75 @@
         "prop": "pierce-fire",
         "param": 0,
         "min": 10,
-        "max": 20
+        "max": 15
       },
       {
         "prop": "pierce-ltng",
         "param": 0,
         "min": 10,
-        "max": 20
+        "max": 15
       },
       {
         "prop": "dmg-elem",
         "param": 100,
-        "min": 150,
-        "max": 300
+        "min": 100,
+        "max": 225
       },
       {
-        "prop": "indestruct",
+        "prop": "dmg-fire",
         "param": 0,
-        "min": 1,
-        "max": 1
+        "min": 25,
+        "max": 25
       }
     ]
   },
   {
     "name": "Flame",
-    "enabled": false,
-    "runes": [],
-    "levelReq": 0,
-    "modifiers": []
+    "enabled": true,
+    "runes": [
+      "r04",
+      "r21",
+      "r26"
+    ],
+    "levelReq": 55,
+    "modifiers": [
+      {
+        "prop": "aura",
+        "param": 100,
+        "min": 1,
+        "max": 6
+      },
+      {
+        "prop": "fireskill",
+        "param": 0,
+        "min": 2,
+        "max": 2
+      },
+      {
+        "prop": "pierce-fire",
+        "param": 0,
+        "min": 5,
+        "max": 10
+      },
+      {
+        "prop": "mana",
+        "param": 0,
+        "min": 65,
+        "max": 75
+      },
+      {
+        "prop": "half-freeze",
+        "param": 0,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "prop": "res-pois-len",
+        "param": 0,
+        "min": 25,
+        "max": 25
+      }
+    ]
   },
   {
     "name": "Fortitude",
@@ -1596,13 +1637,13 @@
       {
         "prop": "dmg-min",
         "param": 0,
-        "min": 200,
+        "min": 220,
         "max": 240
       },
       {
         "prop": "dmg-max",
         "param": 0,
-        "min": 260,
+        "min": 280,
         "max": 300
       },
       {
@@ -2028,9 +2069,9 @@
         "max": 12
       },
       {
-        "prop": "kill-skill",
+        "prop": "cast-skill",
         "param": 49,
-        "min": 50,
+        "min": 15,
         "max": 20
       },
       {
@@ -2040,10 +2081,10 @@
         "max": 55
       },
       {
-        "prop": "oskill",
+        "prop": "cast-skill",
         "param": 235,
-        "min": 3,
-        "max": 3
+        "min": 2,
+        "max": 15
       }
     ]
   },
@@ -2256,8 +2297,8 @@
       {
         "prop": "dmg%",
         "param": 0,
-        "min": 350,
-        "max": 400
+        "min": 330,
+        "max": 375
       },
       {
         "prop": "att-skill",
@@ -2269,7 +2310,7 @@
         "prop": "hit-skill",
         "param": 445,
         "min": 10,
-        "max": 18
+        "max": 11
       },
       {
         "prop": "gethit-skill",
@@ -2334,7 +2375,7 @@
       },
       {
         "prop": "hit-skill",
-        "param": 442,
+        "param": 446,
         "min": 20,
         "max": 15
       },
@@ -2682,10 +2723,53 @@
   },
   {
     "name": "Mist",
-    "enabled": false,
-    "runes": [],
-    "levelReq": 0,
-    "modifiers": []
+    "enabled": true,
+    "runes": [
+      "r32",
+      "r13",
+      "r25",
+      "r10",
+      "r06"
+    ],
+    "levelReq": 67,
+    "modifiers": [
+      {
+        "prop": "aura",
+        "param": 113,
+        "min": 8,
+        "max": 12
+      },
+      {
+        "prop": "allskills",
+        "param": 0,
+        "min": 2,
+        "max": 2
+      },
+      {
+        "prop": "res-all",
+        "param": 0,
+        "min": 40,
+        "max": 40
+      },
+      {
+        "prop": "vit",
+        "param": 0,
+        "min": 20,
+        "max": 30
+      },
+      {
+        "prop": "pierce",
+        "param": 0,
+        "min": 100,
+        "max": 100
+      },
+      {
+        "prop": "dmg%",
+        "param": 0,
+        "min": 325,
+        "max": 375
+      }
+    ]
   },
   {
     "name": "Morning",
@@ -2744,8 +2828,8 @@
       {
         "prop": "mana-kill",
         "param": 0,
-        "min": 1,
-        "max": 3
+        "min": 3,
+        "max": 4
       }
     ]
   },
@@ -2852,10 +2936,10 @@
         "max": 1
       },
       {
-        "prop": "oskill",
+        "prop": "charged",
         "param": 236,
-        "min": 8,
-        "max": 8
+        "min": 20,
+        "max": 16
       },
       {
         "prop": "abs-mag",
@@ -2930,10 +3014,60 @@
   },
   {
     "name": "Obsession",
-    "enabled": false,
-    "runes": [],
-    "levelReq": 0,
-    "modifiers": []
+    "enabled": true,
+    "runes": [
+      "r33",
+      "r24",
+      "r20",
+      "r17",
+      "r16",
+      "r04"
+    ],
+    "levelReq": 69,
+    "modifiers": [
+      {
+        "prop": "allskills",
+        "param": 0,
+        "min": 4,
+        "max": 4
+      },
+      {
+        "prop": "cast2",
+        "param": 0,
+        "min": 15,
+        "max": 15
+      },
+      {
+        "prop": "cast-skill",
+        "param": 72,
+        "min": 24,
+        "max": 10
+      },
+      {
+        "prop": "hp%",
+        "param": 0,
+        "min": 15,
+        "max": 25
+      },
+      {
+        "prop": "res-all",
+        "param": 0,
+        "min": 60,
+        "max": 70
+      },
+      {
+        "prop": "balance2",
+        "param": 0,
+        "min": 60,
+        "max": 60
+      },
+      {
+        "prop": "regen-mana",
+        "param": 0,
+        "min": 15,
+        "max": 30
+      }
+    ]
   },
   {
     "name": "Passion",
@@ -3190,7 +3324,7 @@
         "prop": "hit-skill",
         "param": 47,
         "min": 20,
-        "max": 22
+        "max": 25
       },
       {
         "prop": "levelup-skill",
@@ -3252,7 +3386,7 @@
         "prop": "gethit-skill",
         "param": 447,
         "min": 20,
-        "max": 12
+        "max": 35
       },
       {
         "prop": "hit-skill",
@@ -3539,19 +3673,19 @@
       {
         "prop": "hit-skill",
         "param": 240,
-        "min": 5,
-        "max": 15
+        "min": 10,
+        "max": 20
       },
       {
         "prop": "gethit-skill",
         "param": 235,
-        "min": 5,
+        "min": 8,
         "max": 15
       },
       {
         "prop": "dru",
         "param": 0,
-        "min": 1,
+        "min": 2,
         "max": 2
       },
       {
@@ -3559,12 +3693,6 @@
         "param": 0,
         "min": 100,
         "max": 150
-      },
-      {
-        "prop": "skilltab",
-        "param": 15,
-        "min": 1,
-        "max": 1
       }
     ]
   },
@@ -3662,13 +3790,13 @@
         "prop": "hit-skill",
         "param": 245,
         "min": 20,
-        "max": 21
+        "max": 25
       },
       {
         "prop": "att-skill",
         "param": 64,
         "min": 16,
-        "max": 21
+        "max": 25
       },
       {
         "prop": "charged",
@@ -4272,9 +4400,9 @@
       },
       {
         "prop": "gethit-skill",
-        "param": 253,
-        "min": 35,
-        "max": 25
+        "param": 273,
+        "min": 15,
+        "max": 21
       },
       {
         "prop": "ass",
@@ -4306,10 +4434,60 @@
   },
   {
     "name": "Unbending Will",
-    "enabled": false,
-    "runes": [],
-    "levelReq": 0,
-    "modifiers": []
+    "enabled": true,
+    "runes": [
+      "r19",
+      "r16",
+      "r06",
+      "r02",
+      "r01",
+      "r15"
+    ],
+    "levelReq": 41,
+    "modifiers": [
+      {
+        "prop": "hit-skill",
+        "param": 137,
+        "min": 8,
+        "max": 18
+      },
+      {
+        "prop": "skilltab",
+        "param": 12,
+        "min": 3,
+        "max": 3
+      },
+      {
+        "prop": "swing2",
+        "param": 0,
+        "min": 20,
+        "max": 30
+      },
+      {
+        "prop": "dmg%",
+        "param": 0,
+        "min": 300,
+        "max": 350
+      },
+      {
+        "prop": "lifesteal",
+        "param": 0,
+        "min": 8,
+        "max": 10
+      },
+      {
+        "prop": "red-dmg",
+        "param": 0,
+        "min": 8,
+        "max": 8
+      },
+      {
+        "prop": "noheal",
+        "param": 0,
+        "min": 1,
+        "max": 1
+      }
+    ]
   },
   {
     "name": "Valor",
@@ -4342,8 +4520,8 @@
       {
         "prop": "oskill",
         "param": 73,
-        "min": 2,
-        "max": 3
+        "min": 6,
+        "max": 6
       },
       {
         "prop": "ignore-ac",
@@ -4372,7 +4550,7 @@
       {
         "prop": "pierce-pois",
         "param": 0,
-        "min": 10,
+        "min": 20,
         "max": 30
       }
     ]
@@ -4511,8 +4689,8 @@
       {
         "prop": "dmg%",
         "param": 0,
-        "min": 420,
-        "max": 480
+        "min": 350,
+        "max": 400
       },
       {
         "prop": "swing2",
@@ -4542,7 +4720,7 @@
         "prop": "hit-skill",
         "param": 240,
         "min": 18,
-        "max": 25
+        "max": 29
       },
       {
         "prop": "gethit-skill",
@@ -4561,10 +4739,51 @@
   },
   {
     "name": "Wisdom",
-    "enabled": false,
-    "runes": [],
-    "levelReq": 0,
-    "modifiers": []
+    "enabled": true,
+    "runes": [
+      "r21",
+      "r06",
+      "r02"
+    ],
+    "levelReq": 45,
+    "modifiers": [
+      {
+        "prop": "pierce",
+        "param": 0,
+        "min": 33,
+        "max": 33
+      },
+      {
+        "prop": "att%",
+        "param": 0,
+        "min": 15,
+        "max": 25
+      },
+      {
+        "prop": "manasteal",
+        "param": 0,
+        "min": 4,
+        "max": 8
+      },
+      {
+        "prop": "enr",
+        "param": 0,
+        "min": 10,
+        "max": 10
+      },
+      {
+        "prop": "nofreeze",
+        "param": 0,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "prop": "mana-kill",
+        "param": 0,
+        "min": 5,
+        "max": 5
+      }
+    ]
   },
   {
     "name": "Woe",
@@ -4629,7 +4848,7 @@
         "prop": "hit-skill",
         "param": 442,
         "min": 60,
-        "max": 18
+        "max": 31
       },
       {
         "prop": "nofreeze",
@@ -4690,6 +4909,59 @@
         "param": 0,
         "min": 25,
         "max": 25
+      }
+    ]
+  },
+  {
+    "name": "Runeword171",
+    "enabled": true,
+    "runes": [
+      "r32",
+      "r27"
+    ],
+    "levelReq": 67,
+    "modifiers": [
+      {
+        "prop": "skill",
+        "param": 79,
+        "min": 2,
+        "max": 3
+      },
+      {
+        "prop": "cast2",
+        "param": 0,
+        "min": 25,
+        "max": 25
+      },
+      {
+        "prop": "red-dmg",
+        "param": 0,
+        "min": 5,
+        "max": 7
+      },
+      {
+        "prop": "res-cold",
+        "param": 0,
+        "min": 30,
+        "max": 30
+      },
+      {
+        "prop": "nec",
+        "param": 0,
+        "min": 2,
+        "max": 2
+      },
+      {
+        "prop": "ac",
+        "param": 0,
+        "min": 300,
+        "max": 450
+      },
+      {
+        "prop": "extra-golem",
+        "param": 0,
+        "min": 1,
+        "max": 1
       }
     ]
   }

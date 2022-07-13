@@ -3,13 +3,21 @@ import { layout } from "../layout";
 import { PlugyStash } from "../../plugy-stash/types";
 import { makeIndex } from "../../plugy-stash/makeIndex";
 import { MISC } from "../../../game-data";
-import { sortAndGroupBy } from "./sortAndGroupBy";
 import { addPage } from "../../plugy-stash/addPage";
 import { moveItem } from "../../items/moving/safeMove";
 
-const ORDER = ["gsy", "gsv", "gsb", "gsr", "gsg", "gsw", "sku"];
-const GEM_TYPES = ORDER.map((code) => MISC[code]!.type);
-const PAGE_NAMES = ORDER.map((code) => MISC[code]!.name);
+interface Gems {
+  stackable: Gems2;
+  nonStackable: Gems2;
+}
+
+interface Gems2 {
+  items: Item[];
+  sortOrder: string[];
+  gemTypes: string[];
+  isSkullGroup(index: number): boolean;
+}
+
 // Chipped first, this order has been crafted to work for all gem types
 const QUALITIES = ["c", "f", "u", "s", "l", "z", "p"];
 
@@ -20,26 +28,96 @@ function qualityChar(skulls = false) {
 export function organizeGems(stash: PlugyStash, items: Item[]) {
   if (items.length === 0) return;
 
-  const byType = ORDER.map<Item[]>(() => []);
-  for (const item of items) {
-    byType[GEM_TYPES.indexOf(MISC[item.code]!.type)].push(item);
-  }
-  const byTypeAndQuality = byType.map((gems, index) =>
-    sortAndGroupBy(gems, qualityChar(index === 6))
+  const gems = {
+    stackable: {
+      // Amethyst
+      // Diamond
+      // Emerald
+      // Ruby
+      // Sapphire
+      // Skull
+      // Topaz
+      sortOrder: [
+        "gzvs",
+        "gpvs",
+        "glws",
+        "gpws",
+        "glgs",
+        "gpgs",
+        "glrs",
+        "gprs",
+        "glbs",
+        "gpbs",
+        "skls",
+        "skzs",
+        "glys",
+        "gpys",
+      ],
+      isSkullGroup: (index) => index === 10 || index === 11, // ^ Location in array
+      gemTypes: [],
+      items: [],
+    },
+    nonStackable: {
+      sortOrder: ["gsv", "gsw", "gsg", "gsr", "gsb", "sku", "gsy"],
+      isSkullGroup: (index) => index === 5, // ^ Location in array
+      gemTypes: [],
+      items: [],
+    },
+  } as Gems;
+
+  gems.stackable.sortOrder.forEach((code) =>
+    gems.stackable.gemTypes.push(MISC[code]!.type)
+  );
+  gems.nonStackable.sortOrder.forEach((code) =>
+    gems.nonStackable.gemTypes.push(MISC[code]!.type)
   );
 
-  let offset = stash.pages.length;
-  for (let i = 0; i < byType.length; i++) {
-    const { nbPages, positions } = layout("lines", byTypeAndQuality[i]);
-    for (let j = 0; j < nbPages; j++) {
-      const page = addPage(stash, PAGE_NAMES[i]);
-      if (j === 0) {
-        makeIndex(page, i === 0);
-      }
+  items.forEach((item) => {
+    if (item.code.startsWith("gem")) {
+      gems.nonStackable.items.push(item);
+    } else {
+      gems.stackable.items.push(item);
     }
-    for (const [item, { page, rows, cols }] of positions.entries()) {
-      moveItem(stash, item, offset + page, rows[0], cols[0]);
+  });
+
+  moveItems(stash, group(gems.stackable), "Gems");
+  moveItems(stash, group(gems.nonStackable), "Unstacked Gems");
+}
+
+function group(gems: Gems2) {
+  const byType = gems.sortOrder.map<Item[]>(() => []);
+  for (const item of gems.items) {
+    byType[gems.gemTypes.indexOf(MISC[item.code]!.type)].push(item);
+  }
+
+  byType.forEach((items, index) => {
+    const isSkullGroup = gems.isSkullGroup(index);
+    if (isSkullGroup) {
+      console.log(items);
     }
-    offset += nbPages;
+    items.sort(
+      (a, b) => qualityChar(isSkullGroup)(a) - qualityChar(isSkullGroup)(b)
+    );
+
+    // Quantity descending
+    items.sort((a, b) => (b.quantity || 0) - (a.quantity || 0));
+  });
+
+  return byType;
+}
+
+function moveItems(stash: PlugyStash, items: Item[][], tabName: string) {
+  const offset = stash.pages.length;
+
+  const { nbPages, positions } = layout("lines", items);
+  for (let j = 0; j < nbPages; j++) {
+    const page = addPage(stash, tabName);
+    if (j === 0) {
+      makeIndex(page, true);
+    }
+  }
+
+  for (const [item, { page, rows, cols }] of positions.entries()) {
+    moveItem(stash, item, offset + page, rows[0], cols[0]);
   }
 }

@@ -1090,6 +1090,12 @@
         "param": 0,
         "min": 10,
         "max": 10
+      },
+      {
+        "prop": "cast-skill",
+        "param": 46,
+        "min": 12,
+        "max": 10
       }
     ],
     "setModifiers": [
@@ -1948,7 +1954,7 @@
       [
         {
           "prop": "dmg%/lvl",
-          "param": 24,
+          "param": 28,
           "min": 0,
           "max": 0
         }
@@ -2576,6 +2582,12 @@
         "param": 0,
         "min": 10,
         "max": 10
+      },
+      {
+        "prop": "cast-skill",
+        "param": 84,
+        "min": 15,
+        "max": 2
       }
     ],
     "setModifiers": [
@@ -3628,13 +3640,13 @@
         "prop": "dmg-demon",
         "param": 0,
         "min": 150,
-        "max": 250
+        "max": 200
       },
       {
         "prop": "dmg-undead",
         "param": 0,
-        "min": 150,
-        "max": 250
+        "min": 100,
+        "max": 200
       },
       {
         "prop": "crush",
@@ -3646,7 +3658,7 @@
         "prop": "dmg%",
         "param": 0,
         "min": 150,
-        "max": 250
+        "max": 200
       },
       {
         "prop": "splash",
@@ -3845,20 +3857,20 @@
       {
         "prop": "skill",
         "param": 61,
-        "min": 1,
-        "max": 2
+        "min": 2,
+        "max": 3
       },
       {
         "prop": "skill",
         "param": 63,
-        "min": 1,
-        "max": 2
+        "min": 2,
+        "max": 3
       },
       {
         "prop": "skill",
         "param": 65,
-        "min": 1,
-        "max": 2
+        "min": 2,
+        "max": 3
       }
     ],
     "setModifiers": [
@@ -4244,7 +4256,14 @@
       }
     ],
     "setModifiers": [
-      [],
+      [
+        {
+          "prop": "skilltab",
+          "param": 11,
+          "min": 1,
+          "max": 2
+        }
+      ],
       [],
       [],
       [],
@@ -4940,8 +4959,6 @@
       }
     ],
     "setModifiers": [
-      [],
-      [],
       [
         {
           "prop": "dmg-pois",
@@ -4950,6 +4967,8 @@
           "max": 1127
         }
       ],
+      [],
+      [],
       [],
       []
     ]
@@ -5028,8 +5047,8 @@
       {
         "prop": "dmg-undead",
         "param": 0,
-        "min": 100,
-        "max": 200
+        "min": 200,
+        "max": 250
       }
     ],
     "setModifiers": [
@@ -5074,7 +5093,14 @@
     ],
     "setModifiers": [
       [],
-      [],
+      [
+        {
+          "prop": "balance2",
+          "param": 0,
+          "min": 20,
+          "max": 20
+        }
+      ],
       [],
       [],
       []
@@ -5130,8 +5156,8 @@
         {
           "prop": "allskills",
           "param": 0,
-          "min": 1,
-          "max": 1
+          "min": 2,
+          "max": 2
         }
       ],
       [],
@@ -5226,8 +5252,8 @@
       {
         "prop": "ac-miss",
         "param": 0,
-        "min": 100,
-        "max": 350
+        "min": 200,
+        "max": 250
       },
       {
         "prop": "hp",
@@ -5239,7 +5265,7 @@
         "prop": "ac-hth",
         "param": 0,
         "min": 200,
-        "max": 400
+        "max": 250
       },
       {
         "prop": "ease",
@@ -5374,7 +5400,14 @@
     ],
     "setModifiers": [
       [],
-      [],
+      [
+        {
+          "prop": "reduce-ac",
+          "param": 0,
+          "min": 20,
+          "max": 20
+        }
+      ],
       [],
       [],
       []
@@ -5418,8 +5451,8 @@
         {
           "prop": "dmg-demon",
           "param": 0,
-          "min": 80,
-          "max": 80
+          "min": 100,
+          "max": 100
         }
       ],
       [],
@@ -5477,8 +5510,8 @@
         {
           "prop": "dmg-undead",
           "param": 0,
-          "min": 80,
-          "max": 80
+          "min": 100,
+          "max": 100
         }
       ],
       [],
@@ -5549,7 +5582,7 @@
       {
         "prop": "regen",
         "param": 0,
-        "min": 20,
+        "min": 30,
         "max": 40
       },
       {
@@ -5659,7 +5692,7 @@
       {
         "prop": "abs-ltng%",
         "param": 0,
-        "min": 3,
+        "min": 4,
         "max": 6
       }
     ],
@@ -5722,7 +5755,6 @@
       }
     ],
     "setModifiers": [
-      [],
       [
         {
           "prop": "hit-skill",
@@ -5731,6 +5763,7 @@
           "max": 16
         }
       ],
+      [],
       [],
       [],
       []
@@ -5752,8 +5785,8 @@
       {
         "prop": "dmg-cold",
         "param": 50,
-        "min": 125,
-        "max": 175
+        "min": 175,
+        "max": 250
       },
       {
         "prop": "swing3",
@@ -5853,7 +5886,7 @@
       {
         "prop": "dmg-demon",
         "param": 0,
-        "min": 75,
+        "min": 100,
         "max": 150
       }
     ],
@@ -5947,8 +5980,8 @@
       {
         "prop": "dmg%",
         "param": 0,
-        "min": 275,
-        "max": 375
+        "min": 200,
+        "max": 250
       },
       {
         "prop": "splash",
@@ -5999,8 +6032,8 @@
       {
         "prop": "dmg%",
         "param": 0,
-        "min": 275,
-        "max": 375
+        "min": 225,
+        "max": 275
       },
       {
         "prop": "splash",
@@ -6126,8 +6159,8 @@
       {
         "prop": "res-all",
         "param": 0,
-        "min": 18,
-        "max": 18
+        "min": 15,
+        "max": 25
       },
       {
         "prop": "ac%",
@@ -6317,7 +6350,14 @@
       }
     ],
     "setModifiers": [
-      [],
+      [
+        {
+          "prop": "cast2",
+          "param": 0,
+          "min": 20,
+          "max": 20
+        }
+      ],
       [],
       [],
       [],

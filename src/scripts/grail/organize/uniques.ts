@@ -51,6 +51,7 @@ export function organizeUniques(stash: PlugyStash, items: Item[]) {
       if (!normalTemplate) {
         throw new Error(`No template for ${name}`);
       }
+
       for (let j = 0; j < normalTemplate.nbPages; j++) {
         const page = addPage(stash, name);
         if (j === 0) {
@@ -68,7 +69,7 @@ export function organizeUniques(stash: PlugyStash, items: Item[]) {
       }
 
       // Handle non-eth first so that eth versions don't take non-eth spots unless necessary
-      itemsInSection?.sort((a, b) => Number(a.ethereal) - Number(b.ethereal));
+      itemsInSection.sort((a, b) => Number(a.ethereal) - Number(b.ethereal));
 
       // Position one instance of each item in its normal spot
       let remaining = fillTemplate(
@@ -107,6 +108,11 @@ export function organizeUniques(stash: PlugyStash, items: Item[]) {
           groups[lastGroup].push(item);
           return groups;
         }, []);
+        byQuality.forEach((group) =>
+          group.sort((a, b) =>
+            (a?.name as string).localeCompare(b.name as string)
+          )
+        );
         const { nbPages, positions } = layout("lines", byQuality);
         for (let j = 0; j < nbPages; j++) {
           addPage(stash, `Extra ${shortName}`);

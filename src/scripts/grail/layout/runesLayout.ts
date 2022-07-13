@@ -3,10 +3,12 @@ import { PAGE_HEIGHT, PAGE_WIDTH } from "../../plugy-stash/dimensions";
 import { LayoutItem, LayoutResult } from "./types";
 
 function runeIndex(rune: LayoutItem) {
-  if (rune.code.length === 3) { return Number(rune.code.slice(1)); }
+  if (rune.code.length === 3) {
+    return Number(rune.code.slice(1));
+  }
 
   // PD2 Stackable runes are length of 4.
-  return Number(rune.code.substring(1,3));
+  return Number(rune.code.substring(1, 3));
 }
 
 export function runesLayout<T extends LayoutItem>([
@@ -30,7 +32,7 @@ export function runesLayout<T extends LayoutItem>([
   }
 
   let currentPage = 0;
-  let row = -2;
+  let row = -1;
   let col = 0;
 
   function positionGroup(group: T[], fullPage: boolean): void {

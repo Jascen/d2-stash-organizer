@@ -1514,26 +1514,26 @@
   "r14": {
     "weapon": [
       {
-        "prop": "howl",
+        "prop": "dmg%",
         "param": 0,
-        "min": 32,
-        "max": 32
+        "min": 25,
+        "max": 25
       }
     ],
     "armor": [
       {
         "prop": "regen",
         "param": 0,
-        "min": 7,
-        "max": 7
+        "min": 10,
+        "max": 10
       }
     ],
     "shield": [
       {
         "prop": "regen",
         "param": 0,
-        "min": 7,
-        "max": 7
+        "min": 10,
+        "max": 10
       }
     ]
   },
@@ -1816,16 +1816,16 @@
       {
         "prop": "res-pois-max",
         "param": 0,
-        "min": 5,
-        "max": 5
+        "min": 4,
+        "max": 4
       }
     ],
     "shield": [
       {
         "prop": "res-pois-max",
         "param": 0,
-        "min": 5,
-        "max": 5
+        "min": 4,
+        "max": 4
       }
     ]
   },
@@ -1842,16 +1842,16 @@
       {
         "prop": "res-fire-max",
         "param": 0,
-        "min": 5,
-        "max": 5
+        "min": 4,
+        "max": 4
       }
     ],
     "shield": [
       {
         "prop": "res-fire-max",
         "param": 0,
-        "min": 5,
-        "max": 5
+        "min": 4,
+        "max": 4
       }
     ]
   },
@@ -1868,16 +1868,16 @@
       {
         "prop": "res-cold-max",
         "param": 0,
-        "min": 5,
-        "max": 5
+        "min": 4,
+        "max": 4
       }
     ],
     "shield": [
       {
         "prop": "res-cold-max",
         "param": 0,
-        "min": 5,
-        "max": 5
+        "min": 4,
+        "max": 4
       }
     ]
   },
@@ -1894,26 +1894,26 @@
       {
         "prop": "res-ltng-max",
         "param": 0,
-        "min": 5,
-        "max": 5
+        "min": 4,
+        "max": 4
       }
     ],
     "shield": [
       {
         "prop": "res-ltng-max",
         "param": 0,
-        "min": 5,
-        "max": 5
+        "min": 4,
+        "max": 4
       }
     ]
   },
   "r29": {
     "weapon": [
       {
-        "prop": "stupidity",
+        "prop": "heal-kill",
         "param": 0,
-        "min": 1,
-        "max": 1
+        "min": 4,
+        "max": 4
       }
     ],
     "armor": [
@@ -1946,16 +1946,16 @@
       {
         "prop": "red-dmg%",
         "param": 0,
-        "min": 8,
-        "max": 8
+        "min": 4,
+        "max": 4
       }
     ],
     "shield": [
       {
         "prop": "red-dmg%",
         "param": 0,
-        "min": 8,
-        "max": 8
+        "min": 4,
+        "max": 4
       }
     ]
   },

@@ -1076,8 +1076,8 @@
         {
           "prop": "res-all",
           "param": 0,
-          "min": 25,
-          "max": 25
+          "min": 50,
+          "max": 50
         },
         {
           "prop": "sor",
@@ -1247,10 +1247,10 @@
           "max": 100
         },
         {
-          "prop": "oskill",
-          "param": 61,
-          "min": 6,
-          "max": 6
+          "prop": "state",
+          "param": -1,
+          "min": 1,
+          "max": 1
         },
         {
           "prop": "lifesteal",
@@ -1269,12 +1269,6 @@
           "param": 0,
           "min": 10,
           "max": 10
-        },
-        {
-          "prop": "state",
-          "param": -1,
-          "min": 1,
-          "max": 1
         }
       ]
     ]

@@ -102,7 +102,7 @@ dmg-undead	1			1	item_undeaddamage_percent																													none	0
 att-demon	1			1	item_demon_tohit																													none	0
 att-undead	1			1	item_undead_tohit																													none	0
 throw	1			1	item_throwable																													none	0
-fireskill	1		1	21	item_elemskill																													none	0
+fireskill	1		1	21	item_elemskill			3	item_elemskill_fire																									none	0
 allskills	1			1	item_allskills																													none	0
 light-thorns	1			1	item_attackertakeslightdamage																													none	0
 freeze	1			1	item_freeze																										chance in 128	length in frames		none	0
@@ -120,7 +120,7 @@ reanimate	1			24	item_reanimate																													none	0
 pierce	1			1	item_pierce																													none	0
 magicarrow	1			1	item_magicarrow																													none	0
 explosivearrow	1			1	item_explosivearrow																													none	0
-Expansion																																			
+Expansion																																			0
 dru	1		5	21	item_addclassskills																									All Druid Skills				none	0
 ass	1		6	21	item_addclassskills																									All Assassin Skills				none	0
 skill	1			22	item_singleskill																													none	0
@@ -248,6 +248,7 @@ extra-fire	1			1	passive_fire_mastery																														0
 extra-ltng	1			1	passive_ltng_mastery																														0
 extra-cold	1			1	passive_cold_mastery																														0
 extra-pois	1			1	passive_pois_mastery																														0
+extra-magi	1			1	passive_mag_mastery																														0
 dmg-elem	1			15	firemindam			16	firemaxdam			15	lightmindam			16	lightmaxdam			15	coldmindam			16	coldmaxdam			17	coldlength						0
 dmg-elem-min	1			1	firemindam			3	lightmindam			3	coldmindam																						0
 dmg-elem-max	1			1	firemaxdam			3	lightmaxdam			3	coldmaxdam			17	coldlength																		0
@@ -267,4 +268,134 @@ levelreq	1			1	item_levelreq																														0
 ethereal	1			23																															0
 oskill	1			22	item_nonclassskill																										Skill	min level	max level	none	0
 state	1			24	state																										state	1	1		0
-randclassskill	1		3	36	item_addclassskills																														
+randclassskill3	1		3	36	item_addclassskills																														0
+splash	1			11	item_splashonhit																									splash	358	100	1		0
+corrupt	1			1	corrupted																														0
+corruptnum	1			1	corruptor																														0
+heroed	1			1	heroic																														0
+randclassskill2	1		2	36	item_addclassskills																														0
+coldskill	1		4	21	item_elemskill			3	item_elemskill_cold																					cold skills				none	0
+ltngskill	1		2	21	item_elemskill			3	item_elemskill_lightning																					lightning skills				none	0
+poisskill	1		5	21	item_elemskill			3	item_elemskill_poison																					poison skills				none	0
+magskill	1		3	21	item_elemskill			3	item_elemskill_magic																					magic skills				none	0
+velocity%	1			1	velocitypercent																													none	0
+mapdefense	1			1	map_defense																														0
+map-mon-fireres	1			1	map_mon_fireresist																													none	0
+map-play-fireres	1			1	map_play_fireresist																													none	0
+map-play-mag-gold%	1			1	map_play_magicbonus			3	map_play_goldbonus																									none	0
+map-glob-density	1			1	map_glob_density																														0
+map-play-addxp	1			1	map_play_addexperience																									additional xp gain					0
+map-glob-arealevel	1			1	map_glob_arealevel																														0
+map-glob-monsterrarity	1			1	map_glob_monsterrarity																														0
+map-mon-fire-min	1			1	map_mon_firemindam																									Fire Damage				none	0
+map-mon-fire-max	1			1	map_mon_firemaxdam																														
+map-mon-ltng-min	1			1	map_mon_lightmindam																									Lightning Damage				none	0
+map-mon-ltng-max	1			1	map_mon_lightmaxdam																														
+map-mon-mag-min	1			1	map_mon_magicmindam																									Magic Damge				none	0
+map-mon-mag-max	1			1	map_mon_magicmaxdam																														
+map-mon-dmg-cold	1			15	map_mon_coldmindam			16	map_mon_coldmaxdam			17	map_mon_coldlength																	Cold Damage	Length (Frames)	Min	Max	none	0
+map-mon-dmg-pois	1			15	map_mon_poisonmindam			16	map_mon_poisonmaxdam			17	map_mon_poisonlength																	Poison Damage	Length (Frames)	Min	Max	none	0
+map-mon-extra-fire	1			1	map_mon_passive_fire_mastery																														0
+map-mon-extra-ltng	1			1	map_mon_passive_ltng_mastery																														0
+map-mon-extra-cold	1			1	map_mon_passive_cold_mastery																														0
+map-mon-extra-pois	1			1	map_mon_passive_pois_mastery																														0
+map-mon-att-cast-speed	1			8	map_mon_fasterattackrate			8	map_mon_fastercastrate																									none	0
+map-mon-att-pierce	1			1	map_mon_tohit			3	map_mon_pierce																									none	0
+map-mon-ac%	1			1	map_mon_ac%																													none	0
+map-mon-abs-fire%	1			1	map_mon_absorbcold_percent																													none	0
+map-mon-abs-ltng%	1			1	map_mon_absorbmagic_percent																													none	0
+map-mon-abs-mag%	1			1	map_mon_absorblight_percent																													none	0
+map-mon-abs-cold%	1			1	map_mon_absorbfire_percent																													none	0
+map-mon-red-dmg	1			1	map_mon_normal_damage_reduction																													none	0
+map-mon-velocity%	1			1	map_mon_velocitypercent																													none	0
+map-mon-regen	1			1	map_mon_hpregen																													none	0
+map-mon-lifesteal-hp%	1			1	map_mon_lifedrainmindam			3	map_mon_maxhp_percent																									none	0
+map-mon-balance1	1			8	map_mon_fastergethitrate																													none	0
+map-mon-hp%	1			1	map_mon_maxhp_percent																													none	0
+map-mon-openwounds	1			1	map_mon_openwounds																													none	0
+map-mon-crush	1			1	map_mon_crushingblow																													none	0
+map-mon-curseresist-hp%	1			1	map_mon_curse_resistance			3	map_mon_maxhp_percent																									none	0
+map-play-ac%	1			1	map_play_ac%																													none	0
+map-play-balance1	1			8	map_play_fastergethitrate																													none	0
+map-play-block	1			1	map_play_toblock																													none	0
+map-play-regen	1			1	map_play_hpregen																													none	0
+map-mon-pierce-fire	1			1	map_mon_passive_fire_pierce																									Negates % of Enemy Cold Resistance		min	max	none	0
+map-mon-pierce-ltng	1			1	map_mon_passive_ltng_pierce																									Negates % of Enemy Fire Resistance		min	max	none	0
+map-mon-pierce-cold	1			1	map_mon_passive_cold_pierce																									Negates % of Enemy Lightning Resistance		min	max	none	0
+map-mon-pierce-pois	1			1	map_mon_passive_pois_pierce																									Negates % of Enemy Poison Resistance		min	max	none	0
+map-play-res-all	1			1	map_play_fireresist			3	map_play_lightresist			3	map_play_coldresist			3	map_play_poisonresist																	none	0
+map-play-res-all-max	1			1	map_play_maxfireresist			3	map_play_maxlightresist			3	map_play_maxcoldresist			3	map_play_maxpoisonresist																	none	0
+map-mon-ed%	1			1	map_mon_ed%																													none	0
+map-mon-splash	1	skill/chance/level		11	map_mon_splash																									splash	358	100	1		0
+rep-charge	1			17	item_replenish_charges																									regenerates charges	speed (see note)			regenerates 1 charge per 100/lvl seconds	0
+leapspeed	1			1	item_leap_speed																									increases leap/leap attack speed		min	max		0
+maxcurse	1			1	max_curses																									+ to max curses					0
+randelemskill	1		1	36	item_elemskill																														0
+curse-res	1			1	curse_resistance																														0
+heal-hit	1			1	item_healafterhit																									life gained after each hit					0
+randclassskill1	1		2	36	item_addclassskills																														0
+map-mon-phys-as-extra-ltng	1			1	map_mon_phys_as_extra_ltng																													none	0
+map-mon-phys-as-extra-cold	1			1	map_mon_phys_as_extra_cold																													none	0
+map-mon-phys-as-extra-fire	1			1	map_mon_phys_as_extra_fire																													none	0
+map-mon-phys-as-extra-pois	1			1	map_mon_phys_as_extra_pois																													none	0
+map-mon-phys-as-extra-mag	1			1	map_mon_phys_as_extra_mag																													none	0
+map-glob-add-mon-doll	1			1	map_glob_add_mon_doll																													none	0
+map-glob-add-mon-succ	1			1	map_glob_add_mon_succ																													none	0
+map-glob-add-mon-vamp	1			1	map_glob_add_mon_vamp																													none	0
+map-glob-add-mon-cow	1			1	map_glob_add_mon_cow																													none	0
+map-glob-add-mon-horde	1			1	map_glob_add_mon_horde																													none	0
+map-glob-add-mon-ghost	1			1	map_glob_add_mon_ghost																													none	0
+extra-bonespears	1			1	extra_bonespears																														0
+extra-revives	1			1	extra_revives																														0
+extra-spirits	1			1	extra_spirits																														0
+pierce-phys	1			1	passive_phys_pierce																									Negates % of Enemy Phys Resistance		min	max	none	0
+immune-prop	1			1	immune_stat																														0
+map-mon-deadlystrike	1			1	map_mon_deadlystrike																													none	0
+map-mon-cannotbefrozen	1			1	map_mon_cannotbefrozen																													none	0
+map-play-fasterattackrate	1			8	map_play_fasterattackrate																													none	0
+map-play-fastercastrate	1			8	map_play_fastercastrate																													none	0
+map-mon-skillondeath	1			11	map_mon_skillondeath																													none	0
+map-play-maxhp-percent	1			1	map_play_maxhp_percent																													none	0
+map-play-maxmana-percent	1			1	map_play_maxmana_percent																													none	0
+map-play-damageresist	1			1	map_play_damageresist																													none	0
+map-play-velocitypercent	1			8	map_play_velocitypercent																													none	0
+map-mon-pierce-all	1			1	map_mon_passive_fire_pierce			1	map_mon_passive_ltng_pierce			1	map_mon_passive_cold_pierce			1	map_mon_passive_pois_pierce													Negates % of Enemy Cold Resistance		min	max	none	0
+map-mon-nofreeze-hp%	1			1	map_mon_cannotbefrozen			1	map_mon_maxhp_percent																									none	0
+map-play-swing-cast	1			8	map_play_fasterattackrate			8	map_play_fastercastrate																									none	0
+map-play-hp%-mp%	1			1	map_play_maxhp_percent			1	map_play_maxmana_percent																									none	0
+map-play-speed-all	1			8	map_play_fasterattackrate			8	map_play_fastercastrate			8	map_play_velocitypercent																					none	0
+map-play-mag	1			1	map_play_magicbonus																													none	0
+map-play-gold	1			3	map_play_goldbonus																													none	0
+infinityspeed	1			8	item_fastermovevelocity			8	item_fastercastrate																									none	0
+silence-fhr-ias	1			8	item_fasterattackrate			8	item_fastergethitrate																									none	0
+gust-reduction	1			1	gustreduction																														0
+extra-skele-war	1			1	extra_skele_war																														0
+extra-skele-mage	1			1	extra_skele_mage																														0
+extra-hydra	1			1	extra_hydra																														0
+extra-valk	1			1	extra_valk																														0
+plague-fcr-pierce	1			8	item_fastercastrate			1	passive_pois_pierce																									none	0
+joust-reduction	1			1	joustreduction																														0
+grims-extra-skele-mage	1			1	grims_extra_skele_mage																														0
+map-play-lightradius	1			1	map_play_lightradius																													none	0
+blood-warp-life-reduction	1			1	blood_warp_life_reduction																														0
+map-glob-add-mon-souls	1			1	map_glob_add_mon_souls																													none	0
+map-glob-add-mon-fetish	1			1	map_glob_add_mon_fetish																													none	0
+dclone-clout	1			1	dclone_clout																														0
+maxlevel-clout	1			1	maxlevel_clout																														0
+dev-clout	1			1	dev_clout																														0
+extra-skele-archer	1			1	extra_skele_archer																														0
+extra-golem	1			1	extra_golem																														0
+dye	1			1	transform_dye																													none	0
+socketed-text	1			1	item_numsockets_textonly																														0
+inc-splash-radius	1			1	inc_splash_radius																														0
+ias-frw	1			8	item_fasterattackrate			8	item_fastermovevelocity																										0
+rathma-clout	1			1	rathma_clout																														0
+cast-skill	1			11	item_skilloncast																									Proc Skill on Cast	Skill #	% Chance	Level	none	0
+dragonflight-reduction	1			1	dragonflightreduction																														0
+dmg%/eth	1			17	item_dmgpercent_pereth																									Max Damage % per equipped Eth item	(8ths)			none	0
+corpseexplosion-radius	1			1	corpseexplosionradius																														0
+mirrored	1			1	mirrored																														0
+dmg%/missinghp%	1			17	item_dmgpercent_permissinghppercent																														0
+lifesteal-cap	1			1	lifedrain_percentcap																														0
+splash%/missinghp%	1			17	inc_splash_radius_permissinghp																														0
+eaglehorn-raven	1			1	eaglehorn_raven																														0

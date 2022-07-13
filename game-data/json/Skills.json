@@ -1746,8 +1746,8 @@
     "charClass": 0
   },
   {
-    "code": "asatemp3",
-    "name": "asatemp3",
+    "code": "Blade Dance",
+    "name": "BladeDance",
     "charClass": 6
   },
   {
@@ -2265,5 +2265,101 @@
   {
     "code": "Teeth Rathma",
     "name": "Teeth Rathma"
+  },
+  {
+    "code": "UberTalicBlaze",
+    "name": "UberTalicBlaze"
+  },
+  {
+    "code": "UberTalicWhirlwind",
+    "name": "UberTalicWhirlwind"
+  },
+  {
+    "code": "UberTalicBash",
+    "name": "UberTalicBash"
+  },
+  {
+    "code": "UberTalicMeteor",
+    "name": "UberTalicMeteor"
+  },
+  {
+    "code": "Book of Unlimited Identify",
+    "name": "UnlimitedIDSkillName"
+  },
+  {
+    "code": "Book of Unlimited Townportal",
+    "name": "UnlimitedTPSkillName"
+  },
+  {
+    "code": "BruteFireSlam",
+    "name": "BruteFireSlam"
+  },
+  {
+    "code": "BruteMoltenBoulder",
+    "name": "BruteMoltenBoulder"
+  },
+  {
+    "code": "BruteShockWave",
+    "name": "BruteShockWave"
+  },
+  {
+    "code": "BruteVigor",
+    "name": "BruteVigor"
+  },
+  {
+    "code": "UberMadawcDoubleThrow",
+    "name": "UberMadawcDoubleThrow"
+  },
+  {
+    "code": "UberMadawcCursedAxe",
+    "name": "UberMadawcCursedAxe"
+  },
+  {
+    "code": "UberMadawcOWAxe",
+    "name": "UberMadawcOWAxe"
+  },
+  {
+    "code": "UberTalicSmite",
+    "name": "UberTalicSmite"
+  },
+  {
+    "code": "UberMadawcFakeBO",
+    "name": "UberMadawcFakeBO"
+  },
+  {
+    "code": "UberMadawcLightningStorm",
+    "name": "UberMadawcLightningStorm"
+  },
+  {
+    "code": "Cyclone ArmorMon",
+    "name": "Cyclone ArmorMon"
+  },
+  {
+    "code": "LeoricSummonNova",
+    "name": "LeoricSummonNova"
+  },
+  {
+    "code": "SiegeBeastClusterbomb",
+    "name": "SiegeBeastClusterbomb"
+  },
+  {
+    "code": "SiegeBeastFireNova",
+    "name": "SiegeBeastFireNova"
+  },
+  {
+    "code": "SiegeBeastBuffNova",
+    "name": "SiegeBeastBuffNova"
+  },
+  {
+    "code": "SiegeBeastOrb",
+    "name": "SiegeBeastOrb"
+  },
+  {
+    "code": "Holy Fire Fire Golem",
+    "name": "Holy Fire Fire Golem"
+  },
+  {
+    "code": "Holy Freeze Korlic",
+    "name": "Holy Freeze Korlic"
   }
 ]
