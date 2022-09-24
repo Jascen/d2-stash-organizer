@@ -5,7 +5,7 @@ import { makeIndex } from "../../plugy-stash/makeIndex";
 import { sortAndGroupBy } from "./sortAndGroupBy";
 import { addPage } from "../../plugy-stash/addPage";
 import { moveItem } from "../../items/moving/safeMove";
-import { pd2Changes } from "./groupBySection";
+import { pd2Changes } from "./_pd2";
 import { RESPECS } from "./respecs";
 
 // Order to display them in

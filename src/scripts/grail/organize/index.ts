@@ -11,10 +11,11 @@ import { organizeRunes } from "./runes";
 import { organizeRunewords } from "./runewords";
 import { organizeSets } from "./sets";
 import { organizeUniques } from "./uniques";
-import { organizeRespecs } from "./respecs";
 import { organizeUbers } from "./ubers";
 import { addPage } from "../../plugy-stash/addPage";
 import { organizeConsumables } from "./consumables";
+import { organizeMaps } from "./maps";
+import { organizeCharms } from "./charms";
 
 /**
  * Counts every item, even socketed ones.
@@ -55,6 +56,12 @@ export function organize(
         break;
       case "consumables":
         organizeConsumables(stash, items);
+        break;
+      case "maps":
+        organizeMaps(stash, items);
+        break;
+      case "charms":
+        organizeCharms(stash, items);
         break;
       case "ubers":
         organizeUbers(stash, items);

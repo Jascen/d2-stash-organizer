@@ -23,13 +23,6 @@ export const UNIQUES_ORDER: UniqueSection[][] = [
       // TODO: Better layout for amulets. Maybe TWO_LINES?
     },
     {
-      name: "Charms",
-      shortName: "charms",
-      types: ["scha", "mcha", "lcha"],
-      // Maybe we can do better on this
-      layout: "single-column",
-    },
-    {
       name: "Jewels",
       shortName: "jewels",
       types: ["jewl"],

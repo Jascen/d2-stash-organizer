@@ -4,7 +4,8 @@ import { PAGE_HEIGHT, PAGE_WIDTH } from "../../plugy-stash/dimensions";
 import { LayoutItem, LayoutResult } from "./types";
 
 export function linesLayout<T extends LayoutItem>(
-  groups: T[][]
+  groups: T[][],
+  pageHeight: number = PAGE_HEIGHT
 ): LayoutResult<T> {
   const positions = new Map<T, Position>();
   if (groups.length === 0) {
@@ -24,7 +25,7 @@ export function linesLayout<T extends LayoutItem>(
         row = nextRow;
         col = 0;
       }
-      if (row + base.height > PAGE_HEIGHT) {
+      if (row + base.height > pageHeight) {
         currentPage++;
         row = 0;
         col = 0;

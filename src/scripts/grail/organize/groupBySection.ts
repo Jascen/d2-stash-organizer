@@ -6,72 +6,10 @@ import { EQUIPMENT_TYPES } from "../list/uniquesOrder";
 import { getBase } from "../../items/getBase";
 import { RESPECS } from "./respecs";
 import { UBERS } from "./ubers";
+import { MAP_TIERS } from "./maps";
+import { pd2Changes } from "./_pd2";
 
-export const pd2Changes = {
-  stackableGems: {
-    gg3a: true,
-    gg4a: true,
-    gg3t: true,
-    gg4t: true,
-    gg3s: true,
-    gg4s: true,
-    gg3e: true,
-    gg4e: true,
-    gg3r: true,
-    gg4r: true,
-    gg3d: true,
-    gg4d: true,
-    gg3z: true,
-    gg4z: true,
-  } as Record<string, boolean>,
-  runes: {
-    stackableRunes: "runs",
-    jewelFragments: "jewf",
-  },
-  consumables: {
-    healthPot: "hpot",
-    manaPot: "mpot",
-    book: "book",
-    puzzleBox: "lbox",
-    key: "key",
-    wss: "wss",
-    cwss: "cwss",
-    // Essences for respec
-  },
-  misc: {
-    horadricCube: "box",
-  },
-  ubers: {
-    // skullEye: "",
-    // shadowEye: "",
-    // Standard of Heroes
-    // Baal's Eye
-    // Key Of Terror
-    // Key Of Hate
-    // Key Of Destruction
-  },
-  diabloClone: {
-    /*
-    dcbl
-    dcho
-    dcma
-    dcso
-    */
-    // Black soulstone
-    // Vision Of Terror
-    // Prime Evil Soul
-    // Pure Demonic Essence
-  },
-  maps: {
-    // orbOfDestruction: "",
-    // horadrimOrb: "",
-    // arcaneOrb: "",
-    tier1: "t1m",
-    tier2: "t2m",
-    tier3: "t3m",
-    pvp: "pvpm",
-  },
-};
+const CHARMS = ["scha", "mcha", "lcha"];
 
 function findSection(item: Item): SectionType {
   const base = getBase(item);
@@ -90,6 +28,12 @@ function findSection(item: Item): SectionType {
   // if (base.type === pd2Changes.misc.book) {
   //   return "misc";
   // }
+  if (CHARMS.includes(base.type)) {
+    return "charms";
+  }
+  if (item.code.length === 3 && MAP_TIERS.includes(item.code.substring(0, 2))) {
+    return "maps";
+  }
   if (UBERS.includes(item.code)) {
     return "ubers";
   }

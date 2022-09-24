@@ -5,6 +5,7 @@ import { singleColumnLayout } from "./singleColumnLayout";
 import { setLayout } from "./setLayout";
 import { linesLayout } from "./linesLayout";
 import { runesLayout } from "./runesLayout";
+import { PAGE_HEIGHT } from "../../plugy-stash/dimensions";
 
 export function layout<T extends LayoutItem = LayoutItem>(
   layout: LayoutType | undefined,
@@ -23,6 +24,8 @@ export function layout<T extends LayoutItem = LayoutItem>(
       return tiersLayout(items, false);
     case "tier-columns":
       return tiersLayout(items, true);
+    case "seventy-percent":
+      return linesLayout(items, PAGE_HEIGHT * 0.7);
     default:
       return linesLayout(items);
   }

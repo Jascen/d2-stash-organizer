@@ -8,6 +8,7 @@ export type LayoutType =
   | "tier-columns"
   | "single-line"
   | "single-column"
+  | "seventy-percent"
   | "set"
   | "runes";
 
