@@ -95,7 +95,7 @@ export function organizeCharms(stash: PlugyStash, items: Item[]) {
         });
       } else {
         const skillsModifier = item.modifiers!.find(
-          (m) => m.stat === ALL_SKILL_PROPERTY
+          (m) => m.stat === CLASS_SKILL_PROPERTY
         );
         if (skillsModifier) {
           const description = skillsModifier.description!;
