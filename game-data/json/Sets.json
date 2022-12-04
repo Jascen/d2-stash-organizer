@@ -148,26 +148,26 @@
         {
           "prop": "res-fire-max",
           "param": 0,
-          "min": 5,
-          "max": 5
+          "min": 2,
+          "max": 2
         },
         {
           "prop": "res-cold-max",
           "param": 0,
-          "min": 5,
-          "max": 5
+          "min": 2,
+          "max": 2
         },
         {
           "prop": "res-ltng-max",
           "param": 0,
-          "min": 5,
-          "max": 5
+          "min": 2,
+          "max": 2
         },
         {
           "prop": "res-pois-max",
           "param": 0,
-          "min": 5,
-          "max": 5
+          "min": 2,
+          "max": 2
         },
         {
           "prop": "dex",

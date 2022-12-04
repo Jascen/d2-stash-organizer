@@ -1923,6 +1923,18 @@
     "levelReq": 0,
     "stackable": true
   },
+  "fort": {
+    "name": "fort",
+    "type": "fort",
+    "tier": 0,
+    "maxSockets": 0,
+    "indestructible": true,
+    "width": 1,
+    "height": 1,
+    "qlevel": 0,
+    "levelReq": 0,
+    "stackable": true
+  },
   "scrb": {
     "name": "scrb",
     "type": "scrb",
@@ -2873,7 +2885,7 @@
   },
   "rtp": {
     "name": "rbbk",
-    "type": "ubr",
+    "type": "ubru",
     "tier": 0,
     "maxSockets": 0,
     "indestructible": true,
@@ -2885,7 +2897,7 @@
   },
   "rid": {
     "name": "rrbk",
-    "type": "ubr",
+    "type": "ubru",
     "tier": 0,
     "maxSockets": 0,
     "indestructible": true,
@@ -2969,7 +2981,7 @@
   },
   "llmr": {
     "name": "llmr",
-    "type": "ubr",
+    "type": "ubru",
     "tier": 0,
     "maxSockets": 0,
     "indestructible": true,
@@ -2981,7 +2993,7 @@
   },
   "lsvl": {
     "name": "lsvl",
-    "type": "ubr",
+    "type": "ubru",
     "tier": 0,
     "maxSockets": 0,
     "indestructible": true,
@@ -3077,13 +3089,49 @@
   },
   "rkey": {
     "name": "rkey",
-    "type": "ubr",
+    "type": "ubru",
     "tier": 0,
     "maxSockets": 0,
     "indestructible": true,
     "width": 1,
     "height": 1,
     "qlevel": 0,
+    "levelReq": 0,
+    "stackable": false
+  },
+  "t16": {
+    "name": "t16",
+    "type": "t1m",
+    "tier": 0,
+    "maxSockets": 0,
+    "indestructible": true,
+    "width": 1,
+    "height": 1,
+    "qlevel": 80,
+    "levelReq": 0,
+    "stackable": false
+  },
+  "t3a": {
+    "name": "t3a",
+    "type": "t1m",
+    "tier": 0,
+    "maxSockets": 0,
+    "indestructible": true,
+    "width": 1,
+    "height": 1,
+    "qlevel": 80,
+    "levelReq": 0,
+    "stackable": false
+  },
+  "lmal": {
+    "name": "lmal",
+    "type": "lmal",
+    "tier": 0,
+    "maxSockets": 0,
+    "indestructible": true,
+    "width": 1,
+    "height": 2,
+    "qlevel": 80,
     "levelReq": 0,
     "stackable": false
   }

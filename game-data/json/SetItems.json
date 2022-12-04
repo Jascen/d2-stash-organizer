@@ -380,8 +380,8 @@
       {
         "prop": "res-pois-len",
         "param": 0,
-        "min": 75,
-        "max": 75
+        "min": 25,
+        "max": 25
       }
     ],
     "setModifiers": [
@@ -389,8 +389,8 @@
         {
           "prop": "res-all",
           "param": 0,
-          "min": 15,
-          "max": 15
+          "min": 10,
+          "max": 10
         }
       ],
       [
@@ -416,8 +416,8 @@
       {
         "prop": "res-cold",
         "param": 0,
-        "min": 30,
-        "max": 30
+        "min": 20,
+        "max": 20
       },
       {
         "prop": "half-freeze",
@@ -428,8 +428,8 @@
       {
         "prop": "pierce",
         "param": 0,
-        "min": 15,
-        "max": 15
+        "min": 20,
+        "max": 20
       }
     ],
     "setModifiers": [
@@ -838,14 +838,20 @@
       {
         "prop": "hp",
         "param": 0,
-        "min": 35,
-        "max": 35
+        "min": 25,
+        "max": 25
       },
       {
         "prop": "res-cold",
         "param": 0,
         "min": 20,
         "max": 20
+      },
+      {
+        "prop": "pierce",
+        "param": 0,
+        "min": 30,
+        "max": 30
       }
     ],
     "setModifiers": [
@@ -857,14 +863,7 @@
           "max": 50
         }
       ],
-      [
-        {
-          "prop": "pierce",
-          "param": 0,
-          "min": 30,
-          "max": 30
-        }
-      ],
+      [],
       [],
       [],
       []
@@ -952,8 +951,8 @@
       {
         "prop": "dmg-cold",
         "param": 0,
-        "min": 25,
-        "max": 35
+        "min": 35,
+        "max": 55
       }
     ],
     "setModifiers": [
@@ -1814,6 +1813,12 @@
         "param": 358,
         "min": 100,
         "max": 1
+      },
+      {
+        "prop": "deadly",
+        "param": 0,
+        "min": 20,
+        "max": 20
       }
     ],
     "setModifiers": [
@@ -2861,7 +2866,7 @@
       {
         "prop": "skilltab",
         "param": 19,
-        "min": 1,
+        "min": 2,
         "max": 3
       },
       {
@@ -2937,7 +2942,14 @@
     ],
     "setModifiers": [
       [],
-      [],
+      [
+        {
+          "prop": "kick",
+          "param": 0,
+          "min": 30,
+          "max": 30
+        }
+      ],
       [],
       [],
       []
@@ -4173,7 +4185,7 @@
         "prop": "sock",
         "param": 0,
         "min": 3,
-        "max": 4
+        "max": 5
       },
       {
         "prop": "splash",
@@ -4260,7 +4272,7 @@
         {
           "prop": "skilltab",
           "param": 11,
-          "min": 1,
+          "min": 2,
           "max": 2
         }
       ],

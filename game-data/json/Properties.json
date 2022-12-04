@@ -2580,10 +2580,6 @@
       {
         "stat": "map_mon_curse_resistance",
         "type": "other"
-      },
-      {
-        "stat": "map_mon_maxhp_percent",
-        "type": "all"
       }
     ]
   },
@@ -3329,6 +3325,62 @@
     "stats": [
       {
         "stat": "eaglehorn_raven",
+        "type": "other"
+      }
+    ]
+  },
+  "map-glob-skirmish-mode": {
+    "stats": [
+      {
+        "stat": "map_glob_skirmish_mode",
+        "type": "other"
+      }
+    ]
+  },
+  "map-mon-dropjewelry": {
+    "stats": [
+      {
+        "stat": "map_mon_dropjewelry",
+        "type": "other"
+      }
+    ]
+  },
+  "map-mon-dropweapons": {
+    "stats": [
+      {
+        "stat": "map_mon_dropweapons",
+        "type": "other"
+      }
+    ]
+  },
+  "map-mon-droparmor": {
+    "stats": [
+      {
+        "stat": "map_mon_droparmor",
+        "type": "other"
+      }
+    ]
+  },
+  "map-mon-dropcharms": {
+    "stats": [
+      {
+        "stat": "map_mon_dropcharms",
+        "type": "other"
+      }
+    ]
+  },
+  "map-glob-extra-boss": {
+    "stats": [
+      {
+        "stat": "map_glob_extra_boss",
+        "type": "other"
+      }
+    ]
+  },
+  "map-glob-add-mon-shriek": {
+    "stats": [
+      {
+        "stat": "map_glob_add_mon_shriek",
         "type": "other"
       }
     ]

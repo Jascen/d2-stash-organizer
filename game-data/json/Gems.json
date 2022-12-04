@@ -1516,8 +1516,8 @@
       {
         "prop": "dmg%",
         "param": 0,
-        "min": 25,
-        "max": 25
+        "min": 20,
+        "max": 20
       }
     ],
     "armor": [
@@ -1790,16 +1790,16 @@
       {
         "prop": "mag%",
         "param": 0,
-        "min": 25,
-        "max": 25
+        "min": 30,
+        "max": 30
       }
     ],
     "shield": [
       {
         "prop": "mag%",
         "param": 0,
-        "min": 25,
-        "max": 25
+        "min": 30,
+        "max": 30
       }
     ]
   },
@@ -1860,8 +1860,8 @@
       {
         "prop": "dmg%",
         "param": 0,
-        "min": 50,
-        "max": 50
+        "min": 40,
+        "max": 40
       }
     ],
     "armor": [
@@ -1946,16 +1946,16 @@
       {
         "prop": "red-dmg%",
         "param": 0,
-        "min": 4,
-        "max": 4
+        "min": 5,
+        "max": 5
       }
     ],
     "shield": [
       {
         "prop": "red-dmg%",
         "param": 0,
-        "min": 4,
-        "max": 4
+        "min": 5,
+        "max": 5
       }
     ]
   },
@@ -1980,8 +1980,8 @@
       {
         "prop": "hp",
         "param": 0,
-        "min": 50,
-        "max": 50
+        "min": 75,
+        "max": 75
       }
     ]
   },
