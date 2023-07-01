@@ -395,7 +395,7 @@
     "modifiers": [
       [
         {
-          "prop": "manasteal",
+          "prop": "mana-steal",
           "param": 0,
           "min": 5,
           "max": 5
@@ -537,10 +537,10 @@
           "max": 1
         },
         {
-          "prop": "openwounds",
-          "param": 0,
-          "min": 20,
-          "max": 20
+          "prop": "dmg-pois",
+          "param": 50,
+          "min": 62,
+          "max": 62
         },
         {
           "prop": "manasteal",
@@ -838,8 +838,8 @@
         {
           "prop": "res-all",
           "param": 0,
-          "min": 30,
-          "max": 30
+          "min": 50,
+          "max": 50
         },
         {
           "prop": "ass",
@@ -856,14 +856,14 @@
         {
           "prop": "lifesteal",
           "param": 0,
-          "min": 6,
-          "max": 6
+          "min": 10,
+          "max": 10
         },
         {
           "prop": "manasteal",
           "param": 0,
-          "min": 6,
-          "max": 6
+          "min": 10,
+          "max": 10
         },
         {
           "prop": "red-dmg%",
@@ -1138,8 +1138,8 @@
         {
           "prop": "res-all",
           "param": 0,
-          "min": 30,
-          "max": 30
+          "min": 50,
+          "max": 50
         },
         {
           "prop": "pal",

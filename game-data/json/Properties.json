@@ -3361,10 +3361,10 @@
       }
     ]
   },
-  "map-mon-dropcharms": {
+  "map-mon-dropcrafting": {
     "stats": [
       {
-        "stat": "map_mon_dropcharms",
+        "stat": "map_mon_dropcrafting",
         "type": "other"
       }
     ]
@@ -3381,6 +3381,70 @@
     "stats": [
       {
         "stat": "map_glob_add_mon_shriek",
+        "type": "other"
+      }
+    ]
+  },
+  "map-force-event": {
+    "stats": [
+      {
+        "stat": "map_force_event",
+        "type": "other"
+      }
+    ]
+  },
+  "uber-difficulty": {
+    "stats": [
+      {
+        "stat": "uber_difficulty",
+        "type": "other"
+      }
+    ]
+  },
+  "deep-wounds": {
+    "stats": [
+      {
+        "stat": "deep_wounds",
+        "type": "other"
+      }
+    ]
+  },
+  "map-mon-dropcharms": {
+    "stats": [
+      {
+        "stat": "map_mon_dropcharms",
+        "type": "other"
+      }
+    ]
+  },
+  "map-glob-dropcorrupted": {
+    "stats": [
+      {
+        "stat": "map_glob_dropcorrupted",
+        "type": "other"
+      }
+    ]
+  },
+  "curse-effectiveness": {
+    "stats": [
+      {
+        "stat": "curse_effectiveness",
+        "type": "other"
+      }
+    ]
+  },
+  "map-glob-boss-dropskillers": {
+    "stats": [
+      {
+        "stat": "map_glob_boss_dropskillers",
+        "type": "other"
+      }
+    ]
+  },
+  "map-glob-boss-dropcorruptedunique": {
+    "stats": [
+      {
+        "stat": "map_glob_boss_dropcorruptedunique",
         "type": "other"
       }
     ]

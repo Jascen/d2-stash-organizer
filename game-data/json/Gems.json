@@ -1730,8 +1730,14 @@
       {
         "prop": "openwounds",
         "param": 0,
-        "min": 25,
-        "max": 25
+        "min": 10,
+        "max": 10
+      },
+      {
+        "prop": "deep-wounds",
+        "param": 0,
+        "min": 120,
+        "max": 120
       }
     ],
     "armor": [
@@ -1860,8 +1866,8 @@
       {
         "prop": "dmg%",
         "param": 0,
-        "min": 40,
-        "max": 40
+        "min": 45,
+        "max": 45
       }
     ],
     "armor": [

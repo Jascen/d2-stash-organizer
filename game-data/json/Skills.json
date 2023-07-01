@@ -1686,8 +1686,8 @@
     "charClass": 2
   },
   {
-    "code": "bartemp1",
-    "name": "bartemp1",
+    "code": "Deep Wounds",
+    "name": "Deep Wounds",
     "charClass": 4
   },
   {
@@ -2385,5 +2385,65 @@
   {
     "code": "Fire Nova",
     "name": "Fire Nova"
+  },
+  {
+    "code": "ZharBarrage",
+    "name": "ZharBarrage"
+  },
+  {
+    "code": "ZharStrike",
+    "name": "ZharStrike"
+  },
+  {
+    "code": "ZharArmageddon",
+    "name": "ZharArmageddon"
+  },
+  {
+    "code": "ZharNovaOrb",
+    "name": "ZharNovaOrb"
+  },
+  {
+    "code": "ZharCloak",
+    "name": "ZharCloak"
+  },
+  {
+    "code": "DemonPillar Fireball",
+    "name": "DemonPillar Fireball"
+  },
+  {
+    "code": "Merc Magic Arrow",
+    "name": "Merc Magic Arrow"
+  },
+  {
+    "code": "UberDiabRun",
+    "name": "UberDiabRun"
+  },
+  {
+    "code": "ZharMiniBossMeteorBlizzard",
+    "name": "ZharMiniBossMeteorBlizzard"
+  },
+  {
+    "code": "ZharMiniBossCombustion",
+    "name": "ZharMiniBossCombustion"
+  },
+  {
+    "code": "DemonPillar Lightning",
+    "name": "DemonPillar Lightning"
+  },
+  {
+    "code": "GuardianOfFateSummon",
+    "name": "GuardianOfFateSummon"
+  },
+  {
+    "code": "A4 Mastery",
+    "name": "A4 Mastery"
+  },
+  {
+    "code": "A4 AmpDmg",
+    "name": "A4 AmpDmg"
+  },
+  {
+    "code": "WarlordMiniBoss1BaalFire",
+    "name": "WarlordMiniBoss1BaalFire"
   }
 ]

@@ -773,25 +773,25 @@
         "max": 40
       },
       {
-        "prop": "hit-skill",
+        "prop": "cast-skill",
         "param": 229,
         "min": 8,
         "max": 35
       },
       {
-        "prop": "hit-skill",
+        "prop": "cast-skill",
         "param": 56,
         "min": 15,
         "max": 45
       },
       {
-        "prop": "att-skill",
+        "prop": "cast-skill",
         "param": 48,
         "min": 15,
         "max": 40
       },
       {
-        "prop": "hit-skill",
+        "prop": "cast-skill",
         "param": 44,
         "min": 20,
         "max": 35
@@ -958,8 +958,8 @@
       {
         "prop": "aura",
         "param": 118,
-        "min": 14,
-        "max": 14
+        "min": 13,
+        "max": 13
       },
       {
         "prop": "mag%",
@@ -1542,10 +1542,10 @@
         "max": 1
       },
       {
-        "prop": "openwounds",
-        "param": 0,
-        "min": 33,
-        "max": 66
+        "prop": "skill",
+        "param": 368,
+        "min": 5,
+        "max": 5
       },
       {
         "prop": "lifesteal",
@@ -1608,10 +1608,10 @@
         "max": 5
       },
       {
-        "prop": "red-mag",
+        "prop": "curse-effectiveness",
         "param": 0,
-        "min": 4,
-        "max": 10
+        "min": 20,
+        "max": 20
       },
       {
         "prop": "half-freeze",
@@ -1649,14 +1649,14 @@
       {
         "prop": "dmg-min",
         "param": 0,
-        "min": 260,
-        "max": 260
+        "min": 280,
+        "max": 280
       },
       {
         "prop": "dmg-max",
         "param": 0,
-        "min": 280,
-        "max": 320
+        "min": 320,
+        "max": 360
       },
       {
         "prop": "swing3",
@@ -1673,8 +1673,8 @@
       {
         "prop": "pierce-pois",
         "param": 0,
-        "min": 20,
-        "max": 25
+        "min": 15,
+        "max": 20
       },
       {
         "prop": "heal-kill",
@@ -1734,7 +1734,7 @@
       {
         "prop": "pierce-fire",
         "param": 0,
-        "min": 20,
+        "min": 10,
         "max": 20
       }
     ]
@@ -2635,10 +2635,10 @@
         "max": -5
       },
       {
-        "prop": "heal-hit",
+        "prop": "deep-wounds",
         "param": 0,
-        "min": 2,
-        "max": 2
+        "min": 6,
+        "max": 6
       }
     ]
   },
@@ -2822,7 +2822,7 @@
       {
         "prop": "hit-skill",
         "param": 137,
-        "min": 10,
+        "min": 5,
         "max": 1
       },
       {
@@ -2970,6 +2970,12 @@
         "param": 0,
         "min": 10,
         "max": 15
+      },
+      {
+        "prop": "rep-charge",
+        "param": 33,
+        "min": 0,
+        "max": 0
       }
     ]
   },
@@ -4560,10 +4566,10 @@
         "max": 15
       },
       {
-        "prop": "kill-skill",
+        "prop": "hit-skill",
         "param": 92,
         "min": 20,
-        "max": 23
+        "max": 28
       },
       {
         "prop": "manasteal",
@@ -4672,7 +4678,7 @@
       {
         "prop": "skilltab",
         "param": 7,
-        "min": 1,
+        "min": 2,
         "max": 2
       },
       {
@@ -4719,8 +4725,8 @@
       {
         "prop": "dmg%",
         "param": 0,
-        "min": 350,
-        "max": 400
+        "min": 320,
+        "max": 380
       },
       {
         "prop": "swing2",
