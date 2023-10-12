@@ -574,8 +574,8 @@
     "charClass": 3
   },
   {
-    "code": "Conversion",
-    "name": "Conversion",
+    "code": "Holy Sword",
+    "name": "Holy Sword",
     "charClass": 3
   },
   {
@@ -2211,8 +2211,8 @@
     "name": "SummonVoidling"
   },
   {
-    "code": "ButcherAura",
-    "name": "ButcherAura"
+    "code": "IskatuHurricane",
+    "name": "IskatuHurricane"
   },
   {
     "code": "RathmaPoisonOrb",
@@ -2445,5 +2445,37 @@
   {
     "code": "WarlordMiniBoss1BaalFire",
     "name": "WarlordMiniBoss1BaalFire"
+  },
+  {
+    "code": "Energy Shield SelfAura",
+    "name": "Energy Shield SelfAura"
+  },
+  {
+    "code": "Chilling Armor SelfAura",
+    "name": "Chilling Armor SelfAura"
+  },
+  {
+    "code": "Quickness SelfAura",
+    "name": "Quickness SelfAura"
+  },
+  {
+    "code": "Blade Shield SelfAura",
+    "name": "Blade Shield SelfAura"
+  },
+  {
+    "code": "IskatuBlizzard",
+    "name": "IskatuBlizzard"
+  },
+  {
+    "code": "ButcherAura",
+    "name": "ButcherAura"
+  },
+  {
+    "code": "IskatuMagicOrb",
+    "name": "IskatuMagicOrb"
+  },
+  {
+    "code": "RakanothStrike",
+    "name": "RakanothStrike"
   }
 ]

@@ -348,7 +348,7 @@
         "prop": "lifesteal",
         "param": 0,
         "min": 8,
-        "max": 10
+        "max": 12
       },
       {
         "prop": "noheal",
@@ -371,7 +371,7 @@
       {
         "prop": "all-stats",
         "param": 0,
-        "min": 20,
+        "min": 30,
         "max": 30
       }
     ]
@@ -520,14 +520,14 @@
       {
         "prop": "dmg%",
         "param": 0,
-        "min": 250,
-        "max": 300
+        "min": 200,
+        "max": 250
       },
       {
         "prop": "dmg-mag",
         "param": 0,
-        "min": 216,
-        "max": 471
+        "min": 200,
+        "max": 400
       },
       {
         "prop": "skill",
@@ -2108,10 +2108,58 @@
   },
   {
     "name": "Innocence",
-    "enabled": false,
-    "runes": [],
-    "levelReq": 0,
-    "modifiers": []
+    "enabled": true,
+    "runes": [
+      "r25",
+      "r20",
+      "r33",
+      "r15"
+    ],
+    "levelReq": 69,
+    "modifiers": [
+      {
+        "prop": "allskills",
+        "param": 0,
+        "min": 2,
+        "max": 2
+      },
+      {
+        "prop": "thorns",
+        "param": 0,
+        "min": 600,
+        "max": 800
+      },
+      {
+        "prop": "equipped-skill",
+        "param": 557,
+        "min": 8,
+        "max": 12
+      },
+      {
+        "prop": "ac%",
+        "param": 0,
+        "min": 200,
+        "max": 275
+      },
+      {
+        "prop": "crush",
+        "param": 0,
+        "min": 20,
+        "max": 20
+      },
+      {
+        "prop": "res-pois-len",
+        "param": 0,
+        "min": 50,
+        "max": 50
+      },
+      {
+        "prop": "ease",
+        "param": 0,
+        "min": -10,
+        "max": -10
+      }
+    ]
   },
   {
     "name": "Insight",

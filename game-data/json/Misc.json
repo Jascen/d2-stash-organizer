@@ -3194,5 +3194,77 @@
     "qlevel": 99,
     "levelReq": 0,
     "stackable": true
+  },
+  "t53": {
+    "name": "t53",
+    "type": "t5m",
+    "tier": 0,
+    "maxSockets": 0,
+    "indestructible": true,
+    "width": 1,
+    "height": 1,
+    "qlevel": 80,
+    "levelReq": 0,
+    "stackable": false
+  },
+  "irma": {
+    "name": "irma",
+    "type": "irma",
+    "tier": 0,
+    "maxSockets": 0,
+    "indestructible": true,
+    "width": 1,
+    "height": 1,
+    "qlevel": 0,
+    "levelReq": 0,
+    "stackable": true
+  },
+  "irrn": {
+    "name": "irrn",
+    "type": "irrn",
+    "tier": 0,
+    "maxSockets": 0,
+    "indestructible": true,
+    "width": 1,
+    "height": 1,
+    "qlevel": 0,
+    "levelReq": 0,
+    "stackable": true
+  },
+  "irra": {
+    "name": "irra",
+    "type": "irra",
+    "tier": 0,
+    "maxSockets": 0,
+    "indestructible": true,
+    "width": 1,
+    "height": 1,
+    "qlevel": 0,
+    "levelReq": 0,
+    "stackable": true
+  },
+  "rrra": {
+    "name": "rrra",
+    "type": "rrra",
+    "tier": 0,
+    "maxSockets": 0,
+    "indestructible": true,
+    "width": 1,
+    "height": 1,
+    "qlevel": 0,
+    "levelReq": 0,
+    "stackable": true
+  },
+  "urma": {
+    "name": "urma",
+    "type": "urma",
+    "tier": 0,
+    "maxSockets": 0,
+    "indestructible": true,
+    "width": 1,
+    "height": 1,
+    "qlevel": 0,
+    "levelReq": 0,
+    "stackable": true
   }
 }

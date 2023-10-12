@@ -2506,7 +2506,19 @@
     "descNeg": "",
     "descAdditional": ""
   },
-  null,
+  {
+    "stat": "item_skillonequip",
+    "encode": 0,
+    "size": 5,
+    "bias": 0,
+    "paramSize": 12,
+    "descPriority": 159,
+    "descFunc": 16,
+    "descVal": 0,
+    "descPos": "ModitemSkillOnEquip",
+    "descNeg": "ModitemSkillOnEquip",
+    "descAdditional": ""
+  },
   null,
   null,
   {
@@ -2636,7 +2648,19 @@
   null,
   null,
   null,
-  null,
+  {
+    "stat": "item_mindamage_energy",
+    "encode": 0,
+    "size": 6,
+    "bias": 0,
+    "paramSize": 0,
+    "descPriority": 53,
+    "descFunc": 6,
+    "descVal": 1,
+    "descPos": "to Minimum Damage",
+    "descNeg": "to Minimum Damage",
+    "descAdditional": "increaseswithenergy"
+  },
   {
     "stat": "item_armor_perlevel",
     "encode": 0,
@@ -5927,7 +5951,7 @@
   {
     "stat": "deep_wounds",
     "encode": 0,
-    "size": 11,
+    "size": 16,
     "bias": 0,
     "paramSize": 0,
     "descPriority": 82,
@@ -5975,5 +5999,31 @@
     "descPos": "StrCurseEffectiveness",
     "descNeg": "StrCurseEffectiveness",
     "descAdditional": ""
+  },
+  {
+    "stat": "map_glob_boss_dropfacet",
+    "encode": 0,
+    "size": 2,
+    "bias": 2,
+    "paramSize": 0,
+    "descPriority": 208,
+    "descFunc": 3,
+    "descVal": 0,
+    "descPos": "MapBossFacet",
+    "descNeg": "MapBossFacet",
+    "descAdditional": ""
+  },
+  {
+    "stat": "map_mon_dropjewels",
+    "encode": 0,
+    "size": 7,
+    "bias": 20,
+    "paramSize": 0,
+    "descPriority": 205,
+    "descFunc": 8,
+    "descVal": 2,
+    "descPos": "MapMonHave",
+    "descNeg": "MapMonHave",
+    "descAdditional": "MapMonIncreasedJewels"
   }
 ]

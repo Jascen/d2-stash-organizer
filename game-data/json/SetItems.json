@@ -5140,7 +5140,7 @@
       {
         "prop": "hit-skill",
         "param": 44,
-        "min": 23,
+        "min": 33,
         "max": 31
       },
       {
@@ -5848,7 +5848,7 @@
         {
           "prop": "heal-kill",
           "param": 0,
-          "min": 7,
+          "min": 10,
           "max": 14
         }
       ],
@@ -6003,7 +6003,14 @@
       }
     ],
     "setModifiers": [
-      [],
+      [
+        {
+          "prop": "swing2",
+          "param": 0,
+          "min": 30,
+          "max": 30
+        }
+      ],
       [],
       [],
       [],
@@ -6061,7 +6068,14 @@
       }
     ],
     "setModifiers": [
-      [],
+      [
+        {
+          "prop": "dmg%",
+          "param": 0,
+          "min": 50,
+          "max": 50
+        }
+      ],
       [],
       [],
       [],

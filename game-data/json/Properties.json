@@ -3448,5 +3448,37 @@
         "type": "other"
       }
     ]
+  },
+  "equipped-skill": {
+    "stats": [
+      {
+        "stat": "item_skillonequip",
+        "type": "other"
+      }
+    ]
+  },
+  "mindmg/energy": {
+    "stats": [
+      {
+        "stat": "item_mindamage_energy",
+        "type": "param"
+      }
+    ]
+  },
+  "map-glob-boss-dropfacet": {
+    "stats": [
+      {
+        "stat": "map_glob_boss_dropfacet",
+        "type": "other"
+      }
+    ]
+  },
+  "map-mon-dropjewels": {
+    "stats": [
+      {
+        "stat": "map_mon_dropjewels",
+        "type": "other"
+      }
+    ]
   }
 }
