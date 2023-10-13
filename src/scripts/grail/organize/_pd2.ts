@@ -63,6 +63,6 @@ export const pd2Changes = {
     // pvp: "pvp",
   },
   propertyOverrides: {
-    'mana-steal': 'manasteal' // Tancreds Set
-  } as Record<string, string>
+    "mana-steal": "manasteal", // Tancreds Set
+  } as Record<string, string>,
 };
