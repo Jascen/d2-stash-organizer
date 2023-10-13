@@ -73,7 +73,13 @@ export function organizeGems(stash: PlugyStash, items: Item[]) {
   );
 
   items.forEach((item) => {
-    if (item.code.startsWith("gem")) {
+    const type = MISC[item.code]?.type;
+    if (!type) {
+      console.warn('Unknown gem type for item code: ' + item.code);
+      return;
+    }
+
+    if (type.startsWith("gem")) {
       gems.nonStackable.items.push(item);
     } else {
       gems.stackable.items.push(item);
