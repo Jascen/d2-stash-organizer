@@ -395,7 +395,7 @@
     "modifiers": [
       [
         {
-          "prop": "mana-steal",
+          "prop": "manasteal",
           "param": 0,
           "min": 5,
           "max": 5
