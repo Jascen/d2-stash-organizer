@@ -1,3 +1,4 @@
+import { pd2Changes } from "../../scripts/grail/organize/_pd2";
 import { Skill } from "../types";
 
 export function readModifierRange(
@@ -19,8 +20,11 @@ export function readModifierRange(
     );
   }
 
+  const prop = line[modifierIndex].trim().toLocaleLowerCase();
+  const override = pd2Changes.propertyOverrides[prop];
+
   return {
-    prop: line[modifierIndex].trim().toLocaleLowerCase(),
+    prop: override ? override : prop,
     param,
     min: Number(line[modifierIndex + 2]),
     max: Number(line[modifierIndex + 3]),
