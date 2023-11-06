@@ -75,7 +75,7 @@ export function organizeGems(stash: PlugyStash, items: Item[]) {
   items.forEach((item) => {
     const type = MISC[item.code]?.type;
     if (!type) {
-      console.warn('Unknown gem type for item code: ' + item.code);
+      console.warn("Unknown gem type for item code: " + item.code);
       return;
     }
 
