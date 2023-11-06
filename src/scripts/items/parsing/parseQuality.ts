@@ -11,6 +11,7 @@ import {
   UNIQUE_ITEMS,
 } from "../../../game-data";
 import { getBase } from "../getBase";
+import { ItemParsingError } from "../../errors/ItemParsingError";
 
 // Modifies the item in place, returns the last index read
 export function parseQuality(
@@ -82,7 +83,11 @@ export function parseQuality(
     if (item.runewordId === 2691) {
       item.runewordId = 21;
     }
-    item.name = RUNEWORDS[item.runewordId].name;
+
+    const runeword = RUNEWORDS[item.runewordId];
+    if (!runeword) { throw new ItemParsingError(item, `Unknown runeword (${item.runewordId}) for item '${item.name}'.`); }
+
+    item.name = runeword.name;
     read(4);
   }
 

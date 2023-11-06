@@ -7,6 +7,7 @@ import { ItemParsingError } from "../../errors/ItemParsingError";
 import { SaveFileReader } from "../../save-file/SaveFileReader";
 import { LAST_LEGACY } from "../../character/parsing/versions";
 import { ItemsOwner } from "../../save-file/ownership";
+import { PlugyStash } from "../../plugy-stash/types";
 
 export function parseItem(reader: SaveFileReader, owner: ItemsOwner) {
   // https://squeek502.github.io/d2itemreader/formats/d2.html
@@ -29,6 +30,17 @@ export function parseItem(reader: SaveFileReader, owner: ItemsOwner) {
       parseQuantified(stream, item);
       parseModifiers(stream, item);
     } catch (e) {
+      console.error(`Failed to parse file '${item.owner.filename}'.`);
+      
+      const runewordInfo = item.runewordId ? ` -- Runeword ID: ${item.runewordId}` : '';
+      const stash = item.owner as PlugyStash;
+      if (stash?.pages) {
+        console.warn(`Item '${item.name}' at (${item.column},${item.row}) on page ${stash.pages.length + 1}.${runewordInfo}`, item, e)
+      } else {
+        // const character = item.owner as Character;
+        console.warn(`Item '${item.name}' at (${item.column},${item.row}).${runewordInfo}`, item, e)
+      }
+      
       if (e instanceof ItemParsingError) {
         throw e;
       }
