@@ -85,9 +85,7 @@ export function parseQuality(
     }
 
     const runeword = RUNEWORDS[item.runewordId];
-    if (!runeword) { throw new ItemParsingError(item, `Unknown runeword (${item.runewordId}) for item '${item.name}'.`); }
-
-    item.name = runeword.name;
+    item.name = runeword?.name ?? `Unknown Runeword (${item.runewordId})`;
     read(4);
   }
 

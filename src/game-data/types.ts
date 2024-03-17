@@ -67,6 +67,7 @@ export interface Set {
 }
 
 export interface Runeword {
+  id: number;
   name: string;
   enabled: boolean;
   runes: string[];
