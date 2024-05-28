@@ -1824,7 +1824,7 @@
     "width": 1,
     "height": 1,
     "qlevel": 90,
-    "levelReq": 90,
+    "levelReq": 0,
     "stackable": true
   },
   "wss": {
@@ -2532,7 +2532,7 @@
     "width": 1,
     "height": 1,
     "qlevel": 99,
-    "levelReq": 0,
+    "levelReq": 80,
     "stackable": false
   },
   "dcma": {
@@ -2544,7 +2544,7 @@
     "width": 1,
     "height": 1,
     "qlevel": 99,
-    "levelReq": 0,
+    "levelReq": 80,
     "stackable": false
   },
   "dcbl": {
@@ -2592,7 +2592,7 @@
     "width": 1,
     "height": 1,
     "qlevel": 80,
-    "levelReq": 0,
+    "levelReq": 80,
     "stackable": true
   },
   "t12": {
@@ -2604,31 +2604,31 @@
     "width": 1,
     "height": 1,
     "qlevel": 80,
-    "levelReq": 0,
+    "levelReq": 80,
     "stackable": true
   },
   "t13": {
     "name": "t13",
-    "type": "t1m",
+    "type": "t2m",
     "tier": 0,
     "maxSockets": 0,
     "indestructible": true,
     "width": 1,
     "height": 1,
     "qlevel": 80,
-    "levelReq": 0,
+    "levelReq": 80,
     "stackable": true
   },
   "t21": {
     "name": "t21",
-    "type": "t1m",
+    "type": "t3m",
     "tier": 0,
     "maxSockets": 0,
     "indestructible": true,
     "width": 1,
     "height": 1,
     "qlevel": 80,
-    "levelReq": 0,
+    "levelReq": 80,
     "stackable": true
   },
   "t22": {
@@ -2640,7 +2640,7 @@
     "width": 1,
     "height": 1,
     "qlevel": 80,
-    "levelReq": 0,
+    "levelReq": 80,
     "stackable": true
   },
   "t23": {
@@ -2652,43 +2652,43 @@
     "width": 1,
     "height": 1,
     "qlevel": 80,
-    "levelReq": 0,
+    "levelReq": 80,
     "stackable": true
   },
   "t24": {
     "name": "t24",
-    "type": "t3m",
+    "type": "t2m",
     "tier": 0,
     "maxSockets": 0,
     "indestructible": true,
     "width": 1,
     "height": 1,
     "qlevel": 80,
-    "levelReq": 0,
+    "levelReq": 80,
     "stackable": true
   },
   "t25": {
     "name": "t25",
-    "type": "t3m",
+    "type": "t1m",
     "tier": 0,
     "maxSockets": 0,
     "indestructible": true,
     "width": 1,
     "height": 1,
     "qlevel": 80,
-    "levelReq": 0,
+    "levelReq": 80,
     "stackable": true
   },
   "t31": {
     "name": "t31",
-    "type": "t3m",
+    "type": "t2m",
     "tier": 0,
     "maxSockets": 0,
     "indestructible": true,
     "width": 1,
     "height": 1,
     "qlevel": 80,
-    "levelReq": 0,
+    "levelReq": 80,
     "stackable": true
   },
   "t32": {
@@ -2700,19 +2700,19 @@
     "width": 1,
     "height": 1,
     "qlevel": 80,
-    "levelReq": 0,
+    "levelReq": 80,
     "stackable": true
   },
   "t33": {
     "name": "t33",
-    "type": "t1m",
+    "type": "t2m",
     "tier": 0,
     "maxSockets": 0,
     "indestructible": true,
     "width": 1,
     "height": 1,
     "qlevel": 80,
-    "levelReq": 0,
+    "levelReq": 80,
     "stackable": true
   },
   "t34": {
@@ -2724,7 +2724,7 @@
     "width": 1,
     "height": 1,
     "qlevel": 80,
-    "levelReq": 0,
+    "levelReq": 80,
     "stackable": true
   },
   "t35": {
@@ -2736,19 +2736,19 @@
     "width": 1,
     "height": 1,
     "qlevel": 80,
-    "levelReq": 0,
+    "levelReq": 80,
     "stackable": true
   },
   "t36": {
     "name": "t36",
-    "type": "t2m",
+    "type": "t1m",
     "tier": 0,
     "maxSockets": 0,
     "indestructible": true,
     "width": 1,
     "height": 1,
     "qlevel": 80,
-    "levelReq": 0,
+    "levelReq": 80,
     "stackable": true
   },
   "t37": {
@@ -2760,19 +2760,19 @@
     "width": 1,
     "height": 1,
     "qlevel": 80,
-    "levelReq": 0,
+    "levelReq": 80,
     "stackable": true
   },
   "t41": {
     "name": "t41",
-    "type": "t4m",
+    "type": "ubr",
     "tier": 0,
     "maxSockets": 0,
     "indestructible": true,
     "width": 1,
     "height": 1,
     "qlevel": 80,
-    "levelReq": 0,
+    "levelReq": 80,
     "stackable": true
   },
   "t99": {
@@ -2784,7 +2784,7 @@
     "width": 1,
     "height": 1,
     "qlevel": 80,
-    "levelReq": 0,
+    "levelReq": 80,
     "stackable": true
   },
   "t39": {
@@ -2796,7 +2796,7 @@
     "width": 1,
     "height": 1,
     "qlevel": 80,
-    "levelReq": 0,
+    "levelReq": 80,
     "stackable": true
   },
   "t61": {
@@ -2832,7 +2832,7 @@
     "width": 1,
     "height": 1,
     "qlevel": 99,
-    "levelReq": 0,
+    "levelReq": 80,
     "stackable": false
   },
   "cwss": {
@@ -2856,7 +2856,7 @@
     "width": 1,
     "height": 1,
     "qlevel": 80,
-    "levelReq": 0,
+    "levelReq": 80,
     "stackable": true
   },
   "ram": {
@@ -2928,7 +2928,7 @@
     "width": 1,
     "height": 1,
     "qlevel": 80,
-    "levelReq": 0,
+    "levelReq": 80,
     "stackable": true
   },
   "rtmv": {
@@ -2957,14 +2957,14 @@
   },
   "t14": {
     "name": "t14",
-    "type": "t2m",
+    "type": "t3m",
     "tier": 0,
     "maxSockets": 0,
     "indestructible": true,
     "width": 1,
     "height": 1,
     "qlevel": 80,
-    "levelReq": 0,
+    "levelReq": 80,
     "stackable": true
   },
   "uba": {
@@ -2976,7 +2976,7 @@
     "width": 1,
     "height": 1,
     "qlevel": 80,
-    "levelReq": 0,
+    "levelReq": 80,
     "stackable": false
   },
   "llmr": {
@@ -3041,26 +3041,26 @@
   },
   "t26": {
     "name": "t26",
-    "type": "t2m",
+    "type": "t1m",
     "tier": 0,
     "maxSockets": 0,
     "indestructible": true,
     "width": 1,
     "height": 1,
     "qlevel": 80,
-    "levelReq": 0,
+    "levelReq": 80,
     "stackable": true
   },
   "t15": {
     "name": "t15",
-    "type": "t2m",
+    "type": "t1m",
     "tier": 0,
     "maxSockets": 0,
     "indestructible": true,
     "width": 1,
     "height": 1,
     "qlevel": 80,
-    "levelReq": 0,
+    "levelReq": 80,
     "stackable": true
   },
   "t43": {
@@ -3072,7 +3072,7 @@
     "width": 1,
     "height": 1,
     "qlevel": 80,
-    "levelReq": 0,
+    "levelReq": 80,
     "stackable": true
   },
   "lpp": {
@@ -3101,14 +3101,14 @@
   },
   "t16": {
     "name": "t16",
-    "type": "t1m",
+    "type": "t3m",
     "tier": 0,
     "maxSockets": 0,
     "indestructible": true,
     "width": 1,
     "height": 1,
     "qlevel": 80,
-    "levelReq": 0,
+    "levelReq": 80,
     "stackable": true
   },
   "t3a": {
@@ -3120,7 +3120,7 @@
     "width": 1,
     "height": 1,
     "qlevel": 80,
-    "levelReq": 0,
+    "levelReq": 80,
     "stackable": true
   },
   "lmal": {
@@ -3168,7 +3168,7 @@
     "width": 1,
     "height": 1,
     "qlevel": 80,
-    "levelReq": 0,
+    "levelReq": 80,
     "stackable": false
   },
   "t52": {
@@ -3180,7 +3180,7 @@
     "width": 1,
     "height": 1,
     "qlevel": 80,
-    "levelReq": 0,
+    "levelReq": 80,
     "stackable": false
   },
   "cm2f": {
@@ -3204,7 +3204,7 @@
     "width": 1,
     "height": 1,
     "qlevel": 80,
-    "levelReq": 0,
+    "levelReq": 80,
     "stackable": false
   },
   "irma": {
@@ -3265,6 +3265,102 @@
     "height": 1,
     "qlevel": 0,
     "levelReq": 0,
+    "stackable": true
+  },
+  "crfb": {
+    "name": "crfb",
+    "type": "crft",
+    "tier": 0,
+    "maxSockets": 0,
+    "indestructible": true,
+    "width": 1,
+    "height": 1,
+    "qlevel": 0,
+    "levelReq": 0,
+    "stackable": true
+  },
+  "crfc": {
+    "name": "crfc",
+    "type": "crft",
+    "tier": 0,
+    "maxSockets": 0,
+    "indestructible": true,
+    "width": 1,
+    "height": 1,
+    "qlevel": 0,
+    "levelReq": 0,
+    "stackable": true
+  },
+  "crfs": {
+    "name": "crfs",
+    "type": "crft",
+    "tier": 0,
+    "maxSockets": 0,
+    "indestructible": true,
+    "width": 1,
+    "height": 1,
+    "qlevel": 0,
+    "levelReq": 0,
+    "stackable": true
+  },
+  "crfh": {
+    "name": "crfh",
+    "type": "crft",
+    "tier": 0,
+    "maxSockets": 0,
+    "indestructible": true,
+    "width": 1,
+    "height": 1,
+    "qlevel": 0,
+    "levelReq": 0,
+    "stackable": true
+  },
+  "crfv": {
+    "name": "crfv",
+    "type": "crft",
+    "tier": 0,
+    "maxSockets": 0,
+    "indestructible": true,
+    "width": 1,
+    "height": 1,
+    "qlevel": 0,
+    "levelReq": 0,
+    "stackable": true
+  },
+  "crfu": {
+    "name": "crfu",
+    "type": "crft",
+    "tier": 0,
+    "maxSockets": 0,
+    "indestructible": true,
+    "width": 1,
+    "height": 1,
+    "qlevel": 0,
+    "levelReq": 0,
+    "stackable": true
+  },
+  "crfp": {
+    "name": "crfp",
+    "type": "crft",
+    "tier": 0,
+    "maxSockets": 0,
+    "indestructible": true,
+    "width": 1,
+    "height": 1,
+    "qlevel": 0,
+    "levelReq": 0,
+    "stackable": true
+  },
+  "t44": {
+    "name": "t44",
+    "type": "t4m",
+    "tier": 0,
+    "maxSockets": 0,
+    "indestructible": true,
+    "width": 1,
+    "height": 1,
+    "qlevel": 80,
+    "levelReq": 80,
     "stackable": true
   }
 }

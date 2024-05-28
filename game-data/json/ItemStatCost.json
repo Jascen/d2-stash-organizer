@@ -467,8 +467,8 @@
     "descPriority": 22,
     "descFunc": 3,
     "descVal": 2,
-    "descPos": "Damage Reduced by",
-    "descNeg": "Damage Reduced by",
+    "descPos": "ModStr2u_PD2",
+    "descNeg": "ModStr2u_PD2",
     "descAdditional": ""
   },
   {
@@ -480,8 +480,8 @@
     "descPriority": 21,
     "descFunc": 3,
     "descVal": 2,
-    "descPos": "Magic Damage Reduced by",
-    "descNeg": "Magic Damage Reduced by",
+    "descPos": "ModStr2t_PD2",
+    "descNeg": "ModStr2t_PD2",
     "descAdditional": ""
   },
   {
@@ -493,8 +493,8 @@
     "descPriority": 22,
     "descFunc": 2,
     "descVal": 2,
-    "descPos": "Damage Reduced by",
-    "descNeg": "Damage Reduced by",
+    "descPos": "ModStr2u_PD2",
+    "descNeg": "ModStr2u_PD2",
     "descAdditional": ""
   },
   {
@@ -1514,8 +1514,8 @@
     "descPriority": 11,
     "descFunc": 2,
     "descVal": 1,
-    "descPos": "Damage Taken Goes To Mana",
-    "descNeg": "Damage Taken Goes To Mana",
+    "descPos": "ModStr3w_PD2",
+    "descNeg": "ModStr3w_PD2",
     "descAdditional": ""
   },
   {
@@ -2437,8 +2437,8 @@
     "descPriority": 100,
     "descFunc": 3,
     "descVal": 2,
-    "descPos": "StrUberDifficulty",
-    "descNeg": "StrUberDifficulty",
+    "descPos": "MapTier",
+    "descNeg": "MapTier",
     "descAdditional": ""
   },
   {
@@ -4108,7 +4108,7 @@
     "size": 7,
     "bias": 0,
     "paramSize": 16,
-    "descPriority": 160,
+    "descPriority": 245,
     "descFunc": 15,
     "descVal": 0,
     "descPos": "splash3",
@@ -5374,7 +5374,7 @@
     "descVal": 2,
     "descPos": "MapPlayHave",
     "descNeg": "MapPlayHave",
-    "descAdditional": "Damage Reduced by"
+    "descAdditional": "ModStr2u_PD2"
   },
   {
     "stat": "map_play_velocitypercent",
@@ -6025,5 +6025,18 @@
     "descPos": "MapMonHave",
     "descNeg": "MapMonHave",
     "descAdditional": "MapMonIncreasedJewels"
+  },
+  {
+    "stat": "es_efficiency",
+    "encode": 0,
+    "size": 5,
+    "bias": 0,
+    "paramSize": 0,
+    "descPriority": 0,
+    "descFunc": 0,
+    "descVal": 0,
+    "descPos": "",
+    "descNeg": "",
+    "descAdditional": ""
   }
 ]

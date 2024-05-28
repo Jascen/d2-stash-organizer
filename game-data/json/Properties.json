@@ -3480,5 +3480,28 @@
         "type": "other"
       }
     ]
+  },
+  "es-efficiency": {
+    "stats": [
+      {
+        "stat": "es_efficiency",
+        "type": "other"
+      }
+    ]
+  },
+  "sorc-skill-rand-ctc": {
+    "stats": []
+  },
+  "str-and-vit": {
+    "stats": [
+      {
+        "stat": "strength",
+        "type": "other"
+      },
+      {
+        "stat": "vitality",
+        "type": "other"
+      }
+    ]
   }
 }

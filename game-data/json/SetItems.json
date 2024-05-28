@@ -3637,10 +3637,10 @@
     "levelReq": 76,
     "baseModifiers": [
       {
-        "prop": "indestruct",
-        "param": 0,
-        "min": 1,
-        "max": 1
+        "prop": "rep-dur",
+        "param": 25,
+        "min": 0,
+        "max": 0
       },
       {
         "prop": "swing3",
@@ -6059,21 +6059,15 @@
         "param": 358,
         "min": 100,
         "max": 1
-      },
-      {
-        "prop": "deadly",
-        "param": 0,
-        "min": 20,
-        "max": 20
       }
     ],
     "setModifiers": [
       [
         {
-          "prop": "dmg%",
+          "prop": "deadly",
           "param": 0,
-          "min": 50,
-          "max": 50
+          "min": 20,
+          "max": 20
         }
       ],
       [],
@@ -6092,7 +6086,7 @@
       {
         "prop": "dmg%",
         "param": 0,
-        "min": 15,
+        "min": 20,
         "max": 30
       },
       {
@@ -6104,8 +6098,8 @@
       {
         "prop": "res-ltng",
         "param": 0,
-        "min": 10,
-        "max": 20
+        "min": 15,
+        "max": 25
       },
       {
         "prop": "red-dmg%",

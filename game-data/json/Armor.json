@@ -116,7 +116,7 @@
     "type": "tors",
     "tier": 0,
     "def": [
-      8,
+      9,
       11
     ],
     "maxSockets": 2,
@@ -132,7 +132,7 @@
     "type": "tors",
     "tier": 0,
     "def": [
-      14,
+      15,
       17
     ],
     "maxSockets": 2,
@@ -148,8 +148,8 @@
     "type": "tors",
     "tier": 0,
     "def": [
-      21,
-      24
+      23,
+      25
     ],
     "maxSockets": 2,
     "indestructible": false,
@@ -164,8 +164,8 @@
     "type": "tors",
     "tier": 0,
     "def": [
-      32,
-      35
+      35,
+      37
     ],
     "maxSockets": 2,
     "indestructible": false,
@@ -180,8 +180,8 @@
     "type": "tors",
     "tier": 0,
     "def": [
-      45,
-      48
+      49,
+      51
     ],
     "maxSockets": 3,
     "indestructible": false,
@@ -196,8 +196,8 @@
     "type": "tors",
     "tier": 0,
     "def": [
-      57,
-      60
+      61,
+      63
     ],
     "maxSockets": 2,
     "indestructible": false,
@@ -212,8 +212,8 @@
     "type": "tors",
     "tier": 0,
     "def": [
-      72,
-      75
+      70,
+      71
     ],
     "maxSockets": 2,
     "indestructible": false,
@@ -228,8 +228,8 @@
     "type": "tors",
     "tier": 0,
     "def": [
-      65,
-      68
+      56,
+      58
     ],
     "maxSockets": 3,
     "indestructible": false,
@@ -244,8 +244,8 @@
     "type": "tors",
     "tier": 0,
     "def": [
-      90,
-      95
+      81,
+      84
     ],
     "maxSockets": 2,
     "indestructible": false,
@@ -260,8 +260,8 @@
     "type": "tors",
     "tier": 0,
     "def": [
-      108,
-      116
+      103,
+      108
     ],
     "maxSockets": 2,
     "indestructible": false,
@@ -276,8 +276,8 @@
     "type": "tors",
     "tier": 0,
     "def": [
-      101,
-      105
+      100,
+      102
     ],
     "maxSockets": 2,
     "indestructible": false,
@@ -292,8 +292,8 @@
     "type": "tors",
     "tier": 0,
     "def": [
-      128,
-      135
+      124,
+      128
     ],
     "maxSockets": 4,
     "indestructible": false,
@@ -308,8 +308,8 @@
     "type": "tors",
     "tier": 0,
     "def": [
-      150,
-      161
+      145,
+      150
     ],
     "maxSockets": 4,
     "indestructible": false,
@@ -324,8 +324,8 @@
     "type": "tors",
     "tier": 0,
     "def": [
-      218,
-      233
+      178,
+      185
     ],
     "maxSockets": 4,
     "indestructible": false,
@@ -340,8 +340,8 @@
     "type": "tors",
     "tier": 0,
     "def": [
-      90,
-      107
+      93,
+      99
     ],
     "maxSockets": 3,
     "indestructible": false,
@@ -852,8 +852,8 @@
     "type": "tors",
     "tier": 1,
     "def": [
-      102,
-      117
+      106,
+      112
     ],
     "maxSockets": 2,
     "indestructible": false,
@@ -868,8 +868,8 @@
     "type": "tors",
     "tier": 1,
     "def": [
-      111,
-      126
+      116,
+      122
     ],
     "maxSockets": 2,
     "indestructible": false,
@@ -884,8 +884,8 @@
     "type": "tors",
     "tier": 1,
     "def": [
-      122,
-      136
+      128,
+      134
     ],
     "maxSockets": 2,
     "indestructible": false,
@@ -900,8 +900,8 @@
     "type": "tors",
     "tier": 1,
     "def": [
-      138,
-      153
+      148,
+      156
     ],
     "maxSockets": 2,
     "indestructible": false,
@@ -916,8 +916,8 @@
     "type": "tors",
     "tier": 1,
     "def": [
-      158,
-      172
+      172,
+      180
     ],
     "maxSockets": 3,
     "indestructible": false,
@@ -932,8 +932,8 @@
     "type": "tors",
     "tier": 1,
     "def": [
-      176,
-      190
+      193,
+      202
     ],
     "maxSockets": 3,
     "indestructible": false,
@@ -948,8 +948,8 @@
     "type": "tors",
     "tier": 1,
     "def": [
-      198,
-      213
+      207,
+      216
     ],
     "maxSockets": 3,
     "indestructible": false,
@@ -964,8 +964,8 @@
     "type": "tors",
     "tier": 1,
     "def": [
-      188,
-      202
+      170,
+      176
     ],
     "maxSockets": 3,
     "indestructible": false,
@@ -980,8 +980,8 @@
     "type": "tors",
     "tier": 1,
     "def": [
-      225,
-      243
+      223,
+      233
     ],
     "maxSockets": 3,
     "indestructible": false,
@@ -996,8 +996,8 @@
     "type": "tors",
     "tier": 1,
     "def": [
-      252,
-      274
+      264,
+      278
     ],
     "maxSockets": 3,
     "indestructible": false,
@@ -1012,8 +1012,8 @@
     "type": "tors",
     "tier": 1,
     "def": [
-      242,
-      258
+      246,
+      255
     ],
     "maxSockets": 3,
     "indestructible": false,
@@ -1028,8 +1028,8 @@
     "type": "tors",
     "tier": 1,
     "def": [
-      282,
-      303
+      291,
+      304
     ],
     "maxSockets": 4,
     "indestructible": false,
@@ -1044,8 +1044,8 @@
     "type": "tors",
     "tier": 1,
     "def": [
-      315,
-      342
+      323,
+      340
     ],
     "maxSockets": 4,
     "indestructible": false,
@@ -1060,8 +1060,8 @@
     "type": "tors",
     "tier": 1,
     "def": [
-      417,
-      450
+      393,
+      414
     ],
     "maxSockets": 4,
     "indestructible": false,
@@ -1076,8 +1076,8 @@
     "type": "tors",
     "tier": 1,
     "def": [
-      225,
-      261
+      178,
+      187
     ],
     "maxSockets": 3,
     "indestructible": false,
@@ -1972,8 +1972,8 @@
     "type": "tors",
     "tier": 2,
     "def": [
-      361,
-      467
+      270,
+      302
     ],
     "maxSockets": 4,
     "indestructible": false,
@@ -1988,8 +1988,8 @@
     "type": "tors",
     "tier": 2,
     "def": [
-      364,
-      470
+      287,
+      322
     ],
     "maxSockets": 4,
     "indestructible": false,
@@ -2004,8 +2004,8 @@
     "type": "tors",
     "tier": 2,
     "def": [
-      369,
-      474
+      309,
+      349
     ],
     "maxSockets": 4,
     "indestructible": false,
@@ -2020,8 +2020,8 @@
     "type": "tors",
     "tier": 2,
     "def": [
-      375,
-      481
+      343,
+      391
     ],
     "maxSockets": 4,
     "indestructible": false,
@@ -2036,8 +2036,8 @@
     "type": "tors",
     "tier": 2,
     "def": [
-      383,
-      489
+      388,
+      445
     ],
     "maxSockets": 4,
     "indestructible": false,
@@ -2052,8 +2052,8 @@
     "type": "tors",
     "tier": 2,
     "def": [
-      390,
-      496
+      428,
+      495
     ],
     "maxSockets": 4,
     "indestructible": false,
@@ -2068,8 +2068,8 @@
     "type": "tors",
     "tier": 2,
     "def": [
-      399,
-      505
+      419,
+      489
     ],
     "maxSockets": 4,
     "indestructible": false,
@@ -2084,8 +2084,8 @@
     "type": "tors",
     "tier": 2,
     "def": [
-      395,
-      501
+      371,
+      420
     ],
     "maxSockets": 4,
     "indestructible": false,
@@ -2100,8 +2100,8 @@
     "type": "tors",
     "tier": 2,
     "def": [
-      410,
-      517
+      469,
+      541
     ],
     "maxSockets": 4,
     "indestructible": false,
@@ -2116,8 +2116,8 @@
     "type": "tors",
     "tier": 2,
     "def": [
-      421,
-      530
+      536,
+      625
     ],
     "maxSockets": 4,
     "indestructible": false,
@@ -2132,8 +2132,8 @@
     "type": "tors",
     "tier": 2,
     "def": [
-      417,
-      523
+      501,
+      576
     ],
     "maxSockets": 4,
     "indestructible": false,
@@ -2148,8 +2148,8 @@
     "type": "tors",
     "tier": 2,
     "def": [
-      433,
-      541
+      573,
+      664
     ],
     "maxSockets": 4,
     "indestructible": false,
@@ -2164,8 +2164,8 @@
     "type": "tors",
     "tier": 2,
     "def": [
-      446,
-      557
+      599,
+      696
     ],
     "maxSockets": 4,
     "indestructible": false,
@@ -2180,8 +2180,8 @@
     "type": "tors",
     "tier": 2,
     "def": [
-      487,
-      600
+      633,
+      730
     ],
     "maxSockets": 4,
     "indestructible": false,
@@ -2196,8 +2196,8 @@
     "type": "tors",
     "tier": 2,
     "def": [
-      410,
-      524
+      364,
+      407
     ],
     "maxSockets": 4,
     "indestructible": false,

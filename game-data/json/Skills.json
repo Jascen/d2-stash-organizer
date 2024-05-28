@@ -80,7 +80,7 @@
   },
   {
     "code": "Slow Movement",
-    "name": "Slow Missiles",
+    "name": "skillname17_PD2",
     "charClass": 0
   },
   {
@@ -255,7 +255,7 @@
   },
   {
     "code": "Enchant",
-    "name": "Enchant",
+    "name": "skillname52_PD2",
     "charClass": 1
   },
   {
@@ -345,7 +345,7 @@
   },
   {
     "code": "Raise Skeleton",
-    "name": "Raise Skeleton",
+    "name": "skillname70_PD2",
     "charClass": 2
   },
   {
@@ -360,7 +360,7 @@
   },
   {
     "code": "Poison Dagger",
-    "name": "Poison Dagger",
+    "name": "skillname73_PD2",
     "charClass": 2
   },
   {
@@ -635,7 +635,7 @@
   },
   {
     "code": "General Mastery",
-    "name": "Axe Mastery",
+    "name": "skillname128_PD2",
     "charClass": 4
   },
   {
@@ -665,7 +665,7 @@
   },
   {
     "code": "Pole Arm and Spear Mastery",
-    "name": "Pole Arm Mastery",
+    "name": "skillname134_PD2",
     "charClass": 4
   },
   {
@@ -700,7 +700,7 @@
   },
   {
     "code": "Combat Reflexes",
-    "name": "Increased Stamina",
+    "name": "skillname141_PD2",
     "charClass": 4
   },
   {
@@ -1190,7 +1190,7 @@
   },
   {
     "code": "Claw Mastery",
-    "name": "Claw Mastery",
+    "name": "Skillname253_PD2",
     "charClass": 6
   },
   {
@@ -1791,8 +1791,8 @@
     "name": "Golem Splash"
   },
   {
-    "code": "Map Aura",
-    "name": "Map Aura"
+    "code": "KanemithBossBlaze",
+    "name": "KanemithBossBlaze"
   },
   {
     "code": "Lesser Fade",
@@ -2477,5 +2477,41 @@
   {
     "code": "RakanothStrike",
     "name": "RakanothStrike"
+  },
+  {
+    "code": "TorajanBossNest",
+    "name": "TorajanBossNest"
+  },
+  {
+    "code": "KanemithFirestorm",
+    "name": "KanemithFirestorm"
+  },
+  {
+    "code": "KanemithShockWeb",
+    "name": "KanemithShockWeb"
+  },
+  {
+    "code": "SharptoothUnholyOrb",
+    "name": "SharptoothUnholyOrb"
+  },
+  {
+    "code": "SharptoothChainPoison",
+    "name": "SharptoothChainPoison"
+  },
+  {
+    "code": "SharptoothArmageddon",
+    "name": "SharptoothArmageddon"
+  },
+  {
+    "code": "RadamentBossRoyalFire",
+    "name": "RadamentBossRoyalFire"
+  },
+  {
+    "code": "WispBossNova",
+    "name": "WispBossNova"
+  },
+  {
+    "code": "RadamentBossMeteor",
+    "name": "RadamentBossMeteor"
   }
 ]

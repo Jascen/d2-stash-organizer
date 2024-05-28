@@ -86,8 +86,8 @@
       {
         "prop": "oskill",
         "param": 242,
-        "min": 3,
-        "max": 3
+        "min": 6,
+        "max": 6
       },
       {
         "prop": "charged",
@@ -98,14 +98,14 @@
       {
         "prop": "oskill",
         "param": 228,
-        "min": 3,
-        "max": 3
+        "min": 6,
+        "max": 6
       },
       {
         "prop": "oskill",
         "param": 233,
-        "min": 3,
-        "max": 3
+        "min": 6,
+        "max": 6
       }
     ]
   },
@@ -324,8 +324,8 @@
       {
         "prop": "extra-skele-archer",
         "param": 0,
-        "min": 6,
-        "max": 6
+        "min": 8,
+        "max": 8
       }
     ]
   },
@@ -845,8 +845,8 @@
       {
         "prop": "aura",
         "param": 114,
-        "min": 12,
-        "max": 12
+        "min": 16,
+        "max": 16
       },
       {
         "prop": "swing2",
@@ -1185,7 +1185,7 @@
       {
         "prop": "cast-skill",
         "param": 47,
-        "min": 15,
+        "min": 25,
         "max": 28
       },
       {
@@ -3212,7 +3212,7 @@
         "prop": "cast-skill",
         "param": 72,
         "min": 24,
-        "max": 10
+        "max": 18
       },
       {
         "prop": "hp%",
@@ -3522,7 +3522,7 @@
         "prop": "aura",
         "param": 124,
         "min": 10,
-        "max": 15
+        "max": 12
       },
       {
         "prop": "abs-fire",
@@ -3592,7 +3592,7 @@
       {
         "prop": "aura",
         "param": 109,
-        "min": 13,
+        "min": 15,
         "max": 17
       },
       {
@@ -3652,7 +3652,7 @@
       {
         "prop": "aura",
         "param": 113,
-        "min": 16,
+        "min": 18,
         "max": 20
       },
       {
@@ -4479,16 +4479,16 @@
         "max": 1
       },
       {
-        "prop": "str",
+        "prop": "str-and-vit",
         "param": 0,
         "min": 10,
         "max": 16
       },
       {
-        "prop": "vit",
-        "param": 0,
-        "min": 10,
-        "max": 16
+        "prop": "rep-charge",
+        "param": 33,
+        "min": 0,
+        "max": 0
       },
       {
         "prop": "balance2",
@@ -5155,7 +5155,7 @@
         "prop": "gethit-skill",
         "param": 240,
         "min": 7,
-        "max": 1
+        "max": 10
       },
       {
         "prop": "ac",
@@ -5245,8 +5245,8 @@
       {
         "prop": "oskill",
         "param": 106,
-        "min": 12,
-        "max": 14
+        "min": 18,
+        "max": 18
       },
       {
         "prop": "ac%",
@@ -5296,8 +5296,8 @@
       {
         "prop": "swing2",
         "param": 0,
-        "min": 20,
-        "max": 20
+        "min": 40,
+        "max": 40
       },
       {
         "prop": "move2",
@@ -5529,7 +5529,7 @@
         "prop": "aura",
         "param": 124,
         "min": 10,
-        "max": 15
+        "max": 12
       },
       {
         "prop": "abs-fire",
