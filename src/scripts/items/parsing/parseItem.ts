@@ -32,13 +32,25 @@ export function parseItem(reader: SaveFileReader, owner: ItemsOwner) {
     } catch (e) {
       console.error(`Failed to parse file '${item.owner.filename}'.`);
 
-      const runewordInfo = item.runewordId ? ` -- Runeword ID: ${item.runewordId}` : '';
+      const runewordInfo = item.runewordId
+        ? ` -- Runeword ID: ${item.runewordId}`
+        : "";
       const stash = item.owner as PlugyStash;
       if (stash?.pages) {
-        console.warn(`Item '${item.name}' at (${item.column},${item.row}) on page ${stash.pages.length + 1}.${runewordInfo}`, item, e);
+        console.warn(
+          `Item '${item.name}' at (${item.column},${item.row}) on page ${
+            stash.pages.length + 1
+          }.${runewordInfo}`,
+          item,
+          e
+        );
       } else {
         // const character = item.owner as Character;
-        console.warn(`Item '${item.name}' at (${item.column},${item.row}).${runewordInfo}`, item, e);
+        console.warn(
+          `Item '${item.name}' at (${item.column},${item.row}).${runewordInfo}`,
+          item,
+          e
+        );
       }
 
       if (e instanceof ItemParsingError) {

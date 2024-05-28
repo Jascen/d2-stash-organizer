@@ -4,19 +4,19 @@ import { getString } from "../strings";
 import { readModifierRange } from "./modifierRange";
 
 const customRunewordMap: Record<string, number> = {
-  ['Asylum']: 2412,
+  ["Asylum"]: 2412,
   // ['Asylum Staff']: ,
-  ['Dominion']: 2410,
-  ['Ferocity']: 2376,
-  ['Hustle']: 3463,
-  ['Melody']: 80,
-  ['Neophyte']: 2403,
-  ['Neophyte2']: 2404,
-  ['Phoenix Staff']: 2409,
-  ['Rampage']: 2402,
-  ['Shattered Wall']: 2411,
-  ['Wind Staff']: 2408,
-  ['Zenith']: 2377,
+  ["Dominion"]: 2410,
+  ["Ferocity"]: 2376,
+  ["Hustle"]: 3463,
+  ["Melody"]: 80,
+  ["Neophyte"]: 2403,
+  ["Neophyte2"]: 2404,
+  ["Phoenix Staff"]: 2409,
+  ["Rampage"]: 2402,
+  ["Shattered Wall"]: 2411,
+  ["Wind Staff"]: 2408,
+  ["Zenith"]: 2377,
 };
 
 export async function runewordsToJson(
@@ -60,7 +60,7 @@ export async function runewordsToJson(
         // Skipping means:
         // Label will be missing
         // Perfection won't be able to compare modifiers
-        console.log(`Failed to find runeword ID: ${runeword.name}`)
+        console.log(`Failed to find runeword ID: ${runeword.name}`);
         continue;
       }
     }
@@ -69,7 +69,7 @@ export async function runewordsToJson(
   }
 
   runewords = runewords.filter((runeword) => !!runeword);
-  runewords.forEach((r, i) => r.id = customRunewordMap[r.name] ?? i); // Custom runewords use the given ID
+  runewords.forEach((r, i) => (r.id = customRunewordMap[r.name] ?? i)); // Custom runewords use the given ID
 
   await writeJson("Runewords", runewords);
   return runewords;

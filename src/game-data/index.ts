@@ -50,10 +50,13 @@ export const CHAR_CLASSES: CharacterClass[] = charClasses;
 export const RARE_NAMES: string[] = rareNames;
 export const MAGIC_PREFIXES: MagicAffix[] = magicPrefixes;
 export const MAGIC_SUFFIXES: MagicAffix[] = magicSuffixes;
-export const RUNEWORDS: Record<number, Runeword> = runewords.reduce((acc, r) => {
-  acc[r.id] = r;
-  return acc;
-}, {} as Record<number, Runeword>);
+export const RUNEWORDS: Record<number, Runeword> = runewords.reduce(
+  (acc, r) => {
+    acc[r.id] = r;
+    return acc;
+  },
+  {} as Record<number, Runeword>
+);
 export const GEMS: Record<string, Gem> = gems;
 
 export * from "./types";
