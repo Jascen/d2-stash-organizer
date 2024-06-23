@@ -16,8 +16,7 @@ function checkRange(
   modifiers: Modifier[],
   callback: (value: number, min: number, max: number) => void
 ) {
-  // TODO: Fix perfection checks
-  const { stats } = !!PROPERTIES[prop] ? PROPERTIES[prop] : { stats: [] };
+  const { stats } = PROPERTIES[prop] ? PROPERTIES[prop] : { stats: [] };
   for (const { stat, type } of stats) {
     // Some weird cases of "param" like the hp/lvl on Fortitude actually do have a range
     // Well, that one case. It's the only one in the entire game that I can find.
@@ -75,7 +74,9 @@ export function computePerfectionScore(item: Item) {
     );
   }
   // We ignore the "Extra bloody" prop not to confuse people with hidden imperfections
-  ranges = ranges.filter(({ prop }) => prop !== "bloody");
+  ranges = ranges.filter(
+    ({ prop }) => prop !== "bloody" && prop !== "deep-wounds"
+  );
 
   const base = getBase(item);
 
