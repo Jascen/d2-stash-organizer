@@ -11,6 +11,11 @@ export interface UniqueSection {
 export const UNIQUES_ORDER: UniqueSection[][] = [
   [
     {
+      name: "Charms",
+      shortName: "charms",
+      types: ["lcha", "mcha", "scha"],
+    },
+    {
       name: "Rings",
       shortName: "rings",
       types: ["ring"],
@@ -19,7 +24,7 @@ export const UNIQUES_ORDER: UniqueSection[][] = [
     {
       name: "Amulets",
       shortName: "amulets",
-      types: ["amul"],
+      types: ["amul", "amus"],
       // TODO: Better layout for amulets. Maybe TWO_LINES?
     },
     {
@@ -36,7 +41,7 @@ export const UNIQUES_ORDER: UniqueSection[][] = [
     {
       name: "Belts",
       shortName: "belts",
-      types: ["belt"],
+      types: ["belt", "bels"],
       layout: "tier-columns",
     },
     { name: "Boots", shortName: "boots", types: ["boot"] },
@@ -70,7 +75,7 @@ export const UNIQUES_ORDER: UniqueSection[][] = [
       types: ["club", "mace", "hamm", "scep"],
       twoHanded: true,
     },
-    { name: "Polearms", shortName: "polearms", types: ["pole"] },
+    { name: "Polearms", shortName: "polearms", types: ["pole", "sc9"] },
     { name: "Spears", shortName: "spears", types: ["spea"] },
     { name: "Staves", shortName: "staves", types: ["staf"] },
     {
