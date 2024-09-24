@@ -9,7 +9,10 @@ import { addPage } from "../../plugy-stash/addPage";
 import { moveItem } from "../../items/moving/safeMove";
 
 function runewordsOrder(a: Item, b: Item) {
-  return RUNEWORDS[a.runewordId!].levelReq - RUNEWORDS[b.runewordId!].levelReq;
+  return (
+    (RUNEWORDS[a.runewordId!]?.levelReq ?? 99) -
+    (RUNEWORDS[b.runewordId!]?.levelReq ?? 99)
+  );
 }
 
 function basesOrder(a: Item, b: Item) {
