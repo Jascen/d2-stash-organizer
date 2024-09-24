@@ -42,7 +42,7 @@ export function setLayout<T extends LayoutItem>([
         break;
       default:
         // Special case for Bul-Kathos
-        if (item.code === "7wd") {
+        if (item.code === "7fb") {
           positions.set(item, { page: 0, rows: [2], cols: [7] });
           break;
         }
