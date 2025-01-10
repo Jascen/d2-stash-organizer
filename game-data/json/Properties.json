@@ -3503,5 +3503,77 @@
         "type": "other"
       }
     ]
+  },
+  "block-skill": {
+    "stats": [
+      {
+        "stat": "item_skillonblock",
+        "type": "proc"
+      }
+    ]
+  },
+  "map-glob-sundermonsters": {
+    "stats": [
+      {
+        "stat": "map_glob_sundermonsters",
+        "type": "other"
+      }
+    ]
+  },
+  "crit-skill": {
+    "stats": [
+      {
+        "stat": "item_skilloncrit",
+        "type": "proc"
+      }
+    ]
+  },
+  "pierce-skill": {
+    "stats": [
+      {
+        "stat": "item_skillonpierce",
+        "type": "proc"
+      }
+    ]
+  },
+  "desecrate": {
+    "stats": [
+      {
+        "stat": "desecrated",
+        "type": "other"
+      }
+    ]
+  },
+  "desecratenum": {
+    "stats": [
+      {
+        "stat": "desecrator",
+        "type": "other"
+      }
+    ]
+  },
+  "extra-grizzly": {
+    "stats": [
+      {
+        "stat": "extra_grizzly",
+        "type": "other"
+      }
+    ]
+  },
+  "no-wolves": {
+    "stats": [
+      {
+        "stat": "no_wolves",
+        "type": "other"
+      }
+    ]
+  },
+  "max-deadly": {
+    "stats": [
+      {
+        "stat": "item_maxdeadlystrike",
+        "type": "other"
+      }
+    ]
   }
 }

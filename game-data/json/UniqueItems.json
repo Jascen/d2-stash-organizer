@@ -2010,8 +2010,8 @@
       {
         "prop": "dmg%",
         "param": 0,
-        "min": 280,
-        "max": 320
+        "min": 260,
+        "max": 290
       },
       {
         "prop": "str",
@@ -4362,7 +4362,7 @@
         "max": 25
       },
       {
-        "prop": "skill",
+        "prop": "oskill",
         "param": 221,
         "min": 2,
         "max": 3
@@ -4385,7 +4385,7 @@
         "prop": "dmg-ltng",
         "param": 0,
         "min": 1,
-        "max": 30
+        "max": 45
       },
       {
         "prop": "light-thorns",
@@ -4416,8 +4416,8 @@
       {
         "prop": "res-pois-max",
         "param": 0,
-        "min": 10,
-        "max": 10
+        "min": 5,
+        "max": 8
       },
       {
         "prop": "res-pois-len",
@@ -4428,8 +4428,8 @@
       {
         "prop": "res-pois",
         "param": 0,
-        "min": 45,
-        "max": 75
+        "min": 40,
+        "max": 60
       },
       {
         "prop": "light",
@@ -4446,8 +4446,8 @@
       {
         "prop": "pierce-pois",
         "param": 0,
-        "min": 5,
-        "max": 15
+        "min": 6,
+        "max": 12
       }
     ]
   },
@@ -4742,8 +4742,8 @@
       {
         "prop": "aura",
         "param": 119,
-        "min": 1,
-        "max": 1
+        "min": 2,
+        "max": 4
       },
       {
         "prop": "magskill",
@@ -4930,7 +4930,7 @@
       {
         "prop": "mana-kill",
         "param": 0,
-        "min": 2,
+        "min": 3,
         "max": 5
       },
       {
@@ -5354,7 +5354,7 @@
       {
         "prop": "regen-mana",
         "param": 0,
-        "min": 10,
+        "min": 15,
         "max": 25
       },
       {
@@ -5442,8 +5442,8 @@
       {
         "prop": "res-fire-max",
         "param": 0,
-        "min": 5,
-        "max": 10
+        "min": 4,
+        "max": 6
       },
       {
         "prop": "hp",
@@ -5466,8 +5466,8 @@
       {
         "prop": "res-fire",
         "param": 0,
-        "min": 45,
-        "max": 45
+        "min": 20,
+        "max": 30
       },
       {
         "prop": "ac%",
@@ -5566,7 +5566,7 @@
       {
         "prop": "pierce",
         "param": 0,
-        "min": 10,
+        "min": 20,
         "max": 20
       }
     ]
@@ -5918,14 +5918,14 @@
       {
         "prop": "res-fire-max",
         "param": 0,
-        "min": 10,
-        "max": 10
+        "min": 4,
+        "max": 8
       },
       {
         "prop": "res-fire",
         "param": 0,
-        "min": 25,
-        "max": 50
+        "min": 20,
+        "max": 35
       },
       {
         "prop": "light",
@@ -6778,7 +6778,7 @@
       {
         "prop": "hit-skill",
         "param": 53,
-        "min": 10,
+        "min": 14,
         "max": 25
       },
       {
@@ -6876,13 +6876,13 @@
       {
         "prop": "oskill",
         "param": 106,
-        "min": 8,
+        "min": 10,
         "max": 12
       },
       {
-        "prop": "gethit-skill",
+        "prop": "hit-skill",
         "param": 101,
-        "min": 65,
+        "min": 20,
         "max": 30
       },
       {
@@ -7278,14 +7278,8 @@
         "max": 30
       },
       {
-        "prop": "skill",
-        "param": 114,
-        "min": 2,
-        "max": 3
-      },
-      {
-        "prop": "skill",
-        "param": 118,
+        "prop": "skilltab",
+        "param": 10,
         "min": 2,
         "max": 3
       },
@@ -7702,7 +7696,7 @@
       {
         "prop": "skilltab",
         "param": 17,
-        "min": 3,
+        "min": 2,
         "max": 4
       },
       {
@@ -8155,7 +8149,7 @@
       },
       {
         "prop": "deadly/lvl",
-        "param": 8,
+        "param": 6,
         "min": 0,
         "max": 0
       },
@@ -8176,6 +8170,12 @@
         "param": 0,
         "min": 20,
         "max": 20
+      },
+      {
+        "prop": "max-deadly",
+        "param": 0,
+        "min": 10,
+        "max": 15
       },
       {
         "prop": "splash",
@@ -9366,8 +9366,8 @@
       {
         "prop": "dmg%",
         "param": 0,
-        "min": 200,
-        "max": 230
+        "min": 220,
+        "max": 260
       },
       {
         "prop": "skilltab",
@@ -9868,8 +9868,8 @@
       {
         "prop": "cast-skill",
         "param": 68,
-        "min": 8,
-        "max": 14
+        "min": 2,
+        "max": 25
       },
       {
         "prop": "splash",
@@ -10508,16 +10508,10 @@
         "max": 6
       },
       {
-        "prop": "dmg-max",
-        "param": 0,
-        "min": 33,
-        "max": 66
-      },
-      {
         "prop": "dmg%",
         "param": 0,
-        "min": 185,
-        "max": 225
+        "min": 265,
+        "max": 315
       },
       {
         "prop": "att",
@@ -10779,8 +10773,8 @@
       {
         "prop": "dmg%",
         "param": 0,
-        "min": 20,
-        "max": 40
+        "min": 40,
+        "max": 60
       }
     ]
   },
@@ -10829,7 +10823,7 @@
       {
         "prop": "mag%",
         "param": 0,
-        "min": 30,
+        "min": 40,
         "max": 65
       }
     ]
@@ -10867,8 +10861,8 @@
       {
         "prop": "res-ltng",
         "param": 0,
-        "min": 15,
-        "max": 15
+        "min": 20,
+        "max": 30
       },
       {
         "prop": "ac%",
@@ -10894,13 +10888,13 @@
         "prop": "manasteal",
         "param": 0,
         "min": 6,
-        "max": 8
+        "max": 10
       },
       {
         "prop": "lifesteal",
         "param": 0,
         "min": 6,
-        "max": 8
+        "max": 10
       },
       {
         "prop": "stamdrain",
@@ -10912,7 +10906,7 @@
         "prop": "red-dmg%",
         "param": 0,
         "min": 15,
-        "max": 20
+        "max": 25
       },
       {
         "prop": "red-mag",
@@ -10955,8 +10949,8 @@
       {
         "prop": "red-mag",
         "param": 0,
-        "min": 11,
-        "max": 17
+        "min": 7,
+        "max": 11
       },
       {
         "prop": "regen",
@@ -11149,8 +11143,8 @@
       {
         "prop": "res-fire",
         "param": 0,
-        "min": 10,
-        "max": 25
+        "min": 20,
+        "max": 30
       },
       {
         "prop": "ac%",
@@ -11199,7 +11193,7 @@
       {
         "prop": "dex",
         "param": 0,
-        "min": 30,
+        "min": 20,
         "max": 30
       },
       {
@@ -11211,8 +11205,8 @@
       {
         "prop": "swing2",
         "param": 0,
-        "min": 15,
-        "max": 15
+        "min": 20,
+        "max": 20
       },
       {
         "prop": "dmg%",
@@ -11223,7 +11217,7 @@
       {
         "prop": "pierce",
         "param": 0,
-        "min": 20,
+        "min": 30,
         "max": 30
       }
     ]
@@ -11280,9 +11274,9 @@
       },
       {
         "prop": "hp/lvl",
-        "param": 8,
-        "min": 0,
-        "max": 0
+        "param": 0,
+        "min": 8,
+        "max": 12
       },
       {
         "prop": "ac%",
@@ -11385,7 +11379,7 @@
         "max": 4
       },
       {
-        "prop": "pal",
+        "prop": "allskills",
         "param": 0,
         "min": 1,
         "max": 1
@@ -11449,7 +11443,7 @@
       {
         "prop": "deep-wounds",
         "param": 0,
-        "min": 260,
+        "min": 300,
         "max": 350
       },
       {
@@ -11635,8 +11629,8 @@
       {
         "prop": "reanimate",
         "param": 1,
-        "min": 12,
-        "max": 12
+        "min": 5,
+        "max": 5
       },
       {
         "prop": "ac%",
@@ -11659,8 +11653,8 @@
       {
         "prop": "oskill",
         "param": 74,
-        "min": 20,
-        "max": 20
+        "min": 30,
+        "max": 40
       },
       {
         "prop": "ease",
@@ -11686,7 +11680,7 @@
         "prop": "mana-kill",
         "param": 0,
         "min": 3,
-        "max": 3
+        "max": 5
       },
       {
         "prop": "red-mag",
@@ -11697,8 +11691,8 @@
       {
         "prop": "enr",
         "param": 0,
-        "min": 15,
-        "max": 25
+        "min": 20,
+        "max": 30
       },
       {
         "prop": "balance2",
@@ -11716,7 +11710,7 @@
         "prop": "allskills",
         "param": 0,
         "min": 1,
-        "max": 2
+        "max": 1
       }
     ]
   },
@@ -12003,7 +11997,7 @@
       {
         "prop": "gethit-skill",
         "param": 92,
-        "min": 5,
+        "min": 12,
         "max": 35
       },
       {
@@ -12021,8 +12015,8 @@
       {
         "prop": "block",
         "param": 0,
-        "min": 30,
-        "max": 30
+        "min": 35,
+        "max": 35
       },
       {
         "prop": "block2",
@@ -12463,7 +12457,7 @@
       {
         "prop": "gethit-skill",
         "param": 46,
-        "min": 15,
+        "min": 18,
         "max": 16
       }
     ]
@@ -12640,7 +12634,7 @@
         "prop": "deadly",
         "param": 0,
         "min": 15,
-        "max": 15
+        "max": 20
       },
       {
         "prop": "move2",
@@ -12740,7 +12734,7 @@
         "prop": "dex",
         "param": 0,
         "min": 15,
-        "max": 15
+        "max": 20
       },
       {
         "prop": "pierce",
@@ -12751,8 +12745,8 @@
       {
         "prop": "ac",
         "param": 0,
-        "min": 15,
-        "max": 15
+        "min": 50,
+        "max": 50
       },
       {
         "prop": "ac%",
@@ -12814,7 +12808,7 @@
         "prop": "cast2",
         "param": 0,
         "min": 10,
-        "max": 10
+        "max": 20
       }
     ]
   },
@@ -13310,10 +13304,10 @@
         "max": 600
       },
       {
-        "prop": "hp",
+        "prop": "pierce-fire",
         "param": 0,
         "min": 25,
-        "max": 25
+        "max": 35
       },
       {
         "prop": "dmg%",
@@ -14068,19 +14062,19 @@
       {
         "prop": "dex",
         "param": 0,
-        "min": 5,
-        "max": 5
+        "min": 20,
+        "max": 20
       },
       {
         "prop": "dmg/lvl",
-        "param": 13,
+        "param": 16,
         "min": 0,
         "max": 0
       },
       {
         "prop": "hit-skill",
         "param": 240,
-        "min": 8,
+        "min": 12,
         "max": 40
       },
       {
@@ -14169,8 +14163,8 @@
       {
         "prop": "swing2",
         "param": 0,
-        "min": 20,
-        "max": 20
+        "min": 30,
+        "max": 30
       },
       {
         "prop": "ac",
@@ -14269,7 +14263,7 @@
       {
         "prop": "coldskill",
         "param": 0,
-        "min": 1,
+        "min": 2,
         "max": 2
       },
       {
@@ -14652,14 +14646,14 @@
       {
         "prop": "mana-kill",
         "param": 0,
-        "min": 3,
+        "min": 5,
         "max": 5
       },
       {
         "prop": "res-all",
         "param": 0,
-        "min": 25,
-        "max": 35
+        "min": 30,
+        "max": 40
       }
     ]
   },
@@ -14820,7 +14814,7 @@
       {
         "prop": "red-dmg%",
         "param": 0,
-        "min": 10,
+        "min": 15,
         "max": 20
       },
       {
@@ -15454,14 +15448,14 @@
       {
         "prop": "deadly",
         "param": 0,
-        "min": 50,
-        "max": 50
+        "min": 40,
+        "max": 40
       },
       {
         "prop": "openwounds",
         "param": 0,
-        "min": 50,
-        "max": 50
+        "min": 60,
+        "max": 60
       },
       {
         "prop": "deep-wounds",
@@ -16056,6 +16050,12 @@
         "max": 6
       },
       {
+        "prop": "cast-skill",
+        "param": 240,
+        "min": 15,
+        "max": 28
+      },
+      {
         "prop": "splash",
         "param": 358,
         "min": 100,
@@ -16072,7 +16072,7 @@
       {
         "prop": "dmg%",
         "param": 0,
-        "min": 220,
+        "min": 230,
         "max": 260
       },
       {
@@ -16096,8 +16096,8 @@
       {
         "prop": "dmg-ac",
         "param": 0,
-        "min": -20,
-        "max": -20
+        "min": -75,
+        "max": -75
       },
       {
         "prop": "splash",
@@ -16140,14 +16140,14 @@
       {
         "prop": "skilltab",
         "param": 19,
-        "min": 1,
-        "max": 2
+        "min": 2,
+        "max": 3
       },
       {
         "prop": "skilltab",
         "param": 20,
-        "min": 1,
-        "max": 2
+        "min": 2,
+        "max": 3
       },
       {
         "prop": "block2",
@@ -16190,8 +16190,8 @@
       {
         "prop": "dex",
         "param": 0,
-        "min": 15,
-        "max": 25
+        "min": 20,
+        "max": 30
       },
       {
         "prop": "skilltab",
@@ -16202,8 +16202,8 @@
       {
         "prop": "ease",
         "param": 0,
-        "min": -20,
-        "max": -20
+        "min": -25,
+        "max": -25
       },
       {
         "prop": "curse-effectiveness",
@@ -16468,6 +16468,12 @@
         "max": 30
       },
       {
+        "prop": "max-deadly",
+        "param": 0,
+        "min": 5,
+        "max": 5
+      },
+      {
         "prop": "splash",
         "param": 358,
         "min": 100,
@@ -16484,8 +16490,8 @@
       {
         "prop": "dmg%",
         "param": 0,
-        "min": 270,
-        "max": 320
+        "min": 285,
+        "max": 335
       },
       {
         "prop": "crush",
@@ -16648,7 +16654,7 @@
         "prop": "mag%",
         "param": 0,
         "min": 10,
-        "max": 15
+        "max": 20
       },
       {
         "prop": "charged",
@@ -17065,8 +17071,8 @@
       {
         "prop": "abs-ltng",
         "param": 0,
-        "min": 6,
-        "max": 10
+        "min": 4,
+        "max": 6
       },
       {
         "prop": "res-fire",
@@ -17083,8 +17089,8 @@
       {
         "prop": "res-pois-max",
         "param": 0,
-        "min": 10,
-        "max": 10
+        "min": 5,
+        "max": 8
       },
       {
         "prop": "dru",
@@ -17139,7 +17145,7 @@
       {
         "prop": "sock",
         "param": 0,
-        "min": 2,
+        "min": 3,
         "max": 5
       },
       {
@@ -17257,14 +17263,14 @@
       {
         "prop": "skilltab",
         "param": 8,
-        "min": 1,
-        "max": 2
+        "min": 2,
+        "max": 3
       },
       {
         "prop": "skilltab",
         "param": 6,
-        "min": 1,
-        "max": 2
+        "min": 2,
+        "max": 3
       }
     ]
   },
@@ -17758,8 +17764,8 @@
       {
         "prop": "move2",
         "param": 0,
-        "min": 20,
-        "max": 20
+        "min": 30,
+        "max": 30
       },
       {
         "prop": "gethit-skill",
@@ -17882,7 +17888,7 @@
       {
         "prop": "extra-cold",
         "param": 0,
-        "min": 8,
+        "min": 10,
         "max": 15
       },
       {
@@ -17950,7 +17956,7 @@
       {
         "prop": "sock",
         "param": 0,
-        "min": 1,
+        "min": 2,
         "max": 3
       }
     ]
@@ -17982,14 +17988,14 @@
       {
         "prop": "res-pois-max",
         "param": 0,
-        "min": 10,
-        "max": 10
+        "min": 8,
+        "max": 8
       },
       {
         "prop": "swing2",
         "param": 0,
-        "min": 20,
-        "max": 20
+        "min": 30,
+        "max": 30
       },
       {
         "prop": "str",
@@ -18043,21 +18049,21 @@
         "max": 200
       },
       {
-        "prop": "abs-fire%",
+        "prop": "red-dmg%",
         "param": 0,
-        "min": 5,
-        "max": 10
+        "min": 15,
+        "max": 25
       },
       {
         "prop": "res-fire-max",
         "param": 0,
-        "min": 5,
-        "max": 5
+        "min": 4,
+        "max": 6
       },
       {
         "prop": "str",
         "param": 0,
-        "min": 15,
+        "min": 25,
         "max": 25
       },
       {
@@ -18067,10 +18073,10 @@
         "max": 371
       },
       {
-        "prop": "oskill",
+        "prop": "block-skill",
         "param": 62,
-        "min": 35,
-        "max": 35
+        "min": 24,
+        "max": 45
       },
       {
         "prop": "extra-fire",
@@ -18079,10 +18085,10 @@
         "max": 20
       },
       {
-        "prop": "cast2",
+        "prop": "block",
         "param": 0,
-        "min": 35,
-        "max": 35
+        "min": 20,
+        "max": 20
       }
     ]
   },
@@ -18095,8 +18101,8 @@
       {
         "prop": "ac%",
         "param": 0,
-        "min": 220,
-        "max": 250
+        "min": 250,
+        "max": 280
       },
       {
         "prop": "balance2",
@@ -18187,7 +18193,7 @@
       {
         "prop": "cast2",
         "param": 0,
-        "min": 25,
+        "min": 30,
         "max": 40
       },
       {
@@ -18426,32 +18432,32 @@
       {
         "prop": "str",
         "param": 0,
-        "min": 8,
+        "min": 10,
         "max": 15
       },
       {
         "prop": "dex",
         "param": 0,
-        "min": 8,
+        "min": 10,
         "max": 15
       },
       {
         "prop": "oskill",
         "param": 223,
-        "min": 3,
-        "max": 5
+        "min": 4,
+        "max": 6
       },
       {
         "prop": "oskill",
         "param": 237,
-        "min": 8,
+        "min": 12,
         "max": 15
       },
       {
         "prop": "oskill",
         "param": 232,
-        "min": 3,
-        "max": 5
+        "min": 4,
+        "max": 6
       }
     ]
   },
@@ -18521,7 +18527,7 @@
         "prop": "res-all",
         "param": 0,
         "min": 25,
-        "max": 45
+        "max": 40
       },
       {
         "prop": "nofreeze",
@@ -18570,25 +18576,25 @@
       {
         "prop": "cast2",
         "param": 0,
-        "min": 40,
-        "max": 40
+        "min": 30,
+        "max": 30
       },
       {
         "prop": "extra-fire",
         "param": 0,
-        "min": 12,
+        "min": 10,
         "max": 15
       },
       {
         "prop": "extra-cold",
         "param": 0,
-        "min": 12,
+        "min": 10,
         "max": 15
       },
       {
         "prop": "extra-ltng",
         "param": 0,
-        "min": 12,
+        "min": 10,
         "max": 15
       },
       {
@@ -18839,8 +18845,8 @@
       {
         "prop": "str",
         "param": 0,
-        "min": 10,
-        "max": 20
+        "min": 20,
+        "max": 30
       },
       {
         "prop": "swing2",
@@ -19243,7 +19249,7 @@
       {
         "prop": "sock",
         "param": 0,
-        "min": 1,
+        "min": 2,
         "max": 3
       },
       {
@@ -19325,7 +19331,7 @@
       {
         "prop": "cast2",
         "param": 0,
-        "min": 15,
+        "min": 10,
         "max": 20
       },
       {
@@ -19582,7 +19588,7 @@
       {
         "prop": "dmg%",
         "param": 0,
-        "min": 40,
+        "min": 60,
         "max": 80
       }
     ]
@@ -19886,22 +19892,22 @@
         "max": 40
       },
       {
-        "prop": "cast-skill",
+        "prop": "kill-skill",
         "param": 244,
-        "min": 12,
-        "max": 28
+        "min": 8,
+        "max": 25
       },
       {
-        "prop": "skilltab",
-        "param": 17,
-        "min": 7,
-        "max": 7
+        "prop": "fireskill",
+        "param": 0,
+        "min": 3,
+        "max": 4
       },
       {
         "prop": "cast2",
         "param": 0,
-        "min": 80,
-        "max": 80
+        "min": 60,
+        "max": 60
       },
       {
         "prop": "ease",
@@ -20601,7 +20607,7 @@
         "prop": "pierce-phys",
         "param": 0,
         "min": 10,
-        "max": 15
+        "max": 10
       },
       {
         "prop": "lifesteal",
@@ -20619,7 +20625,7 @@
         "prop": "str",
         "param": 0,
         "min": 20,
-        "max": 20
+        "max": 30
       },
       {
         "prop": "enr",
@@ -20662,14 +20668,14 @@
       {
         "prop": "heal-kill",
         "param": 0,
-        "min": 3,
-        "max": 4
+        "min": 4,
+        "max": 6
       },
       {
         "prop": "mana-kill",
         "param": 0,
-        "min": 3,
-        "max": 4
+        "min": 4,
+        "max": 6
       },
       {
         "prop": "res-cold",
@@ -20692,8 +20698,14 @@
       {
         "prop": "allskills",
         "param": 0,
-        "min": 2,
-        "max": 2
+        "min": 1,
+        "max": 1
+      },
+      {
+        "prop": "ease",
+        "param": 0,
+        "min": -20,
+        "max": -20
       }
     ]
   },
@@ -21016,10 +21028,10 @@
         "max": 20
       },
       {
-        "prop": "aura",
-        "param": 113,
-        "min": 3,
-        "max": 6
+        "prop": "dmg-norm",
+        "param": 0,
+        "min": 10,
+        "max": 25
       },
       {
         "prop": "str",
@@ -21032,6 +21044,12 @@
         "param": 0,
         "min": 6,
         "max": 6
+      },
+      {
+        "prop": "red-dmg%",
+        "param": 0,
+        "min": 10,
+        "max": 15
       },
       {
         "prop": "splash",
@@ -21247,7 +21265,7 @@
         "prop": "red-dmg%",
         "param": 0,
         "min": 10,
-        "max": 15
+        "max": 10
       },
       {
         "prop": "sock",
@@ -21530,14 +21548,14 @@
       {
         "prop": "aura",
         "param": 118,
-        "min": 25,
+        "min": 30,
         "max": 30
       },
       {
         "prop": "dmg%",
         "param": 0,
-        "min": 240,
-        "max": 285
+        "min": 270,
+        "max": 315
       },
       {
         "prop": "swing2",
@@ -21673,7 +21691,7 @@
         "prop": "pierce-phys",
         "param": 0,
         "min": 10,
-        "max": 15
+        "max": 10
       },
       {
         "prop": "splash",
@@ -21810,8 +21828,8 @@
       {
         "prop": "dmg%",
         "param": 0,
-        "min": 280,
-        "max": 330
+        "min": 230,
+        "max": 280
       },
       {
         "prop": "ass",
@@ -21940,14 +21958,14 @@
       {
         "prop": "manasteal",
         "param": 0,
-        "min": 2,
-        "max": 5
+        "min": 5,
+        "max": 8
       },
       {
         "prop": "dex",
         "param": 0,
-        "min": 15,
-        "max": 25
+        "min": 20,
+        "max": 30
       },
       {
         "prop": "maxcurse",
@@ -22002,8 +22020,8 @@
       {
         "prop": "hp%",
         "param": 0,
-        "min": 20,
-        "max": 30
+        "min": 25,
+        "max": 35
       },
       {
         "prop": "regen",
@@ -22020,8 +22038,8 @@
       {
         "prop": "lifesteal-cap",
         "param": 0,
-        "min": 35,
-        "max": 35
+        "min": 40,
+        "max": 40
       }
     ]
   },
@@ -22332,13 +22350,13 @@
       {
         "prop": "mindmg/energy",
         "param": 0,
-        "min": 4,
-        "max": 4
+        "min": 8,
+        "max": 8
       },
       {
         "prop": "equipped-skill",
         "param": 554,
-        "min": 28,
+        "min": 30,
         "max": 30
       },
       {
@@ -22360,16 +22378,10 @@
         "max": 60
       },
       {
-        "prop": "hp%",
+        "prop": "mana%",
         "param": 0,
-        "min": -10,
-        "max": -10
-      },
-      {
-        "prop": "dmg-to-mana",
-        "param": 0,
-        "min": 55,
-        "max": 55
+        "min": 30,
+        "max": 30
       },
       {
         "prop": "light",
@@ -22382,6 +22394,12 @@
         "param": 0,
         "min": 20,
         "max": 20
+      },
+      {
+        "prop": "ama",
+        "param": 0,
+        "min": 3,
+        "max": 4
       },
       {
         "prop": "splash",
@@ -22450,6 +22468,348 @@
         "param": 358,
         "min": 100,
         "max": 1
+      }
+    ]
+  },
+  {
+    "name": "Mirror Shield",
+    "enabled": true,
+    "code": "urg",
+    "qlevel": 18,
+    "modifiers": [
+      {
+        "prop": "block-skill",
+        "param": 264,
+        "min": 6,
+        "max": 14
+      },
+      {
+        "prop": "curse-effectiveness",
+        "param": 0,
+        "min": 20,
+        "max": 30
+      },
+      {
+        "prop": "curse-res",
+        "param": 0,
+        "min": 20,
+        "max": 30
+      },
+      {
+        "prop": "res-ltng",
+        "param": 0,
+        "min": 35,
+        "max": 35
+      },
+      {
+        "prop": "ac%",
+        "param": 0,
+        "min": 140,
+        "max": 180
+      },
+      {
+        "prop": "block",
+        "param": 0,
+        "min": 20,
+        "max": 20
+      },
+      {
+        "prop": "pierce-phys",
+        "param": 0,
+        "min": 10,
+        "max": 10
+      }
+    ]
+  },
+  {
+    "name": "Wraithskin",
+    "enabled": true,
+    "code": "ung",
+    "qlevel": 61,
+    "modifiers": [
+      {
+        "prop": "curse-effectiveness",
+        "param": 0,
+        "min": 40,
+        "max": 50
+      },
+      {
+        "prop": "swing2",
+        "param": 0,
+        "min": 20,
+        "max": 20
+      },
+      {
+        "prop": "hp%",
+        "param": 0,
+        "min": -10,
+        "max": -10
+      },
+      {
+        "prop": "max-deadly",
+        "param": 0,
+        "min": 10,
+        "max": 10
+      },
+      {
+        "prop": "ac%",
+        "param": 0,
+        "min": 80,
+        "max": 125
+      },
+      {
+        "prop": "dmg%",
+        "param": 0,
+        "min": 60,
+        "max": 100
+      },
+      {
+        "prop": "heal-kill",
+        "param": 0,
+        "min": 4,
+        "max": 6
+      }
+    ]
+  },
+  {
+    "name": "Titangrip",
+    "enabled": true,
+    "code": "ulg",
+    "qlevel": 45,
+    "modifiers": [
+      {
+        "prop": "block",
+        "param": 0,
+        "min": 15,
+        "max": 20
+      },
+      {
+        "prop": "ac%",
+        "param": 0,
+        "min": 140,
+        "max": 185
+      },
+      {
+        "prop": "block2",
+        "param": 0,
+        "min": 20,
+        "max": 20
+      },
+      {
+        "prop": "res-ltng",
+        "param": 0,
+        "min": 25,
+        "max": 35
+      },
+      {
+        "prop": "half-freeze",
+        "param": 0,
+        "min": 1,
+        "max": 1
+      },
+      {
+        "prop": "ac-miss",
+        "param": 0,
+        "min": 120,
+        "max": 120
+      }
+    ]
+  },
+  {
+    "name": "Shatterblade",
+    "enabled": true,
+    "code": "7di",
+    "qlevel": 73,
+    "modifiers": [
+      {
+        "prop": "dmg%",
+        "param": 0,
+        "min": 240,
+        "max": 280
+      },
+      {
+        "prop": "dmg-ac",
+        "param": 0,
+        "min": -100,
+        "max": -100
+      },
+      {
+        "prop": "coldskill",
+        "param": 0,
+        "min": 2,
+        "max": 2
+      },
+      {
+        "prop": "dmg-min",
+        "param": 0,
+        "min": 25,
+        "max": 25
+      },
+      {
+        "prop": "kill-skill",
+        "param": 369,
+        "min": 15,
+        "max": 28
+      },
+      {
+        "prop": "freeze",
+        "param": 0,
+        "min": 2,
+        "max": 2
+      },
+      {
+        "prop": "pierce-cold",
+        "param": 0,
+        "min": 15,
+        "max": 25
+      },
+      {
+        "prop": "hit-skill",
+        "param": 45,
+        "min": 18,
+        "max": 33
+      },
+      {
+        "prop": "deadly",
+        "param": 0,
+        "min": 20,
+        "max": 20
+      },
+      {
+        "prop": "splash",
+        "param": 358,
+        "min": 100,
+        "max": 1
+      }
+    ]
+  },
+  {
+    "name": "Denmother",
+    "enabled": true,
+    "code": "drc",
+    "qlevel": 66,
+    "modifiers": [
+      {
+        "prop": "ac%",
+        "param": 0,
+        "min": 125,
+        "max": 125
+      },
+      {
+        "prop": "dru",
+        "param": 0,
+        "min": 2,
+        "max": 2
+      },
+      {
+        "prop": "cast2",
+        "param": 0,
+        "min": 20,
+        "max": 20
+      },
+      {
+        "prop": "gold%",
+        "param": 0,
+        "min": 50,
+        "max": 80
+      },
+      {
+        "prop": "skill",
+        "param": 247,
+        "min": 2,
+        "max": 3
+      },
+      {
+        "prop": "sock",
+        "param": 0,
+        "min": 2,
+        "max": 3
+      },
+      {
+        "prop": "regen",
+        "param": 0,
+        "min": 25,
+        "max": 35
+      },
+      {
+        "prop": "extra-grizzly",
+        "param": 0,
+        "min": 2,
+        "max": 2
+      },
+      {
+        "prop": "no-wolves",
+        "param": 0,
+        "min": 10,
+        "max": 10
+      },
+      {
+        "prop": "skill",
+        "param": 233,
+        "min": 2,
+        "max": 3
+      }
+    ]
+  },
+  {
+    "name": "Ebonbane",
+    "enabled": true,
+    "code": "amc",
+    "qlevel": 70,
+    "modifiers": [
+      {
+        "prop": "skill",
+        "param": 29,
+        "min": 2,
+        "max": 3
+      },
+      {
+        "prop": "skill",
+        "param": 13,
+        "min": 2,
+        "max": 3
+      },
+      {
+        "prop": "slow",
+        "param": 0,
+        "min": 25,
+        "max": 25
+      },
+      {
+        "prop": "move2",
+        "param": 0,
+        "min": 20,
+        "max": 20
+      },
+      {
+        "prop": "swing2",
+        "param": 0,
+        "min": 50,
+        "max": 50
+      },
+      {
+        "prop": "dmg%",
+        "param": 0,
+        "min": 250,
+        "max": 290
+      },
+      {
+        "prop": "skilltab",
+        "param": 1,
+        "min": 4,
+        "max": 5
+      },
+      {
+        "prop": "gethit-skill",
+        "param": 72,
+        "min": 12,
+        "max": 16
+      },
+      {
+        "prop": "skill",
+        "param": 6,
+        "min": 5,
+        "max": 5
       }
     ]
   }

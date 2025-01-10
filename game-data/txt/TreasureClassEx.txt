@@ -52,7 +52,7 @@ Runes 15 equiv			1						r29s	3	r30s	2	Runes 14 equiv	2941																		0
 Runes 16 equiv			1						r31s	3	r32s	2	Runes 15 equiv	3957																		0
 Runes 17 equiv			1						r33s	1	Runes 16 equiv	5170																				0
 Map Tier 1			1			400	800		t23	1	t15	1	t12	1	t26	1	t25	1	t22	1	t36	1										0
-Map Tier 2			1			400	800		t34	1	t31	1	t24	1	t11	1	t33	1	t13	1												0
+Map Tier 2			1			400	800		t34	1	t31	1	t24	1	t11	1	t33	1	t13	1	t27	1	t28	1								0
 Map Tier 3			1			400	800		t3a	2	t38	2	t39	2	t37	2	t14	2	t21	2	t32	2	t16	2	t35	2						0
 T1 Map Drop			1						Map Tier 1	66	Map Tier 2	33																				0
 T2 Map Drop			1						Map Tier 1	39	Map Tier 2	40	Map Tier 3	20																		0
@@ -947,8 +947,8 @@ BR Arena Bodies H		90	1	1000	850	1400	800	0	Act 5 (H) Equip C	48	BR Arena misc	5
 BR Arena Zomb N		30	3	9000	9000	1	1	0	Act 5 Uitem C	30	BR Arena jewerly	8																				0
 BR Arena Zomb NM		60	3	9000	9000	1	1	0	Act 5 (N) Uitem C	30	BR Arena jewerly	8																				0
 BR Arena Zomb H		90	3	9000	9000	1	1	0	Act 5 (H) Uitem C	30	BR Arena jewerly	8																				0
-UberAncients		90	6	950	960	990	1024	0	Act 5 (H) Equip C	800	Jewelry C	100	Runes 17 equiv	25	wss	25	T3 Map Drop	10	T2 Map Drop	10	T1 Map Drop	10	scrb	1								0
-ShadowOfMendeln		90	6	950	960	990	1024	0	Act 5 (H) Equip C	787	Act 5 (H) Good	45	Act 5 (H) Junk	75	Runes 17 equiv	10	wss	15	Jewelry C	30	scrb	1										0
+UberAncients		90	6	950	960	990	1024	0	Act 5 (H) Equip C	800	Jewelry C	100	Runes 17 equiv	30	wss	25	T3 Map Drop	10	T2 Map Drop	10	T1 Map Drop	10	scrb	3								0
+ShadowOfMendeln		90	6	950	960	990	1024	0	Act 5 (H) Equip C	787	Act 5 (H) Good	45	Act 5 (H) Junk	75	Runes 17 equiv	10	wss	15	Jewelry C	30	scrb	2										0
 Act 1 (H) Weap A	1	68	1						weap54	2	armo54	0	weap57	6	armo57	0	weap60	14	armo60	0	weap63	6	armo63	3	Act 5 (N) Weap C	1785			28	1813	0.977	0
 Act 1 (H) Weap B	1	70	1						weap57	2	armo57	0	weap60	6	armo60	0	weap63	14	armo63	0	weap66	2	armo66	1	Act 1 (H) Weap A	1530			24	1554	0.977	0
 Act 1 (H) Weap C	1	71	1						weap57	2	armo57	0	weap60	6	armo60	0	weap63	14	armo63	0	weap66	6	armo66	3	Act 1 (H) Weap A	1785			28	1813	0.977	0
@@ -998,9 +998,9 @@ Treasure Fallen H			3						Treasure Fallen Gem H	1	Treasure Fallen Rune H	1	Trea
 Larzuk Puzzlebox N				0																												0
 Larzuk Puzzlebox NM				4500	100																											0
 Larzuk Puzzlebox H				2250	100																											0
-Larzuk Puzzlepiece N				4500	100																											0
-Larzuk Puzzlepiece NM				2250	100																											0
-Larzuk Puzzlepiece H				1000	100																											0
+Larzuk Puzzlepiece N				4050	100																											0
+Larzuk Puzzlepiece NM				2025	100																											0
+Larzuk Puzzlepiece H				900	100																											0
 SkeletonKey N				5000	1000																											
 SkeletonKey NM				5000	1000																											
 SkeletonKey H				5000	1000																											
@@ -1025,3 +1025,14 @@ Rathma Jawbone H				2250	10
 UberAncients T1				5440																												
 UberAncients T2				5440																												
 UberAncients T3				5440																												
+lucbN				1500	10																											
+lucbNM				6000																												
+lucbH				2000																												
+lucc				4000																												
+lucdN				2300	100																											
+lucdNM				7800	10																											
+lucdH				2600	10																											
+T4MidMapBoss		90	6	950	960	990	1024	0	Act 5 (H) Equip C	800	Jewelry C	100	Runes 17 equiv	30	wss	25	T3 Map Drop	10	T2 Map Drop	10	T1 Map Drop	10	scrb	3								0
+T4FinalMapBoss		90	6	950	960	990	1024	0	Act 5 (H) Equip C	800	Jewelry C	100	Runes 17 equiv	30	wss	25	T3 Map Drop	10	T2 Map Drop	10	T1 Map Drop	10	scrb	3								0
+LucionChestLow		90	3	800	900	990	1024	0	Act 5 (H) Equip C	200	Act 5 (H) Good	100	Runes 15 equiv	30	wss	25																0
+LucionChestHigh		90	3	950	960	990	1024	0	Act 5 (H) Equip C	800	Jewelry C	100	Runes 17 equiv	30	scrb	3																0

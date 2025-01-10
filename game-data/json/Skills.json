@@ -1887,8 +1887,8 @@
     "name": "MonJab"
   },
   {
-    "code": "MonSmite",
-    "name": "MonSmite"
+    "code": "MonSmiteLucion",
+    "name": "MonSmiteLucion"
   },
   {
     "code": "MonCharge",
@@ -2513,5 +2513,57 @@
   {
     "code": "RadamentBossMeteor",
     "name": "RadamentBossMeteor"
+  },
+  {
+    "code": "LucionNova",
+    "name": "LucionNova"
+  },
+  {
+    "code": "LucionBoneWave",
+    "name": "LucionBoneWave"
+  },
+  {
+    "code": "LucionBlink",
+    "name": "LucionBlink"
+  },
+  {
+    "code": "LucionRoyalFire",
+    "name": "LucionRoyalFire"
+  },
+  {
+    "code": "LucionDash",
+    "name": "LucionDash"
+  },
+  {
+    "code": "LucionPunish",
+    "name": "LucionPunish"
+  },
+  {
+    "code": "EruptionDemonRoadBoss",
+    "name": "EruptionDemonRoadBoss"
+  },
+  {
+    "code": "Tentacle",
+    "name": "Tentacle"
+  },
+  {
+    "code": "LucionCharge",
+    "name": "LucionCharge"
+  },
+  {
+    "code": "LucionDeath1",
+    "name": "LucionDeath1"
+  },
+  {
+    "code": "LucionDeath2",
+    "name": "LucionDeath2"
+  },
+  {
+    "code": "LucionDeath3",
+    "name": "LucionDeath3"
+  },
+  {
+    "code": "LucionDeath4",
+    "name": "LucionDeath4"
   }
 ]

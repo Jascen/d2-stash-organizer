@@ -916,3 +916,7 @@ of Decay	913	0	1	1	70		53					15	pois-min		8	8	pois-max		2580	2580	pois-len		50	
 of Hypothermia	914	100	1	1	70		53				2	10	cold-min		63	118	cold-max		238	365	cold-len		150	150	1	dblu	mele	misl						wand	orb						0
 of Ashes	915	100	1	1	70		53				2	12	fire-min		152	214	fire-max		228	302					1	dred	mele	misl						wand	orb						0
 of Maelstrom	916	100	1	1	70		53				2	13	ltng-min		1	6	ltng-max		303	403					1	dyel	mele	misl						wand	orb						0
+of Life	917	100	1	1	1		14				1	26	hp		10	10											schp														0
+of Life	918	100	1	1	9		17				4	26	hp		15	15											schp	lchp	mchp												0
+of Life	919	100	1	1	9		39				4	26	hp		20	20											schp														0
+of Balance	920	100	1	1	37		29				4	18	balance1		5	5											schp														0

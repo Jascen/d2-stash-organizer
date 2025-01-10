@@ -1756,8 +1756,7 @@
     "stackable": true
   },
   "toa": {
-    "name": "Token of Absolution",
-    "type": "ubr",
+    "type": "toa",
     "tier": 0,
     "maxSockets": 0,
     "indestructible": true,
@@ -2532,7 +2531,7 @@
     "width": 1,
     "height": 1,
     "qlevel": 99,
-    "levelReq": 80,
+    "levelReq": 0,
     "stackable": false
   },
   "dcma": {
@@ -2544,7 +2543,7 @@
     "width": 1,
     "height": 1,
     "qlevel": 99,
-    "levelReq": 80,
+    "levelReq": 0,
     "stackable": false
   },
   "dcbl": {
@@ -2801,7 +2800,7 @@
   },
   "t61": {
     "name": "t61",
-    "type": "pvpm",
+    "type": "pvpd",
     "tier": 0,
     "maxSockets": 0,
     "indestructible": true,
@@ -2832,7 +2831,7 @@
     "width": 1,
     "height": 1,
     "qlevel": 99,
-    "levelReq": 80,
+    "levelReq": 0,
     "stackable": false
   },
   "cwss": {
@@ -2976,7 +2975,7 @@
     "width": 1,
     "height": 1,
     "qlevel": 80,
-    "levelReq": 80,
+    "levelReq": 0,
     "stackable": false
   },
   "llmr": {
@@ -3354,6 +3353,114 @@
   "t44": {
     "name": "t44",
     "type": "t4m",
+    "tier": 0,
+    "maxSockets": 0,
+    "indestructible": true,
+    "width": 1,
+    "height": 1,
+    "qlevel": 80,
+    "levelReq": 80,
+    "stackable": true
+  },
+  "cm1p": {
+    "name": "cm1p",
+    "type": "schp",
+    "tier": 0,
+    "maxSockets": 0,
+    "indestructible": true,
+    "width": 1,
+    "height": 1,
+    "qlevel": 28,
+    "levelReq": 0,
+    "stackable": false
+  },
+  "cm2p": {
+    "name": "cm2p",
+    "type": "mchp",
+    "tier": 0,
+    "maxSockets": 0,
+    "indestructible": true,
+    "width": 1,
+    "height": 2,
+    "qlevel": 14,
+    "levelReq": 0,
+    "stackable": false
+  },
+  "cm3p": {
+    "name": "cm3p",
+    "type": "lchp",
+    "tier": 0,
+    "maxSockets": 0,
+    "indestructible": true,
+    "width": 1,
+    "height": 3,
+    "qlevel": 1,
+    "levelReq": 0,
+    "stackable": false
+  },
+  "t28": {
+    "name": "t28",
+    "type": "t2m",
+    "tier": 0,
+    "maxSockets": 0,
+    "indestructible": true,
+    "width": 1,
+    "height": 1,
+    "qlevel": 80,
+    "levelReq": 80,
+    "stackable": true
+  },
+  "luca": {
+    "name": "luca",
+    "type": "ubr",
+    "tier": 0,
+    "maxSockets": 0,
+    "indestructible": true,
+    "width": 1,
+    "height": 1,
+    "qlevel": 99,
+    "levelReq": 0,
+    "stackable": false
+  },
+  "lucb": {
+    "name": "lucb",
+    "type": "ubr",
+    "tier": 0,
+    "maxSockets": 0,
+    "indestructible": true,
+    "width": 1,
+    "height": 1,
+    "qlevel": 80,
+    "levelReq": 0,
+    "stackable": true
+  },
+  "lucc": {
+    "name": "lucc",
+    "type": "ubr",
+    "tier": 0,
+    "maxSockets": 0,
+    "indestructible": true,
+    "width": 1,
+    "height": 1,
+    "qlevel": 80,
+    "levelReq": 0,
+    "stackable": true
+  },
+  "lucd": {
+    "name": "lucd",
+    "type": "ubr",
+    "tier": 0,
+    "maxSockets": 0,
+    "indestructible": true,
+    "width": 1,
+    "height": 1,
+    "qlevel": 80,
+    "levelReq": 0,
+    "stackable": true
+  },
+  "t27": {
+    "name": "t27",
+    "type": "t2m",
     "tier": 0,
     "maxSockets": 0,
     "indestructible": true,

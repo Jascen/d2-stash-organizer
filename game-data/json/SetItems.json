@@ -22,10 +22,10 @@
     "setModifiers": [
       [
         {
-          "prop": "mana",
+          "prop": "red-dmg%",
           "param": 0,
-          "min": 21,
-          "max": 22
+          "min": 10,
+          "max": 10
         }
       ],
       [
@@ -956,7 +956,6 @@
       }
     ],
     "setModifiers": [
-      [],
       [
         {
           "prop": "hit-skill",
@@ -965,6 +964,7 @@
           "max": 6
         }
       ],
+      [],
       [],
       [],
       []
@@ -1035,17 +1035,15 @@
         "param": 0,
         "min": 25,
         "max": 35
+      },
+      {
+        "prop": "ac%",
+        "param": 0,
+        "min": 60,
+        "max": 100
       }
     ],
     "setModifiers": [
-      [
-        {
-          "prop": "ac%",
-          "param": 0,
-          "min": 100,
-          "max": 100
-        }
-      ],
       [
         {
           "prop": "hit-skill",
@@ -1054,6 +1052,7 @@
           "max": 5
         }
       ],
+      [],
       [],
       [],
       []
@@ -1299,7 +1298,6 @@
           "max": 10
         }
       ],
-      [],
       [
         {
           "prop": "dmg-max",
@@ -1308,6 +1306,7 @@
           "max": 10
         }
       ],
+      [],
       [],
       []
     ]
@@ -1394,8 +1393,8 @@
       {
         "prop": "dmg%",
         "param": 0,
-        "min": 20,
-        "max": 30
+        "min": 30,
+        "max": 45
       }
     ],
     "setModifiers": [
@@ -1479,6 +1478,12 @@
         "param": 0,
         "min": 2,
         "max": 4
+      },
+      {
+        "prop": "dmg-ltng",
+        "param": 0,
+        "min": 1,
+        "max": 15
       }
     ],
     "setModifiers": [
@@ -1819,6 +1824,12 @@
         "param": 0,
         "min": 20,
         "max": 20
+      },
+      {
+        "prop": "dmg-undead",
+        "param": 0,
+        "min": 150,
+        "max": 150
       }
     ],
     "setModifiers": [
@@ -2006,10 +2017,10 @@
       ],
       [
         {
-          "prop": "bar",
-          "param": 0,
-          "min": 1,
-          "max": 1
+          "prop": "dmg/lvl",
+          "param": 8,
+          "min": 0,
+          "max": 0
         }
       ],
       [],
@@ -2033,8 +2044,8 @@
       {
         "prop": "res-pois-len",
         "param": 0,
-        "min": 75,
-        "max": 75
+        "min": 45,
+        "max": 45
       }
     ],
     "setModifiers": [
@@ -2104,8 +2115,8 @@
       {
         "prop": "dmg%",
         "param": 0,
-        "min": 25,
-        "max": 25
+        "min": 60,
+        "max": 90
       },
       {
         "prop": "lifesteal",
@@ -2166,6 +2177,12 @@
         "param": 358,
         "min": 100,
         "max": 1
+      },
+      {
+        "prop": "dmg-max",
+        "param": 0,
+        "min": 12,
+        "max": 12
       }
     ],
     "setModifiers": [
@@ -2859,7 +2876,7 @@
       },
       {
         "prop": "hp/lvl",
-        "param": 8,
+        "param": 12,
         "min": 0,
         "max": 0
       },
@@ -3637,10 +3654,10 @@
     "levelReq": 76,
     "baseModifiers": [
       {
-        "prop": "rep-dur",
-        "param": 25,
-        "min": 0,
-        "max": 0
+        "prop": "indestruct",
+        "param": 0,
+        "min": 1,
+        "max": 1
       },
       {
         "prop": "swing3",
@@ -3651,14 +3668,14 @@
       {
         "prop": "dmg-demon",
         "param": 0,
-        "min": 150,
-        "max": 200
+        "min": 175,
+        "max": 225
       },
       {
         "prop": "dmg-undead",
         "param": 0,
-        "min": 100,
-        "max": 200
+        "min": 125,
+        "max": 225
       },
       {
         "prop": "crush",
@@ -3669,8 +3686,8 @@
       {
         "prop": "dmg%",
         "param": 0,
-        "min": 150,
-        "max": 200
+        "min": 175,
+        "max": 225
       },
       {
         "prop": "splash",
@@ -3937,14 +3954,14 @@
       {
         "prop": "red-mag",
         "param": 0,
-        "min": 10,
-        "max": 17
+        "min": 12,
+        "max": 18
       },
       {
         "prop": "mag%",
         "param": 0,
-        "min": 50,
-        "max": 80
+        "min": 60,
+        "max": 90
       },
       {
         "prop": "res-cold",
@@ -4265,15 +4282,21 @@
         "param": 0,
         "min": 35,
         "max": 35
+      },
+      {
+        "prop": "skilltab",
+        "param": 11,
+        "min": 2,
+        "max": 2
       }
     ],
     "setModifiers": [
       [
         {
-          "prop": "skilltab",
-          "param": 11,
-          "min": 2,
-          "max": 2
+          "prop": "balance3",
+          "param": 0,
+          "min": 30,
+          "max": 30
         }
       ],
       [],
@@ -4362,8 +4385,8 @@
       {
         "prop": "skill",
         "param": 367,
-        "min": 1,
-        "max": 2
+        "min": 2,
+        "max": 3
       },
       {
         "prop": "move3",
@@ -4651,8 +4674,8 @@
         {
           "prop": "extra-fire",
           "param": 0,
-          "min": 15,
-          "max": 15
+          "min": 5,
+          "max": 5
         }
       ],
       []
@@ -4783,8 +4806,8 @@
         {
           "prop": "extra-cold",
           "param": 0,
-          "min": 15,
-          "max": 15
+          "min": 5,
+          "max": 5
         }
       ],
       []
@@ -5041,8 +5064,8 @@
       {
         "prop": "res-fire",
         "param": 0,
-        "min": 24,
-        "max": 34
+        "min": 40,
+        "max": 55
       },
       {
         "prop": "gethit-skill",
@@ -5065,7 +5088,14 @@
     ],
     "setModifiers": [
       [],
-      [],
+      [
+        {
+          "prop": "gethit-skill",
+          "param": 68,
+          "min": 5,
+          "max": 18
+        }
+      ],
       [],
       [],
       []
@@ -5463,8 +5493,8 @@
         {
           "prop": "dmg-demon",
           "param": 0,
-          "min": 100,
-          "max": 100
+          "min": 150,
+          "max": 150
         }
       ],
       [],
@@ -5522,8 +5552,8 @@
         {
           "prop": "dmg-undead",
           "param": 0,
-          "min": 100,
-          "max": 100
+          "min": 150,
+          "max": 150
         }
       ],
       [],
@@ -6290,7 +6320,7 @@
         "prop": "dmg-ltng",
         "param": 0,
         "min": 6,
-        "max": 45
+        "max": 450
       },
       {
         "prop": "mana",

@@ -658,8 +658,8 @@
       {
         "prop": "dmg%",
         "param": 0,
-        "min": 300,
-        "max": 355
+        "min": 275,
+        "max": 320
       },
       {
         "prop": "deadly/lvl",
@@ -2148,7 +2148,7 @@
       },
       {
         "prop": "cast-skill",
-        "param": 49,
+        "param": 53,
         "min": 15,
         "max": 20
       },
@@ -2573,8 +2573,8 @@
       {
         "prop": "skill",
         "param": 41,
-        "min": 3,
-        "max": 3
+        "min": 1,
+        "max": 2
       },
       {
         "prop": "skill",
@@ -3379,8 +3379,8 @@
       {
         "prop": "ama",
         "param": 0,
-        "min": 2,
-        "max": 2
+        "min": 1,
+        "max": 1
       },
       {
         "prop": "oskill",
@@ -3775,8 +3775,8 @@
       {
         "prop": "cast2",
         "param": 0,
-        "min": 30,
-        "max": 30
+        "min": 40,
+        "max": 40
       }
     ]
   },
@@ -5284,13 +5284,13 @@
       {
         "prop": "dmg%",
         "param": 0,
-        "min": 200,
+        "min": 225,
         "max": 300
       },
       {
         "prop": "aura",
         "param": 125,
-        "min": 8,
+        "min": 10,
         "max": 12
       },
       {
@@ -5334,8 +5334,8 @@
       {
         "prop": "dmg%",
         "param": 0,
-        "min": 110,
-        "max": 135
+        "min": 120,
+        "max": 145
       },
       {
         "prop": "swing2",

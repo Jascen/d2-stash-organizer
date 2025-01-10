@@ -3076,8 +3076,8 @@
     "type": "ashd",
     "tier": 2,
     "def": [
-      126,
-      158
+      109,
+      136
     ],
     "maxSockets": 4,
     "indestructible": false,
@@ -3092,8 +3092,8 @@
     "type": "ashd",
     "tier": 2,
     "def": [
-      138,
-      164
+      130,
+      155
     ],
     "maxSockets": 4,
     "indestructible": false,
@@ -3108,8 +3108,8 @@
     "type": "ashd",
     "tier": 2,
     "def": [
-      154,
-      172
+      166,
+      185
     ],
     "maxSockets": 4,
     "indestructible": false,
@@ -3124,8 +3124,8 @@
     "type": "ashd",
     "tier": 2,
     "def": [
-      169,
-      193
+      185,
+      214
     ],
     "maxSockets": 4,
     "indestructible": false,
@@ -3140,8 +3140,8 @@
     "type": "ashd",
     "tier": 2,
     "def": [
-      182,
-      225
+      205,
+      243
     ],
     "maxSockets": 4,
     "indestructible": false,
