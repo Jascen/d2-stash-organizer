@@ -2519,8 +2519,32 @@
     "descNeg": "ModitemSkillOnEquip",
     "descAdditional": ""
   },
-  null,
-  null,
+  {
+    "stat": "extra_shadow",
+    "encode": 0,
+    "size": 5,
+    "bias": 0,
+    "paramSize": 0,
+    "descPriority": 150,
+    "descFunc": 9,
+    "descVal": 2,
+    "descPos": "YouMaySummon",
+    "descNeg": "YouMaySummon",
+    "descAdditional": "ExtraShadow"
+  },
+  {
+    "stat": "extra_spiritwolf",
+    "encode": 0,
+    "size": 5,
+    "bias": 0,
+    "paramSize": 0,
+    "descPriority": 150,
+    "descFunc": 9,
+    "descVal": 2,
+    "descPos": "YouMaySummon",
+    "descNeg": "YouMaySummon",
+    "descAdditional": "ExtraSpiritWolf"
+  },
   {
     "stat": "item_numsockets",
     "encode": 0,
@@ -2716,7 +2740,19 @@
     "descNeg": "",
     "descAdditional": ""
   },
-  null,
+  {
+    "stat": "joustreduction_zeraes",
+    "encode": 0,
+    "size": 6,
+    "bias": 0,
+    "paramSize": 0,
+    "descPriority": 150,
+    "descFunc": 3,
+    "descVal": 0,
+    "descPos": "JoustreductionZeraes",
+    "descNeg": "JoustreductionZeraes",
+    "descAdditional": ""
+  },
   {
     "stat": "item_maxdeadlystrike",
     "encode": 0,
@@ -2730,8 +2766,32 @@
     "descNeg": "StrMaxDeadlyStrike",
     "descAdditional": ""
   },
-  null,
-  null,
+  {
+    "stat": "map_glob_boss_dropubermats",
+    "encode": 0,
+    "size": 2,
+    "bias": 2,
+    "paramSize": 0,
+    "descPriority": 208,
+    "descFunc": 3,
+    "descVal": 0,
+    "descPos": "MapBossUberMats",
+    "descNeg": "MapBossUberMats",
+    "descAdditional": ""
+  },
+  {
+    "stat": "map_glob_boss_droppuzzlebox",
+    "encode": 0,
+    "size": 2,
+    "bias": 2,
+    "paramSize": 0,
+    "descPriority": 208,
+    "descFunc": 3,
+    "descVal": 0,
+    "descPos": "MapBossPuzzlebox",
+    "descNeg": "MapBossPuzzlebox",
+    "descAdditional": ""
+  },
   {
     "stat": "item_mindamage_energy",
     "encode": 0,
@@ -5453,12 +5513,12 @@
     "size": 8,
     "bias": 0,
     "paramSize": 0,
-    "descPriority": 22,
+    "descPriority": 60,
     "descFunc": 7,
     "descVal": 2,
     "descPos": "MapPlayHave",
     "descNeg": "MapPlayHave",
-    "descAdditional": "ModStr2u_PD2"
+    "descAdditional": "ModStrMapPlayerPDR"
   },
   {
     "stat": "map_play_velocitypercent",
@@ -5896,11 +5956,11 @@
     "bias": 0,
     "paramSize": 0,
     "descPriority": 160,
-    "descFunc": 3,
-    "descVal": 0,
+    "descFunc": 6,
+    "descVal": 2,
     "descPos": "EaglehornRaven",
     "descNeg": "EaglehornRaven",
-    "descAdditional": ""
+    "descAdditional": "ColdDamage"
   },
   {
     "stat": "pvp_disable",

@@ -3575,5 +3575,45 @@
         "type": "other"
       }
     ]
+  },
+  "extra-shadow": {
+    "stats": [
+      {
+        "stat": "extra_shadow",
+        "type": "other"
+      }
+    ]
+  },
+  "extra-spiritwolf": {
+    "stats": [
+      {
+        "stat": "extra_spiritwolf",
+        "type": "other"
+      }
+    ]
+  },
+  "joust-reduction-zeraes": {
+    "stats": [
+      {
+        "stat": "joustreduction_zeraes",
+        "type": "other"
+      }
+    ]
+  },
+  "map-glob-boss-dropubermats": {
+    "stats": [
+      {
+        "stat": "map_glob_boss_dropubermats",
+        "type": "other"
+      }
+    ]
+  },
+  "map-glob-boss-droppuzzlebox": {
+    "stats": [
+      {
+        "stat": "map_glob_boss_droppuzzlebox",
+        "type": "other"
+      }
+    ]
   }
 }

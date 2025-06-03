@@ -3469,5 +3469,53 @@
     "qlevel": 80,
     "levelReq": 80,
     "stackable": true
+  },
+  "t54": {
+    "name": "t54",
+    "type": "t5m",
+    "tier": 0,
+    "maxSockets": 0,
+    "indestructible": true,
+    "width": 1,
+    "height": 1,
+    "qlevel": 80,
+    "levelReq": 80,
+    "stackable": false
+  },
+  "t17": {
+    "name": "t17",
+    "type": "t1m",
+    "tier": 0,
+    "maxSockets": 0,
+    "indestructible": true,
+    "width": 1,
+    "height": 1,
+    "qlevel": 80,
+    "levelReq": 80,
+    "stackable": true
+  },
+  "t55": {
+    "name": "t55",
+    "type": "t5m",
+    "tier": 0,
+    "maxSockets": 0,
+    "indestructible": true,
+    "width": 1,
+    "height": 1,
+    "qlevel": 80,
+    "levelReq": 80,
+    "stackable": false
+  },
+  "t69": {
+    "name": "t16",
+    "type": "t3m",
+    "tier": 0,
+    "maxSockets": 0,
+    "indestructible": true,
+    "width": 1,
+    "height": 1,
+    "qlevel": 80,
+    "levelReq": 80,
+    "stackable": true
   }
 }

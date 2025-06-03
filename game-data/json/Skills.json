@@ -1783,8 +1783,8 @@
     "name": "Raven Splash"
   },
   {
-    "code": "HydraFireball",
-    "name": "HydraFireball"
+    "code": "Vampire Form",
+    "name": "VampireForm"
   },
   {
     "code": "Golem Splash",
@@ -1887,8 +1887,8 @@
     "name": "MonJab"
   },
   {
-    "code": "MonSmiteLucion",
-    "name": "MonSmiteLucion"
+    "code": "MonSmite",
+    "name": "MonSmite"
   },
   {
     "code": "MonCharge",
@@ -2051,8 +2051,8 @@
     "name": "Hydra Throne Boss"
   },
   {
-    "code": "UberDiabSummon",
-    "name": "UberDiabSummon"
+    "code": "HurricaneTortureBoss",
+    "name": "HurricaneTortureBoss"
   },
   {
     "code": "A3 Mastery Fire",
@@ -2565,5 +2565,45 @@
   {
     "code": "LucionDeath4",
     "name": "LucionDeath4"
+  },
+  {
+    "code": "MonSmiteLucion",
+    "name": "MonSmiteLucion"
+  },
+  {
+    "code": "MonLowerRes",
+    "name": "MonLowerRes"
+  },
+  {
+    "code": "HydraFireball",
+    "name": "HydraFireball"
+  },
+  {
+    "code": "SummonVoidlingUniqueMap",
+    "name": "SummonVoidlingUniqueMap"
+  },
+  {
+    "code": "Bone Spear Putrid Defiler",
+    "name": "Bone Spear Putrid Defiler"
+  },
+  {
+    "code": "SummonViperUniqueMap",
+    "name": "SummonViperUniqueMap"
+  },
+  {
+    "code": "ChargedBoltImperialMiniBoss",
+    "name": "ChargedBoltImperialMiniBoss"
+  },
+  {
+    "code": "ImperialMiniBossBlast",
+    "name": "ImperialMiniBossBlast"
+  },
+  {
+    "code": "UberDiabSummon",
+    "name": "UberDiabSummon"
+  },
+  {
+    "code": "Armageddon SelfAura",
+    "name": "Armageddon SelfAura"
   }
 ]

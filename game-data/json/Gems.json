@@ -1272,8 +1272,8 @@
       {
         "prop": "ac-miss",
         "param": 0,
-        "min": 30,
-        "max": 30
+        "min": 50,
+        "max": 50
       }
     ]
   },
@@ -1446,16 +1446,16 @@
       {
         "prop": "thorns",
         "param": 0,
-        "min": 14,
-        "max": 14
+        "min": 20,
+        "max": 20
       }
     ],
     "shield": [
       {
         "prop": "thorns",
         "param": 0,
-        "min": 14,
-        "max": 14
+        "min": 24,
+        "max": 24
       }
     ]
   },
@@ -1480,8 +1480,8 @@
       {
         "prop": "red-dmg",
         "param": 0,
-        "min": 7,
-        "max": 7
+        "min": 9,
+        "max": 9
       }
     ]
   },
@@ -1524,16 +1524,16 @@
       {
         "prop": "regen",
         "param": 0,
-        "min": 10,
-        "max": 10
+        "min": 20,
+        "max": 20
       }
     ],
     "shield": [
       {
         "prop": "regen",
         "param": 0,
-        "min": 10,
-        "max": 10
+        "min": 30,
+        "max": 30
       }
     ]
   },
@@ -1712,16 +1712,16 @@
       {
         "prop": "ac%",
         "param": 0,
-        "min": 30,
-        "max": 30
+        "min": 50,
+        "max": 50
       }
     ],
     "shield": [
       {
         "prop": "ac%",
         "param": 0,
-        "min": 30,
-        "max": 30
+        "min": 50,
+        "max": 50
       }
     ]
   },
@@ -1778,8 +1778,8 @@
       {
         "prop": "red-mag",
         "param": 0,
-        "min": 7,
-        "max": 7
+        "min": 9,
+        "max": 9
       }
     ]
   },
@@ -1814,8 +1814,8 @@
       {
         "prop": "att%",
         "param": 0,
-        "min": 20,
-        "max": 20
+        "min": 50,
+        "max": 50
       }
     ],
     "armor": [
@@ -1934,8 +1934,8 @@
       {
         "prop": "mana",
         "param": 0,
-        "min": 50,
-        "max": 50
+        "min": 75,
+        "max": 75
       }
     ]
   },

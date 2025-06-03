@@ -485,8 +485,8 @@
       {
         "prop": "dmg-undead",
         "param": 0,
-        "min": 100,
-        "max": 100
+        "min": 200,
+        "max": 200
       },
       {
         "prop": "lifesteal",
@@ -894,14 +894,14 @@
       {
         "prop": "ac",
         "param": 0,
-        "min": 360,
-        "max": 360
+        "min": 400,
+        "max": 550
       },
       {
-        "prop": "ac-miss",
-        "param": 0,
-        "min": 230,
-        "max": 230
+        "prop": "skill",
+        "param": 62,
+        "min": 4,
+        "max": 5
       },
       {
         "prop": "str/lvl",
@@ -913,7 +913,7 @@
         "prop": "hit-skill",
         "param": 62,
         "min": 12,
-        "max": 28
+        "max": 40
       },
       {
         "prop": "gethit-skill",
@@ -987,8 +987,8 @@
       {
         "prop": "aura",
         "param": 118,
-        "min": 13,
-        "max": 13
+        "min": 14,
+        "max": 14
       },
       {
         "prop": "mag%",
@@ -1099,12 +1099,6 @@
         "param": 0,
         "min": 5,
         "max": 10
-      },
-      {
-        "prop": "cheap",
-        "param": 0,
-        "min": 15,
-        "max": 15
       }
     ]
   },
@@ -1350,8 +1344,8 @@
       {
         "prop": "dmg%",
         "param": 0,
-        "min": 210,
-        "max": 260
+        "min": 280,
+        "max": 300
       },
       {
         "prop": "att%",
@@ -2237,8 +2231,8 @@
       {
         "prop": "dmg%",
         "param": 0,
-        "min": 140,
-        "max": 180
+        "min": 180,
+        "max": 240
       },
       {
         "prop": "att%",
@@ -2438,8 +2432,8 @@
       {
         "prop": "dmg%",
         "param": 0,
-        "min": 330,
-        "max": 375
+        "min": 350,
+        "max": 400
       },
       {
         "prop": "att-skill",
@@ -2474,8 +2468,8 @@
       {
         "prop": "aura",
         "param": 98,
-        "min": 17,
-        "max": 17
+        "min": 19,
+        "max": 19
       }
     ]
   },
@@ -2693,14 +2687,6 @@
   },
   {
     "id": 76,
-    "name": "Loyalty",
-    "enabled": false,
-    "runes": [],
-    "levelReq": 0,
-    "modifiers": []
-  },
-  {
-    "id": 77,
     "name": "Lust",
     "enabled": false,
     "runes": [],
@@ -2708,7 +2694,7 @@
     "modifiers": []
   },
   {
-    "id": 78,
+    "id": 77,
     "name": "Madness",
     "enabled": false,
     "runes": [],
@@ -2716,7 +2702,7 @@
     "modifiers": []
   },
   {
-    "id": 79,
+    "id": 78,
     "name": "Malice",
     "enabled": true,
     "runes": [
@@ -2820,7 +2806,7 @@
     ]
   },
   {
-    "id": 81,
+    "id": 80,
     "name": "Memory",
     "enabled": true,
     "runes": [
@@ -2834,7 +2820,7 @@
       {
         "prop": "mana%",
         "param": 0,
-        "min": 20,
+        "min": 25,
         "max": 40
       },
       {
@@ -2856,16 +2842,16 @@
         "max": 33
       },
       {
-        "prop": "sor",
+        "prop": "allskills",
         "param": 0,
-        "min": 3,
-        "max": 3
+        "min": 4,
+        "max": 4
       },
       {
         "prop": "skill",
         "param": 58,
-        "min": 3,
-        "max": 3
+        "min": 2,
+        "max": 2
       },
       {
         "prop": "skill",
@@ -2876,7 +2862,7 @@
     ]
   },
   {
-    "id": 82,
+    "id": 81,
     "name": "Mist",
     "enabled": true,
     "runes": [
@@ -2891,8 +2877,8 @@
       {
         "prop": "aura",
         "param": 113,
-        "min": 8,
-        "max": 12
+        "min": 12,
+        "max": 14
       },
       {
         "prop": "allskills",
@@ -2927,7 +2913,7 @@
     ]
   },
   {
-    "id": 83,
+    "id": 82,
     "name": "Morning",
     "enabled": false,
     "runes": [],
@@ -2935,7 +2921,7 @@
     "modifiers": []
   },
   {
-    "id": 84,
+    "id": 83,
     "name": "Mystery",
     "enabled": false,
     "runes": [],
@@ -2943,7 +2929,7 @@
     "modifiers": []
   },
   {
-    "id": 85,
+    "id": 84,
     "name": "Myth",
     "enabled": true,
     "runes": [
@@ -2992,7 +2978,7 @@
     ]
   },
   {
-    "id": 86,
+    "id": 85,
     "name": "Nadir",
     "enabled": true,
     "runes": [
@@ -3046,7 +3032,7 @@
     ]
   },
   {
-    "id": 87,
+    "id": 86,
     "name": "Nature's Kingdom",
     "enabled": false,
     "runes": [],
@@ -3054,7 +3040,7 @@
     "modifiers": []
   },
   {
-    "id": 88,
+    "id": 87,
     "name": "Night",
     "enabled": false,
     "runes": [],
@@ -3062,7 +3048,7 @@
     "modifiers": []
   },
   {
-    "id": 89,
+    "id": 88,
     "name": "Oath",
     "enabled": true,
     "runes": [
@@ -3118,7 +3104,7 @@
     ]
   },
   {
-    "id": 90,
+    "id": 89,
     "name": "Obedience",
     "enabled": true,
     "runes": [
@@ -3175,7 +3161,7 @@
     ]
   },
   {
-    "id": 91,
+    "id": 90,
     "name": "Oblivion",
     "enabled": false,
     "runes": [],
@@ -3183,7 +3169,7 @@
     "modifiers": []
   },
   {
-    "id": 92,
+    "id": 91,
     "name": "Obsession",
     "enabled": true,
     "runes": [
@@ -3241,7 +3227,7 @@
     ]
   },
   {
-    "id": 93,
+    "id": 92,
     "name": "Passion",
     "enabled": true,
     "runes": [
@@ -3261,8 +3247,8 @@
       {
         "prop": "oskill",
         "param": 106,
-        "min": 1,
-        "max": 1
+        "min": 10,
+        "max": 10
       },
       {
         "prop": "att%",
@@ -3273,8 +3259,8 @@
       {
         "prop": "oskill",
         "param": 144,
-        "min": 1,
-        "max": 1
+        "min": 10,
+        "max": 10
       },
       {
         "prop": "swing2",
@@ -3297,7 +3283,7 @@
     ]
   },
   {
-    "id": 94,
+    "id": 93,
     "name": "Passion",
     "enabled": false,
     "runes": [],
@@ -3305,7 +3291,7 @@
     "modifiers": []
   },
   {
-    "id": 95,
+    "id": 94,
     "name": "Patter",
     "enabled": true,
     "runes": [
@@ -3360,7 +3346,7 @@
     ]
   },
   {
-    "id": 96,
+    "id": 95,
     "name": "Peace",
     "enabled": true,
     "runes": [
@@ -3397,7 +3383,7 @@
     ]
   },
   {
-    "id": 97,
+    "id": 96,
     "name": "Voice of Reason",
     "enabled": true,
     "runes": [
@@ -3453,7 +3439,7 @@
     ]
   },
   {
-    "id": 98,
+    "id": 97,
     "name": "Penitence",
     "enabled": false,
     "runes": [],
@@ -3461,7 +3447,7 @@
     "modifiers": []
   },
   {
-    "id": 99,
+    "id": 98,
     "name": "Peril",
     "enabled": false,
     "runes": [],
@@ -3469,7 +3455,7 @@
     "modifiers": []
   },
   {
-    "id": 100,
+    "id": 99,
     "name": "Pestilence",
     "enabled": false,
     "runes": [],
@@ -3477,7 +3463,7 @@
     "modifiers": []
   },
   {
-    "id": 101,
+    "id": 100,
     "name": "Phoenix",
     "enabled": true,
     "runes": [
@@ -3533,7 +3519,7 @@
     ]
   },
   {
-    "id": 102,
+    "id": 101,
     "name": "Piety",
     "enabled": false,
     "runes": [],
@@ -3541,7 +3527,7 @@
     "modifiers": []
   },
   {
-    "id": 103,
+    "id": 102,
     "name": "Pillar of Faith",
     "enabled": false,
     "runes": [],
@@ -3549,7 +3535,7 @@
     "modifiers": []
   },
   {
-    "id": 104,
+    "id": 103,
     "name": "Plague",
     "enabled": true,
     "runes": [
@@ -3604,7 +3590,7 @@
     ]
   },
   {
-    "id": 105,
+    "id": 104,
     "name": "Praise",
     "enabled": false,
     "runes": [],
@@ -3612,7 +3598,7 @@
     "modifiers": []
   },
   {
-    "id": 106,
+    "id": 105,
     "name": "Prayer",
     "enabled": false,
     "runes": [],
@@ -3620,7 +3606,7 @@
     "modifiers": []
   },
   {
-    "id": 107,
+    "id": 106,
     "name": "Pride",
     "enabled": true,
     "runes": [
@@ -3676,7 +3662,7 @@
     ]
   },
   {
-    "id": 108,
+    "id": 107,
     "name": "Principle",
     "enabled": true,
     "runes": [
@@ -3689,7 +3675,7 @@
       {
         "prop": "hit-skill",
         "param": 101,
-        "min": 50,
+        "min": 75,
         "max": 25
       },
       {
@@ -3701,25 +3687,25 @@
       {
         "prop": "hp",
         "param": 0,
-        "min": 50,
-        "max": 100
+        "min": 100,
+        "max": 150
       },
       {
         "prop": "dmg-undead",
         "param": 0,
-        "min": 50,
-        "max": 80
+        "min": 100,
+        "max": 150
       },
       {
         "prop": "dmg-demon",
         "param": 0,
-        "min": 50,
-        "max": 80
+        "min": 100,
+        "max": 150
       }
     ]
   },
   {
-    "id": 109,
+    "id": 108,
     "name": "Prowess in Battle",
     "enabled": false,
     "runes": [],
@@ -3727,7 +3713,7 @@
     "modifiers": []
   },
   {
-    "id": 110,
+    "id": 109,
     "name": "Prudence",
     "enabled": true,
     "runes": [
@@ -3781,7 +3767,7 @@
     ]
   },
   {
-    "id": 111,
+    "id": 110,
     "name": "Punishment",
     "enabled": false,
     "runes": [],
@@ -3789,7 +3775,7 @@
     "modifiers": []
   },
   {
-    "id": 112,
+    "id": 111,
     "name": "Purity",
     "enabled": false,
     "runes": [],
@@ -3797,7 +3783,7 @@
     "modifiers": []
   },
   {
-    "id": 113,
+    "id": 112,
     "name": "Question",
     "enabled": false,
     "runes": [],
@@ -3805,7 +3791,7 @@
     "modifiers": []
   },
   {
-    "id": 114,
+    "id": 113,
     "name": "Radiance",
     "enabled": true,
     "runes": [
@@ -3854,7 +3840,7 @@
     ]
   },
   {
-    "id": 115,
+    "id": 114,
     "name": "Rain",
     "enabled": true,
     "runes": [
@@ -3891,7 +3877,7 @@
     ]
   },
   {
-    "id": 116,
+    "id": 115,
     "name": "Reason",
     "enabled": false,
     "runes": [],
@@ -3899,7 +3885,7 @@
     "modifiers": []
   },
   {
-    "id": 117,
+    "id": 116,
     "name": "Red",
     "enabled": false,
     "runes": [],
@@ -3907,7 +3893,7 @@
     "modifiers": []
   },
   {
-    "id": 118,
+    "id": 117,
     "name": "Rhyme",
     "enabled": true,
     "runes": [
@@ -3955,7 +3941,7 @@
     ]
   },
   {
-    "id": 119,
+    "id": 118,
     "name": "Rift",
     "enabled": true,
     "runes": [
@@ -3987,13 +3973,13 @@
       {
         "prop": "hit-skill",
         "param": 245,
-        "min": 20,
+        "min": 26,
         "max": 30
       },
       {
-        "prop": "att-skill",
+        "prop": "hit-skill",
         "param": 64,
-        "min": 20,
+        "min": 24,
         "max": 25
       },
       {
@@ -4011,7 +3997,7 @@
     ]
   },
   {
-    "id": 120,
+    "id": 119,
     "name": "Sanctuary",
     "enabled": true,
     "runes": [
@@ -4066,7 +4052,7 @@
     ]
   },
   {
-    "id": 121,
+    "id": 120,
     "name": "Serendipity",
     "enabled": false,
     "runes": [],
@@ -4074,7 +4060,7 @@
     "modifiers": []
   },
   {
-    "id": 122,
+    "id": 121,
     "name": "Shadow",
     "enabled": false,
     "runes": [],
@@ -4082,7 +4068,7 @@
     "modifiers": []
   },
   {
-    "id": 123,
+    "id": 122,
     "name": "Shadow of Doubt",
     "enabled": false,
     "runes": [],
@@ -4090,7 +4076,7 @@
     "modifiers": []
   },
   {
-    "id": 124,
+    "id": 123,
     "name": "Silence",
     "enabled": true,
     "runes": [
@@ -4148,7 +4134,7 @@
     ]
   },
   {
-    "id": 125,
+    "id": 124,
     "name": "Siren's Song",
     "enabled": false,
     "runes": [],
@@ -4156,7 +4142,7 @@
     "modifiers": []
   },
   {
-    "id": 126,
+    "id": 125,
     "name": "Smoke",
     "enabled": true,
     "runes": [
@@ -4204,7 +4190,7 @@
     ]
   },
   {
-    "id": 127,
+    "id": 126,
     "name": "Sorrow",
     "enabled": false,
     "runes": [],
@@ -4219,7 +4205,7 @@
     ]
   },
   {
-    "id": 128,
+    "id": 127,
     "name": "Spirit",
     "enabled": true,
     "runes": [
@@ -4275,7 +4261,7 @@
     ]
   },
   {
-    "id": 129,
+    "id": 128,
     "name": "Splendor",
     "enabled": true,
     "runes": [
@@ -4329,7 +4315,7 @@
     ]
   },
   {
-    "id": 130,
+    "id": 129,
     "name": "Starlight",
     "enabled": false,
     "runes": [],
@@ -4337,7 +4323,7 @@
     "modifiers": []
   },
   {
-    "id": 131,
+    "id": 130,
     "name": "Stealth",
     "enabled": true,
     "runes": [
@@ -4385,7 +4371,7 @@
     ]
   },
   {
-    "id": 132,
+    "id": 131,
     "name": "Steel",
     "enabled": true,
     "runes": [
@@ -4427,7 +4413,7 @@
     ]
   },
   {
-    "id": 133,
+    "id": 132,
     "name": "Still Water",
     "enabled": false,
     "runes": [],
@@ -4435,7 +4421,7 @@
     "modifiers": []
   },
   {
-    "id": 134,
+    "id": 133,
     "name": "Sting",
     "enabled": false,
     "runes": [],
@@ -4443,7 +4429,7 @@
     "modifiers": []
   },
   {
-    "id": 135,
+    "id": 134,
     "name": "Stone",
     "enabled": true,
     "runes": [
@@ -4499,7 +4485,7 @@
     ]
   },
   {
-    "id": 136,
+    "id": 135,
     "name": "Storm",
     "enabled": false,
     "runes": [],
@@ -4507,7 +4493,7 @@
     "modifiers": []
   },
   {
-    "id": 137,
+    "id": 136,
     "name": "Strength",
     "enabled": true,
     "runes": [
@@ -4543,7 +4529,7 @@
     ]
   },
   {
-    "id": 138,
+    "id": 137,
     "name": "Tempest",
     "enabled": false,
     "runes": [],
@@ -4551,7 +4537,7 @@
     "modifiers": []
   },
   {
-    "id": 139,
+    "id": 138,
     "name": "Temptation",
     "enabled": false,
     "runes": [],
@@ -4559,7 +4545,7 @@
     "modifiers": []
   },
   {
-    "id": 140,
+    "id": 139,
     "name": "Terror",
     "enabled": false,
     "runes": [],
@@ -4567,7 +4553,7 @@
     "modifiers": []
   },
   {
-    "id": 141,
+    "id": 140,
     "name": "Thirst",
     "enabled": false,
     "runes": [],
@@ -4575,7 +4561,7 @@
     "modifiers": []
   },
   {
-    "id": 142,
+    "id": 141,
     "name": "Thought",
     "enabled": false,
     "runes": [],
@@ -4583,7 +4569,7 @@
     "modifiers": []
   },
   {
-    "id": 143,
+    "id": 142,
     "name": "Thunder",
     "enabled": false,
     "runes": [],
@@ -4591,7 +4577,7 @@
     "modifiers": []
   },
   {
-    "id": 144,
+    "id": 143,
     "name": "Time",
     "enabled": false,
     "runes": [],
@@ -4599,7 +4585,7 @@
     "modifiers": []
   },
   {
-    "id": 145,
+    "id": 144,
     "name": "Tradition",
     "enabled": false,
     "runes": [],
@@ -4607,7 +4593,7 @@
     "modifiers": []
   },
   {
-    "id": 146,
+    "id": 145,
     "name": "Treachery",
     "enabled": true,
     "runes": [
@@ -4644,7 +4630,7 @@
     ]
   },
   {
-    "id": 147,
+    "id": 146,
     "name": "Trust",
     "enabled": false,
     "runes": [],
@@ -4652,7 +4638,7 @@
     "modifiers": []
   },
   {
-    "id": 148,
+    "id": 147,
     "name": "Truth",
     "enabled": false,
     "runes": [],
@@ -4660,7 +4646,7 @@
     "modifiers": []
   },
   {
-    "id": 149,
+    "id": 148,
     "name": "Unbending Will",
     "enabled": true,
     "runes": [
@@ -4718,7 +4704,7 @@
     ]
   },
   {
-    "id": 150,
+    "id": 149,
     "name": "Valor",
     "enabled": false,
     "runes": [],
@@ -4726,7 +4712,7 @@
     "modifiers": []
   },
   {
-    "id": 151,
+    "id": 150,
     "name": "Vengeance",
     "enabled": false,
     "runes": [
@@ -4738,7 +4724,7 @@
     "modifiers": []
   },
   {
-    "id": 152,
+    "id": 151,
     "name": "Venom",
     "enabled": true,
     "runes": [
@@ -4793,7 +4779,7 @@
     ]
   },
   {
-    "id": 153,
+    "id": 152,
     "name": "Victory",
     "enabled": false,
     "runes": [],
@@ -4801,7 +4787,7 @@
     "modifiers": []
   },
   {
-    "id": 154,
+    "id": 153,
     "name": "Voice",
     "enabled": false,
     "runes": [
@@ -4812,7 +4798,7 @@
     "modifiers": []
   },
   {
-    "id": 155,
+    "id": 154,
     "name": "Void",
     "enabled": false,
     "runes": [],
@@ -4820,7 +4806,7 @@
     "modifiers": []
   },
   {
-    "id": 156,
+    "id": 155,
     "name": "War",
     "enabled": false,
     "runes": [],
@@ -4828,7 +4814,7 @@
     "modifiers": []
   },
   {
-    "id": 157,
+    "id": 156,
     "name": "Water",
     "enabled": false,
     "runes": [],
@@ -4836,7 +4822,7 @@
     "modifiers": []
   },
   {
-    "id": 158,
+    "id": 157,
     "name": "Wealth",
     "enabled": true,
     "runes": [
@@ -4867,7 +4853,7 @@
     ]
   },
   {
-    "id": 159,
+    "id": 158,
     "name": "Whisper",
     "enabled": false,
     "runes": [],
@@ -4875,7 +4861,7 @@
     "modifiers": []
   },
   {
-    "id": 160,
+    "id": 159,
     "name": "White",
     "enabled": true,
     "runes": [
@@ -4923,7 +4909,7 @@
     ]
   },
   {
-    "id": 161,
+    "id": 160,
     "name": "Wind",
     "enabled": true,
     "runes": [
@@ -4977,7 +4963,7 @@
     ]
   },
   {
-    "id": 162,
+    "id": 161,
     "name": "Wings of Hope",
     "enabled": false,
     "runes": [],
@@ -4985,7 +4971,7 @@
     "modifiers": []
   },
   {
-    "id": 163,
+    "id": 162,
     "name": "Wisdom",
     "enabled": true,
     "runes": [
@@ -5034,7 +5020,7 @@
     ]
   },
   {
-    "id": 164,
+    "id": 163,
     "name": "Woe",
     "enabled": false,
     "runes": [],
@@ -5042,7 +5028,7 @@
     "modifiers": []
   },
   {
-    "id": 165,
+    "id": 164,
     "name": "Wonder",
     "enabled": false,
     "runes": [
@@ -5054,7 +5040,7 @@
     "modifiers": []
   },
   {
-    "id": 166,
+    "id": 165,
     "name": "Wrath",
     "enabled": true,
     "runes": [
@@ -5110,7 +5096,7 @@
     ]
   },
   {
-    "id": 167,
+    "id": 166,
     "name": "Youth",
     "enabled": false,
     "runes": [],
@@ -5118,7 +5104,7 @@
     "modifiers": []
   },
   {
-    "id": 168,
+    "id": 167,
     "name": "Zephyr",
     "enabled": true,
     "runes": [
@@ -5166,8 +5152,8 @@
     ]
   },
   {
-    "id": 2410,
-    "name": "Dominion",
+    "id": 168,
+    "name": "Runeword171",
     "enabled": true,
     "runes": [
       "r32",
@@ -5314,8 +5300,8 @@
       {
         "prop": "dmg-elem",
         "param": 100,
-        "min": 300,
-        "max": 350
+        "min": 360,
+        "max": 420
       }
     ]
   },

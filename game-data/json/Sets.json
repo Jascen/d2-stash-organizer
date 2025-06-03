@@ -24,14 +24,20 @@
         {
           "prop": "dmg-undead",
           "param": 0,
-          "min": 200,
-          "max": 200
+          "min": 100,
+          "max": 100
         },
         {
           "prop": "res-ltng",
           "param": 0,
           "min": 25,
           "max": 25
+        },
+        {
+          "prop": "red-dmg%",
+          "param": 0,
+          "min": 10,
+          "max": 10
         }
       ]
     ]
@@ -351,10 +357,10 @@
       [],
       [
         {
-          "prop": "att",
+          "prop": "swing2",
           "param": 0,
-          "min": 60,
-          "max": 60
+          "min": 40,
+          "max": 40
         },
         {
           "prop": "red-mag",
@@ -395,10 +401,10 @@
     "modifiers": [
       [
         {
-          "prop": "manasteal",
+          "prop": "res-all",
           "param": 0,
-          "min": 5,
-          "max": 5
+          "min": 10,
+          "max": 10
         }
       ],
       [
@@ -409,7 +415,14 @@
           "max": 5
         }
       ],
-      [],
+      [
+        {
+          "prop": "slow",
+          "param": 0,
+          "min": 35,
+          "max": 35
+        }
+      ],
       [],
       [
         {
@@ -417,18 +430,6 @@
           "param": 0,
           "min": 75,
           "max": 75
-        },
-        {
-          "prop": "res-all",
-          "param": 0,
-          "min": 10,
-          "max": 10
-        },
-        {
-          "prop": "slow",
-          "param": 0,
-          "min": 35,
-          "max": 35
         },
         {
           "prop": "dmg-ltng/lvl",
@@ -813,8 +814,8 @@
         {
           "prop": "red-mag",
           "param": 0,
-          "min": 15,
-          "max": 15
+          "min": 12,
+          "max": 12
         }
       ],
       [
@@ -838,32 +839,32 @@
         {
           "prop": "res-all",
           "param": 0,
-          "min": 50,
-          "max": 50
+          "min": 40,
+          "max": 40
         },
         {
           "prop": "ass",
           "param": 0,
-          "min": 3,
-          "max": 3
+          "min": 2,
+          "max": 2
+        },
+        {
+          "prop": "lifesteal",
+          "param": 0,
+          "min": 8,
+          "max": 8
+        },
+        {
+          "prop": "manasteal",
+          "param": 0,
+          "min": 8,
+          "max": 8
         },
         {
           "prop": "ac",
           "param": 0,
           "min": 150,
           "max": 150
-        },
-        {
-          "prop": "lifesteal",
-          "param": 0,
-          "min": 10,
-          "max": 10
-        },
-        {
-          "prop": "manasteal",
-          "param": 0,
-          "min": 10,
-          "max": 10
         },
         {
           "prop": "red-dmg%",
@@ -873,6 +874,12 @@
         },
         {
           "prop": "fade",
+          "param": 0,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "prop": "extra-shadow",
           "param": 0,
           "min": 1,
           "max": 1
@@ -1045,6 +1052,12 @@
           "param": 0,
           "min": 100,
           "max": 100
+        },
+        {
+          "prop": "inc-splash-radius",
+          "param": 0,
+          "min": 20,
+          "max": 20
         }
       ]
     ]
@@ -1065,8 +1078,8 @@
         {
           "prop": "mag%",
           "param": 0,
-          "min": 40,
-          "max": 40
+          "min": 50,
+          "max": 50
         }
       ],
       [
@@ -1275,6 +1288,12 @@
           "param": 0,
           "min": 10,
           "max": 10
+        },
+        {
+          "prop": "oskill",
+          "param": 388,
+          "min": 2,
+          "max": 2
         }
       ]
     ]
@@ -1481,8 +1500,8 @@
         {
           "prop": "hp",
           "param": 0,
-          "min": 35,
-          "max": 35
+          "min": 50,
+          "max": 50
         }
       ],
       [
@@ -1548,18 +1567,18 @@
     "modifiers": [
       [
         {
-          "prop": "ac",
+          "prop": "lifesteal",
           "param": 0,
-          "min": 100,
-          "max": 100
+          "min": 10,
+          "max": 10
         }
       ],
       [
         {
-          "prop": "ac",
+          "prop": "move3",
           "param": 0,
-          "min": 200,
-          "max": 200
+          "min": 30,
+          "max": 30
         }
       ],
       [],
@@ -1574,14 +1593,14 @@
         {
           "prop": "lifesteal",
           "param": 0,
-          "min": 20,
-          "max": 20
+          "min": 10,
+          "max": 10
         },
         {
-          "prop": "move3",
+          "prop": "ac",
           "param": 0,
-          "min": 30,
-          "max": 30
+          "min": 300,
+          "max": 300
         },
         {
           "prop": "res-all",
@@ -1787,8 +1806,8 @@
         {
           "prop": "allskills",
           "param": 0,
-          "min": 3,
-          "max": 3
+          "min": 1,
+          "max": 1
         },
         {
           "prop": "regen",

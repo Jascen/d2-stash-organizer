@@ -70,14 +70,7 @@
           "max": 25
         }
       ],
-      [
-        {
-          "prop": "red-dmg%",
-          "param": 0,
-          "min": 10,
-          "max": 10
-        }
-      ],
+      [],
       [],
       [],
       []
@@ -107,15 +100,21 @@
         "param": 358,
         "min": 100,
         "max": 1
+      },
+      {
+        "prop": "dmg/lvl",
+        "param": 8,
+        "min": 0,
+        "max": 0
       }
     ],
     "setModifiers": [
       [
         {
-          "prop": "dmg/lvl",
-          "param": 8,
-          "min": 0,
-          "max": 0
+          "prop": "dmg-undead",
+          "param": 0,
+          "min": 100,
+          "max": 100
         }
       ],
       [],
@@ -901,15 +900,15 @@
           "prop": "gethit-skill",
           "param": 44,
           "min": 25,
-          "max": 6
+          "max": 8
         }
       ],
       [
         {
-          "prop": "ac%",
+          "prop": "block",
           "param": 0,
-          "min": 50,
-          "max": 50
+          "min": 30,
+          "max": 30
         }
       ],
       [],
@@ -961,7 +960,7 @@
           "prop": "hit-skill",
           "param": 44,
           "min": 12,
-          "max": 6
+          "max": 9
         }
       ],
       [],
@@ -1049,7 +1048,7 @@
           "prop": "hit-skill",
           "param": 44,
           "min": 14,
-          "max": 5
+          "max": 8
         }
       ],
       [],
@@ -1121,14 +1120,7 @@
           "max": 35
         }
       ],
-      [
-        {
-          "prop": "swing2",
-          "param": 0,
-          "min": 40,
-          "max": 40
-        }
-      ],
+      [],
       []
     ]
   },
@@ -1215,7 +1207,14 @@
           "max": 0
         }
       ],
-      [],
+      [
+        {
+          "prop": "att",
+          "param": 0,
+          "min": 60,
+          "max": 60
+        }
+      ],
       [],
       [],
       []
@@ -1345,7 +1344,7 @@
       {
         "prop": "att-skill",
         "param": 38,
-        "min": 20,
+        "min": 33,
         "max": 12
       }
     ],
@@ -1483,7 +1482,7 @@
         "prop": "dmg-ltng",
         "param": 0,
         "min": 1,
-        "max": 15
+        "max": 45
       }
     ],
     "setModifiers": [
@@ -2789,7 +2788,14 @@
       }
     ],
     "setModifiers": [
-      [],
+      [
+        {
+          "prop": "enr",
+          "param": 0,
+          "min": 20,
+          "max": 20
+        }
+      ],
       [],
       [],
       [],
@@ -2907,7 +2913,14 @@
     ],
     "setModifiers": [
       [],
-      [],
+      [
+        {
+          "prop": "ass",
+          "param": 0,
+          "min": 1,
+          "max": 1
+        }
+      ],
       [],
       [],
       []
@@ -3960,7 +3973,7 @@
       {
         "prop": "mag%",
         "param": 0,
-        "min": 60,
+        "min": 70,
         "max": 90
       },
       {
@@ -4344,7 +4357,14 @@
       }
     ],
     "setModifiers": [
-      [],
+      [
+        {
+          "prop": "cast2",
+          "param": 0,
+          "min": 30,
+          "max": 30
+        }
+      ],
       [],
       [],
       [],
@@ -4411,7 +4431,6 @@
           "max": 50
         }
       ],
-      [],
       [
         {
           "prop": "red-dmg%",
@@ -4420,6 +4439,7 @@
           "max": 25
         }
       ],
+      [],
       []
     ]
   },
@@ -4483,14 +4503,7 @@
           "max": 25
         }
       ],
-      [
-        {
-          "prop": "cast2",
-          "param": 0,
-          "min": 30,
-          "max": 30
-        }
-      ],
+      [],
       [],
       []
     ]
@@ -4949,7 +4962,14 @@
     ],
     "setModifiers": [
       [],
-      [],
+      [
+        {
+          "prop": "mana",
+          "param": 0,
+          "min": 100,
+          "max": 100
+        }
+      ],
       [],
       [],
       []
@@ -5042,7 +5062,14 @@
     ],
     "setModifiers": [
       [],
-      [],
+      [
+        {
+          "prop": "balance2",
+          "param": 0,
+          "min": 20,
+          "max": 20
+        }
+      ],
       [],
       [],
       []
@@ -6063,8 +6090,8 @@
       {
         "prop": "dmg-pois",
         "param": 50,
-        "min": 768,
-        "max": 768
+        "min": 2560,
+        "max": 2560
       },
       {
         "prop": "swing2",
@@ -6134,8 +6161,8 @@
       {
         "prop": "red-dmg%",
         "param": 0,
-        "min": 4,
-        "max": 6
+        "min": 6,
+        "max": 8
       }
     ],
     "setModifiers": [
@@ -6331,8 +6358,8 @@
       {
         "prop": "allskills",
         "param": 0,
-        "min": 1,
-        "max": 1
+        "min": 3,
+        "max": 3
       },
       {
         "prop": "rep-charge",

@@ -727,7 +727,7 @@
       15,
       25
     ],
-    "maxSockets": 2,
+    "maxSockets": 3,
     "indestructible": false,
     "width": 2,
     "height": 3,
@@ -1447,7 +1447,7 @@
       50,
       150
     ],
-    "maxSockets": 2,
+    "maxSockets": 3,
     "indestructible": false,
     "width": 2,
     "height": 3,
@@ -1463,7 +1463,7 @@
       58,
       78
     ],
-    "maxSockets": 2,
+    "maxSockets": 3,
     "indestructible": false,
     "width": 2,
     "height": 3,
