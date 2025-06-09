@@ -45,7 +45,7 @@ export function searchItems(items: Item[], search: string, ignore?: string) {
       (filter) =>
         ignore?.toLocaleLowerCase().includes(filter) ||
         item.name?.toLocaleLowerCase().includes(filter) ||
-        base.name.toLocaleLowerCase().includes(filter) ||
+        base.name?.toLocaleLowerCase().includes(filter) ||
         item.search.includes(filter)
     );
   });
