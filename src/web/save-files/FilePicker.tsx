@@ -23,8 +23,8 @@ export function FilePicker({
       for (const file of input.current.files) {
         // Only use the root files in case there is a backup folder
         if (
-          file.webkitRelativePath.split("/").length > 2
-          || file.name.endsWith(".d2i")
+          file.webkitRelativePath.split("/").length > 2 ||
+          file.name.endsWith(".d2i")
         ) {
           console.log("Skipping file: " + file.webkitRelativePath);
           continue;
@@ -73,7 +73,7 @@ export function FilePicker({
         if (!original.isStash) {
           const character = file as Character;
           character.items = character.items.filter(
-            item => item.stored !== ItemStorageType.STASH
+            (item) => item.stored !== ItemStorageType.STASH
           );
         }
 

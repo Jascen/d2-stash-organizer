@@ -32,7 +32,7 @@ function findPage(item: Item): PageName {
           return "Cube";
         case ItemStorageType.NONE:
           return "Unknown";
-           case ItemStorageType.PD2_PERSONAL:
+        case ItemStorageType.PD2_PERSONAL:
           return "Personal Stash";
       }
       throw new Error(`Unknown storage type ${item.stored}`);
