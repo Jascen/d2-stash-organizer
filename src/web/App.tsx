@@ -26,7 +26,7 @@ function App() {
     <div id="app" class={accessibleFont ? "accessible-font" : ""}>
       <GitHubLink />
       <HelpLink />
-      <h1>Diablo 2 Collection Manager</h1>
+      <h1>Project Diablo 2 Collection Manager (DEBUG)</h1>
       <Routes />
     </div>
   );
