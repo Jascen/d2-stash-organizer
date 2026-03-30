@@ -8,7 +8,7 @@
       "r09",
       "r07"
     ],
-    "levelReq": 21,
+    "levelReq": 0,
     "modifiers": [
       {
         "prop": "res-cold",
@@ -63,7 +63,7 @@
       "r23",
       "r17"
     ],
-    "levelReq": 63,
+    "levelReq": 0,
     "modifiers": [
       {
         "prop": "swing2",
@@ -126,7 +126,7 @@
       "r16",
       "r04"
     ],
-    "levelReq": 35,
+    "levelReq": 0,
     "modifiers": [
       {
         "prop": "crush",
@@ -189,7 +189,7 @@
       "r22",
       "r22"
     ],
-    "levelReq": 47,
+    "levelReq": 0,
     "modifiers": [
       {
         "prop": "hit-skill",
@@ -227,7 +227,7 @@
       "r29",
       "r05"
     ],
-    "levelReq": 61,
+    "levelReq": 0,
     "modifiers": [
       {
         "prop": "balance2",
@@ -283,7 +283,7 @@
       "r23",
       "r25"
     ],
-    "levelReq": 65,
+    "levelReq": 0,
     "modifiers": [
       {
         "prop": "dmg%",
@@ -341,7 +341,7 @@
       "r33",
       "r05"
     ],
-    "levelReq": 69,
+    "levelReq": 0,
     "modifiers": [
       {
         "prop": "swing2",
@@ -406,7 +406,7 @@
       "r24",
       "r27"
     ],
-    "levelReq": 57,
+    "levelReq": 0,
     "modifiers": [
       {
         "prop": "swing2",
@@ -462,7 +462,7 @@
       "r30",
       "r24"
     ],
-    "levelReq": 63,
+    "levelReq": 0,
     "modifiers": [
       {
         "prop": "res-all",
@@ -525,7 +525,7 @@
       "r27",
       "r22"
     ],
-    "levelReq": 57,
+    "levelReq": 0,
     "modifiers": [
       {
         "prop": "demon-heal",
@@ -580,7 +580,7 @@
       "r22",
       "r03"
     ],
-    "levelReq": 47,
+    "levelReq": 0,
     "modifiers": [
       {
         "prop": "pierce-ltng",
@@ -653,7 +653,7 @@
       "r09",
       "r25"
     ],
-    "levelReq": 55,
+    "levelReq": 0,
     "modifiers": [
       {
         "prop": "dmg%",
@@ -716,7 +716,7 @@
       "r24",
       "r16"
     ],
-    "levelReq": 51,
+    "levelReq": 0,
     "modifiers": [
       {
         "prop": "hit-skill",
@@ -783,7 +783,7 @@
       "r31",
       "r18"
     ],
-    "levelReq": 65,
+    "levelReq": 0,
     "modifiers": [
       {
         "prop": "dmg%",
@@ -834,7 +834,7 @@
       "r28",
       "r32"
     ],
-    "levelReq": 67,
+    "levelReq": 0,
     "modifiers": [
       {
         "prop": "dmg%",
@@ -889,7 +889,7 @@
       "r28",
       "r12"
     ],
-    "levelReq": 61,
+    "levelReq": 0,
     "modifiers": [
       {
         "prop": "ac",
@@ -952,7 +952,7 @@
       "r31",
       "r21"
     ],
-    "levelReq": 65,
+    "levelReq": 0,
     "modifiers": [
       {
         "prop": "ac",
@@ -1007,7 +1007,7 @@
       "r22",
       "r10"
     ],
-    "levelReq": 47,
+    "levelReq": 0,
     "modifiers": [
       {
         "prop": "dmg-cold",
@@ -1062,7 +1062,7 @@
       "r07",
       "r11"
     ],
-    "levelReq": 25,
+    "levelReq": 0,
     "modifiers": [
       {
         "prop": "dmg-demon",
@@ -1119,7 +1119,7 @@
       "r06",
       "r30"
     ],
-    "levelReq": 65,
+    "levelReq": 0,
     "modifiers": [
       {
         "prop": "ac",
@@ -1174,7 +1174,7 @@
       "r08",
       "r12"
     ],
-    "levelReq": 45,
+    "levelReq": 0,
     "modifiers": [
       {
         "prop": "cast-skill",
@@ -1227,7 +1227,7 @@
       "r12",
       "r29"
     ],
-    "levelReq": 63,
+    "levelReq": 0,
     "modifiers": [
       {
         "prop": "dmg%",
@@ -1283,7 +1283,7 @@
       "r24",
       "r14"
     ],
-    "levelReq": 57,
+    "levelReq": 0,
     "modifiers": [
       {
         "prop": "block2",
@@ -1339,7 +1339,7 @@
       "r20",
       "r02"
     ],
-    "levelReq": 65,
+    "levelReq": 0,
     "modifiers": [
       {
         "prop": "dmg%",
@@ -1389,7 +1389,7 @@
       "r09",
       "r31"
     ],
-    "levelReq": 65,
+    "levelReq": 0,
     "modifiers": [
       {
         "prop": "dmg%",
@@ -1444,7 +1444,7 @@
       "r21",
       "r26"
     ],
-    "levelReq": 55,
+    "levelReq": 0,
     "modifiers": [
       {
         "prop": "aura",
@@ -1494,7 +1494,7 @@
       "r14",
       "r28"
     ],
-    "levelReq": 59,
+    "levelReq": 0,
     "modifiers": [
       {
         "prop": "ac%",
@@ -1559,7 +1559,7 @@
       "r25",
       "r05"
     ],
-    "levelReq": 65,
+    "levelReq": 0,
     "modifiers": [
       {
         "prop": "dmg%",
@@ -1614,7 +1614,7 @@
       "r22",
       "r21"
     ],
-    "levelReq": 47,
+    "levelReq": 0,
     "modifiers": [
       {
         "prop": "ac%",
@@ -1679,7 +1679,7 @@
       "r23",
       "r08"
     ],
-    "levelReq": 59,
+    "levelReq": 0,
     "modifiers": [
       {
         "prop": "dmg-dem/lvl",
@@ -1735,7 +1735,7 @@
       "r11",
       "r28"
     ],
-    "levelReq": 67,
+    "levelReq": 0,
     "modifiers": [
       {
         "prop": "swing2",
@@ -1791,7 +1791,7 @@
       "r12",
       "r18"
     ],
-    "levelReq": 39,
+    "levelReq": 0,
     "modifiers": [
       {
         "prop": "dmg%",
@@ -1855,7 +1855,7 @@
       "r21",
       "r10"
     ],
-    "levelReq": 55,
+    "levelReq": 0,
     "modifiers": [
       {
         "prop": "cast2",
@@ -1927,7 +1927,7 @@
       "r09",
       "r07"
     ],
-    "levelReq": 21,
+    "levelReq": 0,
     "modifiers": [
       {
         "prop": "dmg%",
@@ -1984,7 +1984,7 @@
       "r03",
       "r12"
     ],
-    "levelReq": 27,
+    "levelReq": 0,
     "modifiers": [
       {
         "prop": "dmg%",
@@ -2058,7 +2058,7 @@
       "r31",
       "r28"
     ],
-    "levelReq": 65,
+    "levelReq": 0,
     "modifiers": [
       {
         "prop": "dmg%",
@@ -2114,7 +2114,7 @@
       "r30",
       "r24"
     ],
-    "levelReq": 63,
+    "levelReq": 0,
     "modifiers": [
       {
         "prop": "dmg%",
@@ -2170,7 +2170,7 @@
       "r33",
       "r15"
     ],
-    "levelReq": 69,
+    "levelReq": 0,
     "modifiers": [
       {
         "prop": "allskills",
@@ -2226,7 +2226,7 @@
       "r07",
       "r12"
     ],
-    "levelReq": 27,
+    "levelReq": 0,
     "modifiers": [
       {
         "prop": "dmg%",
@@ -2297,7 +2297,7 @@
       "r08",
       "r10"
     ],
-    "levelReq": 25,
+    "levelReq": 0,
     "modifiers": [
       {
         "prop": "dmg%",
@@ -2353,7 +2353,7 @@
       "r25",
       "r19"
     ],
-    "levelReq": 53,
+    "levelReq": 0,
     "modifiers": [
       {
         "prop": "swing2",
@@ -2427,7 +2427,7 @@
       "r31",
       "r30"
     ],
-    "levelReq": 65,
+    "levelReq": 0,
     "modifiers": [
       {
         "prop": "dmg%",
@@ -2490,7 +2490,7 @@
       "r20",
       "r18"
     ],
-    "levelReq": 43,
+    "levelReq": 0,
     "modifiers": [
       {
         "prop": "dmg-cold",
@@ -2544,7 +2544,7 @@
       "r03",
       "r08"
     ],
-    "levelReq": 19,
+    "levelReq": 0,
     "modifiers": [
       {
         "prop": "fireskill",
@@ -2601,7 +2601,7 @@
       "r17",
       "r19"
     ],
-    "levelReq": 41,
+    "levelReq": 0,
     "modifiers": [
       {
         "prop": "str",
@@ -2649,7 +2649,7 @@
       "r09",
       "r12"
     ],
-    "levelReq": 27,
+    "levelReq": 0,
     "modifiers": [
       {
         "prop": "enr",
@@ -2710,7 +2710,7 @@
       "r01",
       "r05"
     ],
-    "levelReq": 15,
+    "levelReq": 0,
     "modifiers": [
       {
         "prop": "openwounds",
@@ -2765,7 +2765,7 @@
       "r18",
       "r04"
     ],
-    "levelReq": 39,
+    "levelReq": 0,
     "modifiers": [
       {
         "prop": "dmg%",
@@ -2815,7 +2815,7 @@
       "r12",
       "r05"
     ],
-    "levelReq": 37,
+    "levelReq": 0,
     "modifiers": [
       {
         "prop": "mana%",
@@ -2872,7 +2872,7 @@
       "r10",
       "r06"
     ],
-    "levelReq": 67,
+    "levelReq": 0,
     "modifiers": [
       {
         "prop": "aura",
@@ -2937,7 +2937,7 @@
       "r11",
       "r04"
     ],
-    "levelReq": 25,
+    "levelReq": 0,
     "modifiers": [
       {
         "prop": "hit-skill",
@@ -2985,7 +2985,7 @@
       "r04",
       "r03"
     ],
-    "levelReq": 13,
+    "levelReq": 0,
     "modifiers": [
       {
         "prop": "ac%",
@@ -3057,7 +3057,7 @@
       "r23",
       "r17"
     ],
-    "levelReq": 49,
+    "levelReq": 0,
     "modifiers": [
       {
         "prop": "dmg%",
@@ -3114,7 +3114,7 @@
       "r05",
       "r19"
     ],
-    "levelReq": 41,
+    "levelReq": 0,
     "modifiers": [
       {
         "prop": "dmg%",
@@ -3180,7 +3180,7 @@
       "r16",
       "r04"
     ],
-    "levelReq": 69,
+    "levelReq": 0,
     "modifiers": [
       {
         "prop": "allskills",
@@ -3236,7 +3236,7 @@
       "r02",
       "r20"
     ],
-    "levelReq": 43,
+    "levelReq": 0,
     "modifiers": [
       {
         "prop": "dmg%",
@@ -3299,7 +3299,7 @@
       "r09",
       "r03"
     ],
-    "levelReq": 21,
+    "levelReq": 0,
     "modifiers": [
       {
         "prop": "att%",
@@ -3354,7 +3354,7 @@
       "r10",
       "r11"
     ],
-    "levelReq": 29,
+    "levelReq": 0,
     "modifiers": [
       {
         "prop": "gethit-skill",
@@ -3392,7 +3392,7 @@
       "r01",
       "r02"
     ],
-    "levelReq": 43,
+    "levelReq": 0,
     "modifiers": [
       {
         "prop": "dmg-demon",
@@ -3472,7 +3472,7 @@
       "r28",
       "r31"
     ],
-    "levelReq": 65,
+    "levelReq": 0,
     "modifiers": [
       {
         "prop": "dmg%",
@@ -3543,7 +3543,7 @@
       "r19",
       "r22"
     ],
-    "levelReq": 67,
+    "levelReq": 0,
     "modifiers": [
       {
         "prop": "dmg-demon",
@@ -3615,7 +3615,7 @@
       "r16",
       "r28"
     ],
-    "levelReq": 67,
+    "levelReq": 0,
     "modifiers": [
       {
         "prop": "dmg%/lvl",
@@ -3670,7 +3670,7 @@
       "r25",
       "r02"
     ],
-    "levelReq": 53,
+    "levelReq": 0,
     "modifiers": [
       {
         "prop": "hit-skill",
@@ -3720,7 +3720,7 @@
       "r23",
       "r03"
     ],
-    "levelReq": 49,
+    "levelReq": 0,
     "modifiers": [
       {
         "prop": "ac%",
@@ -3799,7 +3799,7 @@
       "r12",
       "r06"
     ],
-    "levelReq": 27,
+    "levelReq": 0,
     "modifiers": [
       {
         "prop": "light",
@@ -3848,7 +3848,7 @@
       "r23",
       "r06"
     ],
-    "levelReq": 49,
+    "levelReq": 0,
     "modifiers": [
       {
         "prop": "hit-skill",
@@ -3900,7 +3900,7 @@
       "r13",
       "r05"
     ],
-    "levelReq": 29,
+    "levelReq": 0,
     "modifiers": [
       {
         "prop": "block2",
@@ -3950,7 +3950,7 @@
       "r20",
       "r25"
     ],
-    "levelReq": 53,
+    "levelReq": 0,
     "modifiers": [
       {
         "prop": "dmg-mag",
@@ -4005,7 +4005,7 @@
       "r18",
       "r23"
     ],
-    "levelReq": 49,
+    "levelReq": 0,
     "modifiers": [
       {
         "prop": "block",
@@ -4087,7 +4087,7 @@
       "r03",
       "r26"
     ],
-    "levelReq": 55,
+    "levelReq": 0,
     "modifiers": [
       {
         "prop": "manasteal",
@@ -4149,7 +4149,7 @@
       "r04",
       "r17"
     ],
-    "levelReq": 37,
+    "levelReq": 0,
     "modifiers": [
       {
         "prop": "ac-miss",
@@ -4214,7 +4214,7 @@
       "r09",
       "r11"
     ],
-    "levelReq": 25,
+    "levelReq": 0,
     "modifiers": [
       {
         "prop": "balance3",
@@ -4268,7 +4268,7 @@
       "r05",
       "r17"
     ],
-    "levelReq": 37,
+    "levelReq": 0,
     "modifiers": [
       {
         "prop": "light",
@@ -4330,7 +4330,7 @@
       "r07",
       "r05"
     ],
-    "levelReq": 17,
+    "levelReq": 0,
     "modifiers": [
       {
         "prop": "red-mag",
@@ -4378,7 +4378,7 @@
       "r03",
       "r01"
     ],
-    "levelReq": 13,
+    "levelReq": 0,
     "modifiers": [
       {
         "prop": "swing2",
@@ -4438,7 +4438,7 @@
       "r21",
       "r17"
     ],
-    "levelReq": 47,
+    "levelReq": 0,
     "modifiers": [
       {
         "prop": "ac%",
@@ -4500,7 +4500,7 @@
       "r11",
       "r03"
     ],
-    "levelReq": 25,
+    "levelReq": 0,
     "modifiers": [
       {
         "prop": "str",
@@ -4601,7 +4601,7 @@
       "r10",
       "r20"
     ],
-    "levelReq": 43,
+    "levelReq": 0,
     "modifiers": [
       {
         "prop": "hit-skill",
@@ -4657,7 +4657,7 @@
       "r01",
       "r15"
     ],
-    "levelReq": 41,
+    "levelReq": 0,
     "modifiers": [
       {
         "prop": "hit-skill",
@@ -4720,7 +4720,7 @@
       "r11",
       "r01"
     ],
-    "levelReq": 25,
+    "levelReq": 0,
     "modifiers": []
   },
   {
@@ -4732,7 +4732,7 @@
       "r14",
       "r23"
     ],
-    "levelReq": 49,
+    "levelReq": 0,
     "modifiers": [
       {
         "prop": "oskill",
@@ -4794,7 +4794,7 @@
       "r03",
       "r06"
     ],
-    "levelReq": 15,
+    "levelReq": 0,
     "modifiers": []
   },
   {
@@ -4830,7 +4830,7 @@
       "r18",
       "r03"
     ],
-    "levelReq": 43,
+    "levelReq": 0,
     "modifiers": [
       {
         "prop": "gold%",
@@ -4868,7 +4868,7 @@
       "r14",
       "r16"
     ],
-    "levelReq": 35,
+    "levelReq": 0,
     "modifiers": [
       {
         "prop": "skilltab",
@@ -4916,7 +4916,7 @@
       "r29",
       "r01"
     ],
-    "levelReq": 61,
+    "levelReq": 0,
     "modifiers": [
       {
         "prop": "dmg%",
@@ -4979,7 +4979,7 @@
       "r06",
       "r02"
     ],
-    "levelReq": 45,
+    "levelReq": 0,
     "modifiers": [
       {
         "prop": "pierce",
@@ -5036,7 +5036,7 @@
       "r12",
       "r24"
     ],
-    "levelReq": 51,
+    "levelReq": 0,
     "modifiers": []
   },
   {
@@ -5049,7 +5049,7 @@
       "r30",
       "r23"
     ],
-    "levelReq": 63,
+    "levelReq": 0,
     "modifiers": [
       {
         "prop": "dmg-demon",
@@ -5111,7 +5111,7 @@
       "r09",
       "r05"
     ],
-    "levelReq": 21,
+    "levelReq": 0,
     "modifiers": [
       {
         "prop": "move2",
@@ -5159,7 +5159,7 @@
       "r32",
       "r27"
     ],
-    "levelReq": 67,
+    "levelReq": 0,
     "modifiers": [
       {
         "prop": "skill",
@@ -5214,7 +5214,7 @@
       "r32",
       "r13"
     ],
-    "levelReq": 69,
+    "levelReq": 0,
     "modifiers": [
       {
         "prop": "hit-skill",
@@ -5265,7 +5265,7 @@
       "r10",
       "r08"
     ],
-    "levelReq": 69,
+    "levelReq": 0,
     "modifiers": [
       {
         "prop": "dmg%",
@@ -5315,7 +5315,7 @@
       "r06",
       "r05"
     ],
-    "levelReq": 29,
+    "levelReq": 0,
     "modifiers": [
       {
         "prop": "dmg%",
@@ -5351,7 +5351,7 @@
       "r10",
       "r03"
     ],
-    "levelReq": 23,
+    "levelReq": 0,
     "modifiers": [
       {
         "prop": "half-freeze",
@@ -5387,7 +5387,7 @@
       "r10",
       "r03"
     ],
-    "levelReq": 23,
+    "levelReq": 0,
     "modifiers": [
       {
         "prop": "half-freeze",
@@ -5423,7 +5423,7 @@
       "r29",
       "r01"
     ],
-    "levelReq": 61,
+    "levelReq": 0,
     "modifiers": [
       {
         "prop": "dmg%",
@@ -5479,7 +5479,7 @@
       "r28",
       "r31"
     ],
-    "levelReq": 65,
+    "levelReq": 0,
     "modifiers": [
       {
         "prop": "dmg%",
@@ -5535,7 +5535,7 @@
       "r08",
       "r32"
     ],
-    "levelReq": 69,
+    "levelReq": 0,
     "modifiers": [
       {
         "prop": "ac%",
@@ -5587,7 +5587,7 @@
       "r14",
       "r22"
     ],
-    "levelReq": 67,
+    "levelReq": 0,
     "modifiers": [
       {
         "prop": "dmg%",
@@ -5642,7 +5642,7 @@
       "r18",
       "r02"
     ],
-    "levelReq": 39,
+    "levelReq": 0,
     "modifiers": [
       {
         "prop": "equipped-skill",

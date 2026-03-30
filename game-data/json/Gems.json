@@ -1952,16 +1952,16 @@
       {
         "prop": "red-dmg%",
         "param": 0,
-        "min": 5,
-        "max": 5
+        "min": 6,
+        "max": 6
       }
     ],
     "shield": [
       {
         "prop": "red-dmg%",
         "param": 0,
-        "min": 5,
-        "max": 5
+        "min": 6,
+        "max": 6
       }
     ]
   },

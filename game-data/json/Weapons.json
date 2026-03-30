@@ -3392,7 +3392,7 @@
     "name": "Stalagmite",
     "type": "staf",
     "tier": 2,
-    "maxSockets": 3,
+    "maxSockets": 4,
     "indestructible": false,
     "stackable": false,
     "twoHanded": true,

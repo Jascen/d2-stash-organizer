@@ -2448,19 +2448,19 @@
   },
   {
     "code": "Energy Shield SelfAura",
-    "name": "Energy Shield SelfAura"
+    "name": "Energy Shield"
   },
   {
     "code": "Chilling Armor SelfAura",
-    "name": "Chilling Armor SelfAura"
+    "name": "Chilling Armor"
   },
   {
     "code": "Quickness SelfAura",
-    "name": "Quickness SelfAura"
+    "name": "Burst of Speed"
   },
   {
     "code": "Blade Shield SelfAura",
-    "name": "Blade Shield SelfAura"
+    "name": "Blade Shield"
   },
   {
     "code": "IskatuBlizzard",
@@ -2604,6 +2604,14 @@
   },
   {
     "code": "Armageddon SelfAura",
-    "name": "Armageddon SelfAura"
+    "name": "Armageddon"
+  },
+  {
+    "code": "Shock Field Ureh Boss",
+    "name": "Shock Field Ureh Boss"
+  },
+  {
+    "code": "Fire Trauma Ureh Boss",
+    "name": "Fire Trauma Ureh Boss"
   }
 ]

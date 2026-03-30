@@ -3615,5 +3615,57 @@
         "type": "other"
       }
     ]
+  },
+  "crush-efficiency": {
+    "stats": [
+      {
+        "stat": "item_crushingblow_efficiency",
+        "type": "other"
+      }
+    ]
+  },
+  "extra-cold-arrows": {
+    "stats": [
+      {
+        "stat": "extra_cold_arrows",
+        "type": "other"
+      }
+    ]
+  },
+  "shiny-appearance": {
+    "stats": [
+      {
+        "stat": "item_shiny_appearance",
+        "type": "other"
+      }
+    ]
+  },
+  "es-efficiency-and-es-when-equip": {
+    "stats": [
+      {
+        "stat": "es_efficiency",
+        "type": "other"
+      },
+      {
+        "stat": "item_skillonequip",
+        "type": "other"
+      }
+    ]
+  },
+  "joust-reduction-leorics": {
+    "stats": [
+      {
+        "stat": "joustreduction_leorics",
+        "type": "other"
+      }
+    ]
+  },
+  "map-glob-dropsocketed": {
+    "stats": [
+      {
+        "stat": "map_glob_dropsocketed",
+        "type": "other"
+      }
+    ]
   }
 }
