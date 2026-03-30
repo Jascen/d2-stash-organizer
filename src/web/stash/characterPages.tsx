@@ -15,6 +15,7 @@ const PAGE_NAMES = [
   "Belt",
   "Stash",
   "Unknown",
+  "Personal Stash",
 ] as const;
 
 type PageName = typeof PAGE_NAMES[number];
@@ -31,6 +32,8 @@ function findPage(item: Item): PageName {
           return "Cube";
         case ItemStorageType.NONE:
           return "Unknown";
+           case ItemStorageType.PD2_PERSONAL:
+          return "Personal Stash";
       }
       throw new Error(`Unknown storage type ${item.stored}`);
     case ItemLocation.BELT:

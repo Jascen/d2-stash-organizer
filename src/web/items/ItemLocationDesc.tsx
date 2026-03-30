@@ -27,6 +27,8 @@ function locationString(item: Item) {
           return `In ${name}'s inventory`;
         case ItemStorageType.CUBE:
           return `In ${name}'s cube`;
+        case ItemStorageType.PD2_PERSONAL:
+          return `In ${name}'s stash`;
         default:
           return "Unknown location";
       }
